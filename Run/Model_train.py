@@ -8,12 +8,8 @@ from UNET.UNet_model import UNet
 from monai.losses import DiceCELoss
 from utils import *
 import torch
-from monai.networks.nets import SwinUNETR
-from Swin_UNETR.swin_unetr_model_with_batch_in_trans import SwinUNETR_batch
-from Swin_UNETR.swin_unetr_model_with_instance import SwinUNETR_instance
 import argparse
 from torch.utils.tensorboard import SummaryWriter
-from UTNET._UTNET_model import UTNet
 
 parser = argparse.ArgumentParser(description='Specify Parameters')
 
@@ -25,82 +21,23 @@ parser.add_argument('model', metavar='model', type=str, choices=['unet', 'swin_u
 parser.add_argument('norm_name', metavar='norm_name',  help='Specify a normalisation method')
 # parser.add_argument('model_text', metavar='model_text', type=str, help='Describe your mode')
 parser.add_argument('--base_c', metavar='--base_c', default = 12,type=int, help='base_channel which is the first output channel from first conv block')
-# swin_unetr paras
-parser.add_argument('--depth', metavar='--depth', type=str, default = '[2,2,2,2]',  help='num_depths in swin_unetr')
-parser.add_argument('--n_h', metavar='--n_h', type=str, default = '[3,6,12,24]',  help='num_heads in swin_unetr')
+
 
 args = parser.parse_args()
 lr, batch_size, gpu_index, model_name, norm_name = args.lr, args.b_s, args.gpu_index, args.model, args.norm_name
 base_c = args.base_c
-depths = args.depth
-depths= json.loads(depths)
-depths = tuple(depths)
-num_heads = args.n_h
-num_heads= json.loads(num_heads)
-num_heads = tuple(num_heads)
 
-model_su = SwinUNETR(img_size = (512, 512), in_channels=3, out_channels=3,
-                    depths=depths,
-                    num_heads=(3, 6, 12, 24),
-                    feature_size=12,
-                    norm_name= 'instance',
-                    drop_rate=0.0,
-                    attn_drop_rate=0.0,
-                    dropout_path_rate=0.0,
-                    normalize=True,
-                    use_checkpoint=False,
-                    spatial_dims=2,
-                    downsample='merging')
 
-model_su2 = SwinUNETR_batch(img_size = (512, 512), in_channels=3, out_channels=3,
-                    depths=depths,
-                    num_heads=(3, 6, 12, 24),
-                    feature_size=12,
-                    norm_name= 'instance',
-                    drop_rate=0.0,
-                    attn_drop_rate=0.0,
-                    dropout_path_rate=0.0,
-                    normalize=True,
-                    use_checkpoint=False,
-                    spatial_dims=2,
-                    downsample='merging')
-
-model_su3 = SwinUNETR_instance(img_size = (512, 512), in_channels=3, out_channels=3,
-                    depths=depths,
-                    num_heads=(3, 6, 12, 24),
-                    feature_size=12,
-                    norm_name= 'instance',
-                    drop_rate=0.0,
-                    attn_drop_rate=0.0,
-                    dropout_path_rate=0.0,
-                    normalize=True,
-                    use_checkpoint=False,
-                    spatial_dims=2,
-                    downsample='merging')
-
-utnet = UTNet(in_chan=3, num_classes=3, base_chan=base_c)
 
 unet = UNet(in_c=3, out_c=3, base_c=base_c, norm_name=norm_name)
 
-data_save_path = 'to be specify'
-'''select between two model'''
-if model_name == 'unet':
-    model = unet
-    data_save_path = f'/home/mans4021/Desktop/new_data/REFUGE2/test/1600_{model_name}_{norm_name}_lr_{lr}_bs_{batch_size}_fs_{base_c}/'
-elif model_name == 'swin_unetr' and norm_name== 'layer':
-    model = model_su
-    data_save_path = f'/home/mans4021/Desktop/new_data/REFUGE2/test/1600_{model_name}_{norm_name}_lr_{lr}_bs_{batch_size}_fs_{base_c}_nd_{depths}_nh_{num_heads}/'
-elif model_name == 'swin_unetr' and norm_name == 'batch':
-    model = model_su2
-    data_save_path = f'/home/mans4021/Desktop/new_data/REFUGE2/test/1600_{model_name}_{norm_name}_lr_{lr}_bs_{batch_size}_fs_{base_c}_nd_{depths}_nh_{num_heads}/'
-elif model_name == 'swin_unetr' and norm_name == 'instance':
-    model = model_su3
-    data_save_path = f'/home/mans4021/Desktop/new_data/REFUGE2/test/1600_{model_name}_{norm_name}_lr_{lr}_bs_{batch_size}_fs_{base_c}_nd_{depths}_nh_{num_heads}/'
-elif model_name == 'utnet':
-    model = utnet
-    data_save_path = f'/home/mans4021/Desktop/new_data/REFUGE2/test/1600_{model_name}_{norm_name}_lr_{lr}_bs_{batch_size}_fs_{base_c}/'
+
+model = unet
+data_save_path = f'/home/kebl6872/Desktop/new_data/REFUGE2/test/1600_{model_name}_{norm_name}_lr_{lr}_bs_{batch_size}_fs_{base_c}/'
+
 
 writer = SummaryWriter(data_save_path, comment = '_training')
+print(torch.cuda.is_available())
 device = torch.device(f'cuda:{gpu_index}' if torch.cuda.is_available() else 'cpu')
 create_dir(data_save_path + 'Checkpoint')
 
@@ -141,10 +78,10 @@ def evaluate(model, data, score_fn, device):
 
 if __name__ == "__main__":
     seeding(42)
-    train_x = sorted(glob("/home/mans4021/Desktop/new_data/REFUGE2/train/image/*"))
-    train_y = sorted(glob("/home/mans4021/Desktop/new_data/REFUGE2/train/mask/*"))
-    valid_x = sorted(glob("/home/mans4021/Desktop/new_data/REFUGE2/val/image/*"))
-    valid_y = sorted(glob("/home/mans4021/Desktop/new_data/REFUGE2/val/mask/*"))
+    train_x = sorted(glob("/home/kebl6872/Desktop/new_data/REFUGE2/train/image/*"))
+    train_y = sorted(glob("/home/kebl6872/Desktop/new_data/REFUGE2/train/mask/*"))
+    valid_x = sorted(glob("/home/kebl6872/Desktop/new_data/REFUGE2/val/image/*"))
+    valid_y = sorted(glob("/home/kebl6872/Desktop/new_data/REFUGE2/val/mask/*"))
     checkpoint_path_lowloss = data_save_path + f'Checkpoint/lr_{lr}_bs_{batch_size}_lowloss.pth'
     checkpoint_path_final = data_save_path + f'Checkpoint/lr_{lr}_bs_{batch_size}_final.pth'
     create_file(checkpoint_path_lowloss)
@@ -158,7 +95,7 @@ if __name__ == "__main__":
 
     model = model.to(device)
 
-    iteration = 2000
+    iteration = 100
     optimizer = torch.optim.Adam(model.parameters(), lr=lr)
     # scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, 'min', patience=5, verbose=True)
     train_loss_fn = DiceCELoss(include_background=False, softmax=True, to_onehot_y=True, lambda_dice=0.5, lambda_ce=0.5)

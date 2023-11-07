@@ -114,7 +114,7 @@ def norm(input: torch.tensor, norm_name: str):
 
 
 def get_lr(step, lr):
-    if step < 100:
+    if step <= 100:
         lr_ = 5e-5
     if step > 100:
         lr_ = lr + lr * np.cos(2 * np.pi * step / 100)
