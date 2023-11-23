@@ -1,0 +1,103 @@
+Training dataset size: 1600
+Validation dataset size: 400
+UNet(
+  (e1): encoder_block(
+    (conv): conv_block(
+      (conv1): Conv2d(3, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (conv2): Conv2d(12, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (relu): ReLU()
+    )
+    (pool): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), padding=0, dilation=1, ceil_mode=False)
+  )
+  (e2): encoder_block(
+    (conv): conv_block(
+      (conv1): Conv2d(12, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (conv2): Conv2d(24, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (relu): ReLU()
+    )
+    (pool): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), padding=0, dilation=1, ceil_mode=False)
+  )
+  (e3): encoder_block(
+    (conv): conv_block(
+      (conv1): Conv2d(24, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (conv2): Conv2d(48, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (relu): ReLU()
+    )
+    (pool): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), padding=0, dilation=1, ceil_mode=False)
+  )
+  (e4): encoder_block(
+    (conv): conv_block(
+      (conv1): Conv2d(48, 96, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (conv2): Conv2d(96, 96, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (relu): ReLU()
+    )
+    (pool): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), padding=0, dilation=1, ceil_mode=False)
+  )
+  (b): conv_block(
+    (conv1): Conv2d(96, 192, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (conv2): Conv2d(192, 192, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (relu): ReLU()
+  )
+  (d1): decoder_block(
+    (up): ConvTranspose2d(192, 96, kernel_size=(2, 2), stride=(2, 2))
+    (conv): conv_block(
+      (conv1): Conv2d(192, 96, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (conv2): Conv2d(96, 96, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (relu): ReLU()
+    )
+  )
+  (d2): decoder_block(
+    (up): ConvTranspose2d(96, 48, kernel_size=(2, 2), stride=(2, 2))
+    (conv): conv_block(
+      (conv1): Conv2d(96, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (conv2): Conv2d(48, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (relu): ReLU()
+    )
+  )
+  (d3): decoder_block(
+    (up): ConvTranspose2d(48, 24, kernel_size=(2, 2), stride=(2, 2))
+    (conv): conv_block(
+      (conv1): Conv2d(48, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (conv2): Conv2d(24, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (relu): ReLU()
+    )
+  )
+  (d4): decoder_block(
+    (up): ConvTranspose2d(24, 12, kernel_size=(2, 2), stride=(2, 2))
+    (conv): conv_block(
+      (conv1): Conv2d(24, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (conv2): Conv2d(12, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (relu): ReLU()
+    )
+  )
+  (outputs): Conv2d(12, 3, kernel_size=(1, 1), stride=(1, 1))
+)
+Loss after 00784 examples: 1.080
+Loss after 01584 examples: 1.024
+model tested on 400 imagesval_score: 0.021606048235147824 f1_scores [0.43155479 0.02661328 0.01659881 0.04437843]
+Traceback (most recent call last):
+  File "/home/kebl6872/REFUGE_4YP/Run/wandb_train.py", line 164, in model_pipeline
+    train(model,train_loader,test_loader,criterion,eval_criterion,optimizer,config)
+  File "/home/kebl6872/REFUGE_4YP/Run/wandb_train.py", line 115, in train
+    valid_score = test(model,test_loader,eval_criterion,config,best_valid_score)
+  File "/home/kebl6872/REFUGE_4YP/Run/wandb_train.py", line 78, in test
+    torch.onnx.export(model, images, "model.onnx",opset_version=11)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/onnx/__init__.py", line 305, in export
+    return utils.export(model, args, f, export_params, verbose, training,
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/onnx/utils.py", line 118, in export
+    _export(model, args, f, export_params, verbose, training, input_names, output_names,
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/onnx/utils.py", line 719, in _export
+    _model_to_graph(model, args, verbose, input_names,
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/onnx/utils.py", line 503, in _model_to_graph
+    graph = _optimize_graph(graph, operator_export_type,
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/onnx/utils.py", line 232, in _optimize_graph
+    graph = torch._C._jit_pass_onnx(graph, operator_export_type)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/onnx/__init__.py", line 354, in _run_symbolic_function
+    return utils._run_symbolic_function(*args, **kwargs)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/onnx/utils.py", line 1057, in _run_symbolic_function
+    symbolic_fn = _find_symbolic_in_registry(domain, op_name, opset_version, operator_export_type)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/onnx/utils.py", line 1011, in _find_symbolic_in_registry
+    return sym_registry.get_registered_op(op_name, domain, opset_version)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/onnx/symbolic_registry.py", line 129, in get_registered_op
+    raise RuntimeError(msg)
+RuntimeError: Exporting the operator zero to ONNX opset version 11 is not supported. Please feel free to request support or submit a pull request on PyTorch GitHub.

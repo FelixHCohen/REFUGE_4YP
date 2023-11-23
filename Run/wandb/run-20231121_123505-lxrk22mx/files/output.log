@@ -1,0 +1,26 @@
+Training dataset size: 400
+Validation dataset size: 400
+  0%|                                                   | 0/100 [00:00<?, ?it/s]
+model tested on 400 imagesval_score: 0.24443263028014706 f1_scores [0.9839551  0.44099899 0.04786627 0.52194376]
+
+  1%|▍                                        | 1/100 [00:54<1:30:33, 54.89s/it]
+Epoch: 01 | Iteration Time: 0min 54s
+	Train Loss: 0.99697399
+	 Val Cup: 0.04786627
+	 Val Disk: 0.52194376
+
+
+  3%|█▏                                       | 3/100 [02:12<1:08:07, 42.14s/it]
+
+
+  5%|██                                       | 5/100 [03:29<1:03:16, 39.96s/it]
+Loss after 02384 examples: 0.889
+model tested on 400 imagesval_score: 0.7326628158570735 f1_scores [0.99548337 0.75303745 0.71228818 0.80486711]
+Valid score improved from 0.24443263 to 0.73266282. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE/test/1600_unet_batch_lr_0.0002_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/401/lr_0.0002_bs_16_lowloss.pth
+Epoch: 06 | Iteration Time: 0min 57s
+	Train Loss: 0.89202255
+	 Val Cup: 0.71228818
+
+
+  7%|██▊                                      | 7/100 [05:04<1:06:42, 43.04s/it]
+Loss after 03184 examples: 0.873

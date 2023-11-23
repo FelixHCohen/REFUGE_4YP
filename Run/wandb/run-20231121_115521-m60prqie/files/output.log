@@ -1,0 +1,15 @@
+Training dataset size: 400
+Validation dataset size: 400
+  0%|                                                   | 0/100 [00:00<?, ?it/s]
+model tested on 400 imagesval_score: 0.03224225860570332 f1_scores [0.42042075 0.03200713 0.03247738 0.04381373]
+Valid score improved from 0.00000000 to 0.03224226. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE/test/1600_unet_batch_lr_0.0002_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/401/lr_0.0002_bs_16_lowloss.pth
+Epoch: 01 | Iteration Time: 0min 31s
+	Train Loss: 1.06736696
+	 Val Cup: 0.03247738
+
+  1%|▍                                          | 1/100 [00:31<52:13, 31.65s/it]
+
+
+  3%|█▎                                         | 3/100 [01:16<39:23, 24.37s/it]
+
+

@@ -1,0 +1,13 @@
+Training dataset size: 1600
+Validation dataset size: 400
+  0%|                                                    | 0/20 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/kebl6872/REFUGE_4YP/Run/wandb_train.py", line 165, in model_pipeline
+    train(model,train_loader,test_loader,criterion,eval_criterion,config)
+  File "/home/kebl6872/REFUGE_4YP/Run/wandb_train.py", line 107, in train
+    loss = train_batch(images,labels,model,optimizer,criterion)
+  File "/home/kebl6872/REFUGE_4YP/Run/wandb_train.py", line 37, in train_batch
+    images,labels = images.to(device,dtype=torch.float32),labels.to(device,dtype=torch.float32)
+RuntimeError: CUDA error: device-side assert triggered
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.

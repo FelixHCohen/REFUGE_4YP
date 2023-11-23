@@ -1,0 +1,19 @@
+Training dataset size: 1600
+Validation dataset size: 400
+  0%|                                                    | 0/50 [00:00<?, ?it/s]
+Loss after 00784 examples: 1.080
+  0%|                                                    | 0/50 [01:12<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/kebl6872/REFUGE_4YP/Run/wandb_train.py", line 164, in model_pipeline
+    train(model,train_loader,test_loader,criterion,eval_criterion,optimizer,config)
+  File "/home/kebl6872/REFUGE_4YP/Run/wandb_train.py", line 115, in train
+    valid_score = test(model,test_loader,eval_criterion,config,best_valid_score)
+  File "/home/kebl6872/REFUGE_4YP/Run/wandb_train.py", line 88, in test
+    save_model(config.low_loss_path,"low loss model")
+  File "/home/kebl6872/REFUGE_4YP/Run/wandb_train.py", line 49, in save_model
+    artifact = wandb.Artifact(name=name, type="model")
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/wandb/sdk/artifacts/artifact.py", line 124, in __init__
+    raise ValueError(
+ValueError: Artifact name may only contain alphanumeric characters, dashes, underscores, and dots. Invalid name: low loss model
+model tested on 400 imagesval_score: 0.021606048235147824 f1_scores [0.43155479 0.02661328 0.01659881 0.04437843]
+Valid score improved from 0.00000000 to 0.02160605. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/1600_unet_batch_lr_5e-05_bs_16_fs_12/Checkpoint/lr_5e-05_bs_16_lowloss.pth

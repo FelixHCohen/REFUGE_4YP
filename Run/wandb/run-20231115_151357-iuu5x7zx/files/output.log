@@ -1,0 +1,19 @@
+Training dataset size: 400
+Validation dataset size: 400
+  0%|                                                    | 0/75 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/kebl6872/REFUGE_4YP/Run/wandb_train.py", line 230, in model_pipeline
+    train(model,train_loader,test_loader,criterion,eval_criterion,config)
+  File "/home/kebl6872/REFUGE_4YP/Run/wandb_train.py", line 136, in train
+    for _,(images, labels) in enumerate(loader):
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 570, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/kebl6872/REFUGE_4YP/Run/data_aug/data.py", line 28, in __getitem__
+    if self.transform:
+AttributeError: 'train_test_split' object has no attribute 'transform'

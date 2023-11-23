@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/kebl6872/REFUGE_4YP/Run/wandb_train.py", line 155, in model_pipeline
+    config = wandb.configter
+AttributeError: module 'wandb' has no attribute 'configter'

@@ -1,7 +1,20 @@
 import torch
 import torch.nn as nn
-from utils import norm
 
+
+def norm(input: torch.tensor, norm_name: str):
+    if norm_name == 'layer':
+        normaliza = nn.LayerNorm(list(input.shape)[1:])
+    elif norm_name == 'batch':
+        normaliza = nn.BatchNorm2d(list(input.shape)[1])
+    elif norm_name == 'instance':
+        normaliza = nn.InstanceNorm2d(list(input.shape)[1])
+
+    normaliza = normaliza.to(f'cuda:{input.get_device()}')
+
+    output = normaliza(input)
+
+    return output
 class conv_block(nn.Module):
     def __init__(self, in_c, out_c, norm_name):
         super().__init__()
@@ -56,23 +69,23 @@ class decoder_block(nn.Module):
         return x
 
 class UNet(nn.Module):
-    def __init__(self, in_c, out_c, base_c, norm_name):
+    def __init__(self, in_c, out_c, base_c,kernels = [2,4,8,16], norm_name = 'batch'):
         super().__init__()
 
         """ Encoder """
         self.e1 = encoder_block(in_c, base_c, norm_name)
-        self.e2 = encoder_block(base_c, base_c*2, norm_name)
-        self.e3 = encoder_block(base_c*2, base_c*4, norm_name)
-        self.e4 = encoder_block(base_c*4, base_c*8, norm_name)
+        self.e2 = encoder_block(base_c, base_c*kernels[0], norm_name)
+        self.e3 = encoder_block(base_c*kernels[0], base_c*kernels[1], norm_name)
+        self.e4 = encoder_block(base_c*kernels[1], base_c*kernels[2], norm_name)
 
         """ Bottleneck """
-        self.b = conv_block(base_c*8, base_c*16, norm_name)
+        self.b = conv_block(base_c*kernels[2], base_c*kernels[3], norm_name)
 
         """ Decoder """
-        self.d1 = decoder_block(base_c*16, base_c*8, norm_name)
-        self.d2 = decoder_block(base_c*8, base_c*4, norm_name)
-        self.d3 = decoder_block(base_c*4, base_c*2, norm_name)
-        self.d4 = decoder_block(base_c*2, base_c, norm_name)
+        self.d1 = decoder_block(base_c*kernels[3], base_c*kernels[2], norm_name)
+        self.d2 = decoder_block(base_c*kernels[2], base_c*kernels[1], norm_name)
+        self.d3 = decoder_block(base_c*kernels[1], base_c*kernels[0], norm_name)
+        self.d4 = decoder_block(base_c*kernels[0], base_c, norm_name)
 
         """ Classifier """
         self.outputs = nn.Conv2d(base_c, out_c, kernel_size=1, padding=0)

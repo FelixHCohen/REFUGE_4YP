@@ -1,0 +1,15 @@
+Training dataset size: 1600
+Validation dataset size: 400
+  0%|                                                    | 0/75 [00:03<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/kebl6872/REFUGE_4YP/Run/wandb_train.py", line 214, in model_pipeline
+    train(model,train_loader,test_loader,criterion,eval_criterion,config)
+  File "/home/kebl6872/REFUGE_4YP/Run/wandb_train.py", line 138, in train
+    loss = train_batch(images,labels,model,optimizer,criterion)
+  File "/home/kebl6872/REFUGE_4YP/Run/wandb_train.py", line 41, in train_batch
+    loss.backward()
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/_tensor.py", line 363, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/autograd/__init__.py", line 173, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+RuntimeError: Unable to find a valid cuDNN algorithm to run convolution

@@ -1,0 +1,154 @@
+{
+    "os": "Linux-6.2.0-36-generic-x86_64-with-glibc2.35",
+    "python": "3.10.13",
+    "heartbeatAt": "2023-11-13T18:33:14.587883",
+    "startedAt": "2023-11-13T18:33:13.990734",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "3e-5",
+        "15",
+        "0",
+        "unet",
+        "batch"
+    ],
+    "state": "running",
+    "program": "/home/kebl6872/REFUGE_4YP/Run/wandb_train.py",
+    "codePathLocal": "wandb_train.py",
+    "codePath": "Run/wandb_train.py",
+    "git": {
+        "remote": "https://github.com/DiDiDD/REFUGE_4YP.git",
+        "commit": "044a5b9f7009f767340df46fa6641f1307779a63"
+    },
+    "email": "felixcohen2912@outlook.com",
+    "root": "/home/kebl6872/REFUGE_4YP",
+    "host": "engs-30652",
+    "username": "kebl6872",
+    "executable": "/home/kebl6872/miniconda3/envs/pytorch_env/bin/python3",
+    "cpu_count": 14,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 1804.49825,
+        "min": 800.0,
+        "max": 4280.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1001.468,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2500.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1287.597,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2500.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1085.122,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2500.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 798.608,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1416.127,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 800.215,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2500.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1287.872,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1269.626,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1008.132,
+            "min": 800.0,
+            "max": 3500.0
+        },
+        {
+            "current": 2500.0,
+            "min": 800.0,
+            "max": 3500.0
+        },
+        {
+            "current": 2500.0,
+            "min": 800.0,
+            "max": 3500.0
+        },
+        {
+            "current": 2500.0,
+            "min": 800.0,
+            "max": 3500.0
+        },
+        {
+            "current": 936.618,
+            "min": 800.0,
+            "max": 3500.0
+        },
+        {
+            "current": 2500.0,
+            "min": 800.0,
+            "max": 3500.0
+        },
+        {
+            "current": 2500.0,
+            "min": 800.0,
+            "max": 3500.0
+        },
+        {
+            "current": 2500.0,
+            "min": 800.0,
+            "max": 3500.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 232.21813583374023,
+            "used": 38.59623336791992
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1080 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1080 Ti",
+            "memory_total": 11811160064
+        }
+    ],
+    "memory": {
+        "total": 31.031280517578125
+    }
+}

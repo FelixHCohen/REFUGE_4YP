@@ -1,0 +1,37 @@
+Training dataset size: 1600
+Validation dataset size: 400
+  0%|                                                    | 0/50 [00:00<?, ?it/s]
+Loss after 01568 examples: 1.078
+model tested on 400 imagesval_score: 0.015703695642917202 f1_scores [0.21915035 0.01629986 0.01510753 0.03662471]
+Valid score improved from 0.00000000 to 0.01570370. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/1600_unet_batch_lr_5e-05_bs_32_fs_12/Checkpoint/lr_5e-05_bs_32_lowloss.pth
+Epoch: 01 | Iteration Time: 1min 31s
+	Train Loss: 0.03508322
+
+  2%|▊                                         | 1/50 [01:31<1:14:46, 91.56s/it]
+Loss after 03168 examples: 1.024
+model tested on 400 imagesval_score: 0.02251081563574456 f1_scores [0.44179404 0.02785556 0.01716607 0.04485153]
+Valid score improved from 0.01570370 to 0.02251082. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/1600_unet_batch_lr_5e-05_bs_32_fs_12/Checkpoint/lr_5e-05_bs_32_lowloss.pth
+Epoch: 02 | Iteration Time: 1min 30s
+	Train Loss: 0.01635709
+
+  4%|█▋                                        | 2/50 [03:01<1:12:36, 90.75s/it]
+Loss after 04768 examples: 0.995
+model tested on 400 imagesval_score: 0.02745555179037559 f1_scores [0.57011647 0.03562598 0.01928512 0.05307305]
+
+  6%|██▌                                       | 3/50 [04:32<1:11:02, 90.70s/it]
+Epoch: 03 | Iteration Time: 1min 30s
+	Train Loss: 0.01048253
+	 Val Score: 0.02745555
+Loss after 06368 examples: 0.974
+model tested on 400 imagesval_score: 0.05132847713614375 f1_scores [0.64604942 0.08051466 0.02214229 0.0607357 ]
+Valid score improved from 0.02745555 to 0.05132848. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/1600_unet_batch_lr_5e-05_bs_32_fs_12/Checkpoint/lr_5e-05_bs_32_lowloss.pth
+Epoch: 04 | Iteration Time: 1min 31s
+	Train Loss: 0.00767240
+
+  8%|███▎                                      | 4/50 [06:04<1:09:51, 91.13s/it]
+Loss after 07968 examples: 0.957
+model tested on 400 imagesval_score: 0.07889477179384878 f1_scores [0.69694917 0.13747861 0.02031093 0.06806006]
+Valid score improved from 0.05132848 to 0.07889477. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/1600_unet_batch_lr_5e-05_bs_32_fs_12/Checkpoint/lr_5e-05_bs_32_lowloss.pth
+Epoch: 05 | Iteration Time: 1min 30s
+	Train Loss: 0.00602353
+

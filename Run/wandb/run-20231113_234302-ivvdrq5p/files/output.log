@@ -1,0 +1,661 @@
+Training dataset size: 2000
+Validation dataset size: 400
+  0%|                                                    | 0/75 [00:00<?, ?it/s]
+Loss after 00735 examples: 0.700
+Loss after 01485 examples: 0.674
+model tested on 400 images Disc F1 val score: 0.6673620106780095
+
+  1%|▌                                        | 1/75 [03:27<4:16:20, 207.84s/it]
+Epoch: 01 | Iteration Time: 3min 27s
+	Train Loss: 0.70037138
+	 Val Cup: 0.00000000
+	 Val Disk: 0.66736201
+Loss after 02225 examples: 0.661
+Loss after 02975 examples: 0.654
+Loss after 03725 examples: 0.649
+model tested on 400 images Disc F1 val score: 0.803742075138793
+Valid score improved from 0.66736201 to 0.80374208. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/disc_only/1600_unet_batch_lr_5e-05_bs_15_fs_12_[6_12_24_48]/Checkpoint/seed/37/lr_5e-05_bs_15_lowloss.pth
+Epoch: 02 | Iteration Time: 3min 27s
+	Train Loss: 0.65267801
+	 Val Cup: 0.00000000
+
+  3%|█                                        | 2/75 [06:55<4:12:34, 207.60s/it]
+Loss after 04465 examples: 0.640
+Loss after 05215 examples: 0.634
+Loss after 05965 examples: 0.626
+model tested on 400 images Disc F1 val score: 0.8489162560307902
+Valid score improved from 0.80374208 to 0.84891626. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/disc_only/1600_unet_batch_lr_5e-05_bs_15_fs_12_[6_12_24_48]/Checkpoint/seed/37/lr_5e-05_bs_15_lowloss.pth
+Epoch: 03 | Iteration Time: 3min 27s
+	Train Loss: 0.63371319
+	 Val Cup: 0.00000000
+
+  4%|█▋                                       | 3/75 [10:22<4:09:10, 207.64s/it]
+Loss after 06705 examples: 0.621
+Loss after 07455 examples: 0.619
+model tested on 400 images Disc F1 val score: 0.8864019669969939
+Valid score improved from 0.84891626 to 0.88640197. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/disc_only/1600_unet_batch_lr_5e-05_bs_15_fs_12_[6_12_24_48]/Checkpoint/seed/37/lr_5e-05_bs_15_lowloss.pth
+Epoch: 04 | Iteration Time: 3min 27s
+	Train Loss: 0.62048352
+	 Val Cup: 0.00000000
+
+  5%|██▏                                      | 4/75 [13:50<4:05:51, 207.77s/it]
+Loss after 08195 examples: 0.611
+Loss after 08945 examples: 0.610
+
+  7%|██▋                                      | 5/75 [17:18<4:02:22, 207.74s/it]
+model tested on 400 images Disc F1 val score: 0.8197125443829976
+Epoch: 05 | Iteration Time: 3min 27s
+	Train Loss: 0.60831076
+	 Val Cup: 0.00000000
+	 Val Disk: 0.81971254
+Loss after 10435 examples: 0.598
+Loss after 11185 examples: 0.590
+
+  8%|███▎                                     | 6/75 [20:46<3:58:56, 207.78s/it]
+model tested on 400 images Disc F1 val score: 0.8418031681891786
+Epoch: 06 | Iteration Time: 3min 27s
+	Train Loss: 0.59684050
+	 Val Cup: 0.00000000
+	 Val Disk: 0.84180317
+Loss after 12675 examples: 0.586
+Loss after 13425 examples: 0.582
+model tested on 400 images Disc F1 val score: 0.9058774371516288
+Valid score improved from 0.88640197 to 0.90587744. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/disc_only/1600_unet_batch_lr_5e-05_bs_15_fs_12_[6_12_24_48]/Checkpoint/seed/37/lr_5e-05_bs_15_lowloss.pth
+Epoch: 07 | Iteration Time: 3min 28s
+	Train Loss: 0.58605355
+	 Val Cup: 0.00000000
+
+  9%|███▊                                     | 7/75 [24:14<3:55:38, 207.92s/it]
+Loss after 14165 examples: 0.577
+Loss after 14915 examples: 0.577
+Loss after 15665 examples: 0.571
+model tested on 400 images Disc F1 val score: 0.8867237590325678
+Epoch: 08 | Iteration Time: 3min 27s
+	Train Loss: 0.57510203
+	 Val Cup: 0.00000000
+
+ 11%|████▎                                    | 8/75 [27:42<3:51:58, 207.74s/it]
+Loss after 16405 examples: 0.568
+Loss after 17155 examples: 0.562
+Loss after 17905 examples: 0.555
+model tested on 400 images Disc F1 val score: 0.8836679200227049
+Epoch: 09 | Iteration Time: 3min 27s
+	Train Loss: 0.56332278
+	 Val Cup: 0.00000000
+
+ 12%|████▉                                    | 9/75 [31:09<3:48:32, 207.76s/it]
+Loss after 18645 examples: 0.550
+Loss after 19395 examples: 0.551
+model tested on 400 images Disc F1 val score: 0.9128436282153526
+Valid score improved from 0.90587744 to 0.91284363. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/disc_only/1600_unet_batch_lr_5e-05_bs_15_fs_12_[6_12_24_48]/Checkpoint/seed/37/lr_5e-05_bs_15_lowloss.pth
+Epoch: 10 | Iteration Time: 3min 27s
+	Train Loss: 0.55192357
+	 Val Cup: 0.00000000
+
+ 13%|█████▎                                  | 10/75 [34:37<3:44:55, 207.63s/it]
+Loss after 20135 examples: 0.545
+Loss after 20885 examples: 0.542
+Loss after 21635 examples: 0.543
+model tested on 400 images Disc F1 val score: 0.8936435468075642
+Epoch: 11 | Iteration Time: 3min 27s
+	Train Loss: 0.54131079
+	 Val Cup: 0.00000000
+
+ 15%|█████▊                                  | 11/75 [38:04<3:41:24, 207.56s/it]
+Loss after 22375 examples: 0.534
+Loss after 23125 examples: 0.532
+Loss after 23875 examples: 0.528
+model tested on 400 images Disc F1 val score: 0.9013791012963703
+Epoch: 12 | Iteration Time: 3min 28s
+	Train Loss: 0.53092414
+	 Val Cup: 0.00000000
+
+ 16%|██████▍                                 | 12/75 [41:32<3:38:06, 207.72s/it]
+Loss after 24615 examples: 0.522
+
+ 17%|██████▉                                 | 13/75 [45:00<3:34:33, 207.63s/it]
+model tested on 400 images Disc F1 val score: 0.8762146147821072
+Epoch: 13 | Iteration Time: 3min 27s
+	Train Loss: 0.52122265
+	 Val Cup: 0.00000000
+	 Val Disk: 0.87621461
+Loss after 26105 examples: 0.522
+Loss after 26855 examples: 0.513
+Loss after 27605 examples: 0.501
+model tested on 400 images Disc F1 val score: 0.9022505879190664
+Epoch: 14 | Iteration Time: 3min 27s
+	Train Loss: 0.51153046
+	 Val Cup: 0.00000000
+
+ 19%|███████▍                                | 14/75 [48:27<3:31:09, 207.69s/it]
+Loss after 28345 examples: 0.499
+Loss after 29095 examples: 0.496
+Loss after 29845 examples: 0.498
+model tested on 400 images Disc F1 val score: 0.8922338713659292
+Epoch: 15 | Iteration Time: 3min 27s
+	Train Loss: 0.50158578
+	 Val Cup: 0.00000000
+
+ 20%|████████                                | 15/75 [51:55<3:27:35, 207.59s/it]
+Loss after 30585 examples: 0.496
+Loss after 31335 examples: 0.489
+model tested on 400 images Disc F1 val score: 0.9105066153427717
+Epoch: 16 | Iteration Time: 3min 27s
+	Train Loss: 0.49202293
+	 Val Cup: 0.00000000
+
+ 21%|████████▌                               | 16/75 [55:22<3:24:01, 207.48s/it]
+Loss after 32075 examples: 0.491
+Loss after 32825 examples: 0.483
+Loss after 33575 examples: 0.482
+model tested on 400 images Disc F1 val score: 0.8971270664806713
+Epoch: 17 | Iteration Time: 3min 27s
+	Train Loss: 0.48268217
+	 Val Cup: 0.00000000
+
+ 23%|█████████                               | 17/75 [58:50<3:20:37, 207.55s/it]
+Loss after 34315 examples: 0.480
+Loss after 35065 examples: 0.472
+Loss after 35815 examples: 0.469
+model tested on 400 images Disc F1 val score: 0.9344511109248382
+
+ 24%|█████████                             | 18/75 [1:02:18<3:17:17, 207.67s/it]
+Epoch: 18 | Iteration Time: 3min 27s
+	Train Loss: 0.47334895
+	 Val Cup: 0.00000000
+	 Val Disk: 0.93445111
+Loss after 36555 examples: 0.468
+Loss after 37305 examples: 0.463
+model tested on 400 images Disc F1 val score: 0.923212755197368
+Epoch: 19 | Iteration Time: 3min 26s
+	Train Loss: 0.46385437
+	 Val Cup: 0.00000000
+
+ 25%|█████████▋                            | 19/75 [1:05:44<3:13:35, 207.41s/it]
+Loss after 38045 examples: 0.462
+Loss after 38795 examples: 0.453
+Loss after 39545 examples: 0.451
+model tested on 400 images Disc F1 val score: 0.9199240165213649
+Epoch: 20 | Iteration Time: 3min 27s
+	Train Loss: 0.45463306
+	 Val Cup: 0.00000000
+
+ 27%|██████████▏                           | 20/75 [1:09:12<3:10:13, 207.51s/it]
+Loss after 40285 examples: 0.449
+Loss after 41035 examples: 0.441
+Loss after 41785 examples: 0.437
+model tested on 400 images Disc F1 val score: 0.9236909704621792
+Epoch: 21 | Iteration Time: 3min 27s
+	Train Loss: 0.44517559
+	 Val Cup: 0.00000000
+
+ 28%|██████████▋                           | 21/75 [1:12:40<3:06:50, 207.59s/it]
+Loss after 42525 examples: 0.436
+
+ 29%|███████████▏                          | 22/75 [1:16:08<3:03:22, 207.59s/it]
+model tested on 400 images Disc F1 val score: 0.9286394216181099
+Epoch: 22 | Iteration Time: 3min 27s
+	Train Loss: 0.43580058
+	 Val Cup: 0.00000000
+	 Val Disk: 0.92863942
+Loss after 44015 examples: 0.437
+Loss after 44765 examples: 0.427
+
+ 31%|███████████▋                          | 23/75 [1:19:36<3:00:00, 207.70s/it]
+model tested on 400 images Disc F1 val score: 0.9106276082740026
+Epoch: 23 | Iteration Time: 3min 27s
+	Train Loss: 0.42643112
+	 Val Cup: 0.00000000
+	 Val Disk: 0.91062761
+Loss after 46255 examples: 0.423
+Loss after 47005 examples: 0.416
+Loss after 47755 examples: 0.416
+model tested on 400 images Disc F1 val score: 0.9053099252934474
+Epoch: 24 | Iteration Time: 3min 27s
+	Train Loss: 0.41684890
+	 Val Cup: 0.00000000
+
+ 32%|████████████▏                         | 24/75 [1:23:03<2:56:35, 207.76s/it]
+Loss after 48495 examples: 0.414
+Loss after 49245 examples: 0.408
+Loss after 49995 examples: 0.399
+model tested on 400 images Disc F1 val score: 0.915114041567487
+Epoch: 25 | Iteration Time: 3min 27s
+	Train Loss: 0.40729928
+	 Val Cup: 0.00000000
+
+ 33%|████████████▋                         | 25/75 [1:26:31<2:53:10, 207.80s/it]
+Loss after 50735 examples: 0.399
+Loss after 51485 examples: 0.390
+model tested on 400 images Disc F1 val score: 0.9071402393796939
+Epoch: 26 | Iteration Time: 3min 27s
+	Train Loss: 0.39755347
+	 Val Cup: 0.00000000
+
+ 35%|█████████████▏                        | 26/75 [1:29:59<2:49:36, 207.67s/it]
+Loss after 52225 examples: 0.386
+Loss after 52975 examples: 0.384
+
+ 36%|█████████████▋                        | 27/75 [1:33:27<2:46:14, 207.81s/it]
+model tested on 400 images Disc F1 val score: 0.9073368083758335
+Epoch: 27 | Iteration Time: 3min 28s
+	Train Loss: 0.38799128
+	 Val Cup: 0.00000000
+	 Val Disk: 0.90733681
+Loss after 54465 examples: 0.379
+Loss after 55215 examples: 0.378
+Loss after 55965 examples: 0.379
+model tested on 400 images Disc F1 val score: 0.9194587907718159
+Epoch: 28 | Iteration Time: 3min 27s
+	Train Loss: 0.37803209
+	 Val Cup: 0.00000000
+
+ 37%|██████████████▏                       | 28/75 [1:36:54<2:42:44, 207.75s/it]
+Loss after 56705 examples: 0.376
+Loss after 57455 examples: 0.367
+model tested on 400 images Disc F1 val score: 0.9151667263923025
+Epoch: 29 | Iteration Time: 3min 27s
+	Train Loss: 0.36817631
+	 Val Cup: 0.00000000
+
+ 39%|██████████████▋                       | 29/75 [1:40:22<2:39:11, 207.64s/it]
+Loss after 58195 examples: 0.357
+Loss after 58945 examples: 0.367
+
+ 40%|███████████████▏                      | 30/75 [1:43:50<2:35:45, 207.67s/it]
+model tested on 400 images Disc F1 val score: 0.9049071319516397
+Epoch: 30 | Iteration Time: 3min 27s
+	Train Loss: 0.35818619
+	 Val Cup: 0.00000000
+	 Val Disk: 0.90490713
+Loss after 60435 examples: 0.352
+Loss after 61185 examples: 0.352
+Loss after 61935 examples: 0.341
+model tested on 400 images Disc F1 val score: 0.9113121428440517
+Epoch: 31 | Iteration Time: 3min 27s
+	Train Loss: 0.34807220
+	 Val Cup: 0.00000000
+
+ 41%|███████████████▋                      | 31/75 [1:47:17<2:32:15, 207.62s/it]
+Loss after 62675 examples: 0.336
+Loss after 63425 examples: 0.331
+model tested on 400 images Disc F1 val score: 0.9187558805054017
+Epoch: 32 | Iteration Time: 3min 27s
+	Train Loss: 0.33790186
+	 Val Cup: 0.00000000
+
+ 43%|████████████████▏                     | 32/75 [1:50:44<2:28:44, 207.55s/it]
+Loss after 64165 examples: 0.338
+Loss after 64915 examples: 0.324
+Loss after 65665 examples: 0.318
+model tested on 400 images Disc F1 val score: 0.9170684020858876
+Epoch: 33 | Iteration Time: 3min 27s
+	Train Loss: 0.32784775
+	 Val Cup: 0.00000000
+
+ 44%|████████████████▋                     | 33/75 [1:54:12<2:25:10, 207.40s/it]
+Loss after 66405 examples: 0.321
+Loss after 67155 examples: 0.317
+Loss after 67905 examples: 0.320
+model tested on 400 images Disc F1 val score: 0.8991918766072169
+Epoch: 34 | Iteration Time: 3min 27s
+	Train Loss: 0.31748089
+	 Val Cup: 0.00000000
+
+ 45%|█████████████████▏                    | 34/75 [1:57:39<2:21:48, 207.52s/it]
+Loss after 68645 examples: 0.302
+
+ 47%|█████████████████▋                    | 35/75 [2:01:07<2:18:20, 207.51s/it]
+model tested on 400 images Disc F1 val score: 0.9118833535526888
+Epoch: 35 | Iteration Time: 3min 27s
+	Train Loss: 0.30689758
+	 Val Cup: 0.00000000
+	 Val Disk: 0.91188335
+Loss after 70135 examples: 0.300
+Loss after 70885 examples: 0.291
+Loss after 71635 examples: 0.298
+model tested on 400 images Disc F1 val score: 0.9001246320675104
+Epoch: 36 | Iteration Time: 3min 27s
+	Train Loss: 0.29617432
+	 Val Cup: 0.00000000
+
+ 48%|██████████████████▏                   | 36/75 [2:04:34<2:14:48, 207.41s/it]
+Loss after 72375 examples: 0.289
+Loss after 73125 examples: 0.278
+Loss after 73875 examples: 0.280
+model tested on 400 images Disc F1 val score: 0.9222896455841497
+Epoch: 37 | Iteration Time: 3min 27s
+	Train Loss: 0.28614533
+	 Val Cup: 0.00000000
+
+ 49%|██████████████████▋                   | 37/75 [2:08:02<2:11:24, 207.49s/it]
+Loss after 74615 examples: 0.281
+Loss after 75365 examples: 0.268
+model tested on 400 images Disc F1 val score: 0.9136953095384429
+Epoch: 38 | Iteration Time: 3min 27s
+	Train Loss: 0.27575135
+	 Val Cup: 0.00000000
+
+ 51%|███████████████████▎                  | 38/75 [2:11:29<2:07:53, 207.40s/it]
+Loss after 76105 examples: 0.275
+Loss after 76855 examples: 0.260
+Loss after 77605 examples: 0.274
+model tested on 400 images Disc F1 val score: 0.8968070773494763
+Epoch: 39 | Iteration Time: 3min 27s
+	Train Loss: 0.26573926
+	 Val Cup: 0.00000000
+
+ 52%|███████████████████▊                  | 39/75 [2:14:57<2:04:32, 207.57s/it]
+Loss after 78345 examples: 0.260
+Loss after 79095 examples: 0.257
+Loss after 79845 examples: 0.259
+model tested on 400 images Disc F1 val score: 0.9187874373018471
+Epoch: 40 | Iteration Time: 3min 27s
+	Train Loss: 0.25568652
+	 Val Cup: 0.00000000
+
+ 53%|████████████████████▎                 | 40/75 [2:18:25<2:01:09, 207.70s/it]
+Loss after 80585 examples: 0.263
+
+ 55%|████████████████████▊                 | 41/75 [2:21:52<1:57:38, 207.60s/it]
+model tested on 400 images Disc F1 val score: 0.9213787875551839
+Epoch: 41 | Iteration Time: 3min 27s
+	Train Loss: 0.24600928
+	 Val Cup: 0.00000000
+	 Val Disk: 0.92137879
+Loss after 82075 examples: 0.234
+Loss after 82825 examples: 0.235
+Loss after 83575 examples: 0.236
+model tested on 400 images Disc F1 val score: 0.9254380462435627
+Epoch: 42 | Iteration Time: 3min 27s
+	Train Loss: 0.23633966
+	 Val Cup: 0.00000000
+
+ 56%|█████████████████████▎                | 42/75 [2:25:20<1:54:12, 207.64s/it]
+Loss after 84315 examples: 0.233
+Loss after 85065 examples: 0.225
+Loss after 85815 examples: 0.229
+model tested on 400 images Disc F1 val score: 0.8794671440719917
+Epoch: 43 | Iteration Time: 3min 27s
+	Train Loss: 0.22693034
+	 Val Cup: 0.00000000
+
+ 57%|█████████████████████▊                | 43/75 [2:28:48<1:50:46, 207.71s/it]
+Loss after 86555 examples: 0.220
+
+ 59%|██████████████████████▎               | 44/75 [2:32:15<1:47:13, 207.53s/it]
+model tested on 400 images Disc F1 val score: 0.9102521919377664
+Epoch: 44 | Iteration Time: 3min 27s
+	Train Loss: 0.21802704
+	 Val Cup: 0.00000000
+	 Val Disk: 0.91025219
+Loss after 88045 examples: 0.206
+Loss after 88795 examples: 0.208
+
+ 60%|██████████████████████▊               | 45/75 [2:35:43<1:43:47, 207.57s/it]
+model tested on 400 images Disc F1 val score: 0.922364784575946
+Epoch: 45 | Iteration Time: 3min 27s
+	Train Loss: 0.20908365
+	 Val Cup: 0.00000000
+	 Val Disk: 0.92236478
+Loss after 90285 examples: 0.189
+Loss after 91035 examples: 0.189
+Loss after 91785 examples: 0.193
+model tested on 400 images Disc F1 val score: 0.9136410827942867
+Epoch: 46 | Iteration Time: 3min 27s
+	Train Loss: 0.20047829
+	 Val Cup: 0.00000000
+
+ 61%|███████████████████████▎              | 46/75 [2:39:10<1:40:17, 207.51s/it]
+Loss after 92525 examples: 0.189
+Loss after 93275 examples: 0.188
+model tested on 400 images Disc F1 val score: 0.9142696609130254
+Epoch: 47 | Iteration Time: 3min 27s
+	Train Loss: 0.19202469
+	 Val Cup: 0.00000000
+
+ 63%|███████████████████████▊              | 47/75 [2:42:37<1:36:48, 207.46s/it]
+Loss after 94015 examples: 0.183
+Loss after 94765 examples: 0.193
+
+ 64%|████████████████████████▎             | 48/75 [2:46:05<1:33:24, 207.56s/it]
+model tested on 400 images Disc F1 val score: 0.9297589469646848
+Epoch: 48 | Iteration Time: 3min 27s
+	Train Loss: 0.18380740
+	 Val Cup: 0.00000000
+	 Val Disk: 0.92975895
+Loss after 96255 examples: 0.183
+Loss after 97005 examples: 0.170
+Loss after 97755 examples: 0.172
+model tested on 400 images Disc F1 val score: 0.9082404056533514
+Epoch: 49 | Iteration Time: 3min 28s
+	Train Loss: 0.17605785
+	 Val Cup: 0.00000000
+
+ 65%|████████████████████████▊             | 49/75 [2:49:33<1:30:00, 207.70s/it]
+Loss after 98495 examples: 0.168
+Loss after 99245 examples: 0.172
+Loss after 99995 examples: 0.164
+model tested on 400 images Disc F1 val score: 0.9114932286708342
+Epoch: 50 | Iteration Time: 3min 27s
+	Train Loss: 0.16828226
+	 Val Cup: 0.00000000
+
+ 67%|█████████████████████████▎            | 50/75 [2:53:01<1:26:30, 207.62s/it]
+Loss after 100735 examples: 0.153
+Loss after 101485 examples: 0.164
+model tested on 400 images Disc F1 val score: 0.920490344906478
+Epoch: 51 | Iteration Time: 3min 26s
+	Train Loss: 0.16091843
+	 Val Cup: 0.00000000
+
+ 68%|█████████████████████████▊            | 51/75 [2:56:27<1:22:57, 207.39s/it]
+Loss after 102225 examples: 0.152
+Loss after 102975 examples: 0.154
+Loss after 103725 examples: 0.152
+model tested on 400 images Disc F1 val score: 0.9251628801135087
+Epoch: 52 | Iteration Time: 3min 27s
+	Train Loss: 0.15396261
+	 Val Cup: 0.00000000
+
+ 69%|██████████████████████████▎           | 52/75 [2:59:55<1:19:33, 207.55s/it]
+Loss after 104465 examples: 0.151
+Loss after 105215 examples: 0.156
+Loss after 105965 examples: 0.135
+model tested on 400 images Disc F1 val score: 0.9024576861723764
+Epoch: 53 | Iteration Time: 3min 27s
+	Train Loss: 0.14722160
+	 Val Cup: 0.00000000
+
+ 71%|██████████████████████████▊           | 53/75 [3:03:23<1:16:05, 207.52s/it]
+Loss after 106705 examples: 0.136
+Loss after 107455 examples: 0.140
+model tested on 400 images Disc F1 val score: 0.9208605172819633
+Epoch: 54 | Iteration Time: 3min 27s
+	Train Loss: 0.14049670
+	 Val Cup: 0.00000000
+
+ 72%|███████████████████████████▎          | 54/75 [3:06:50<1:12:36, 207.46s/it]
+Loss after 108195 examples: 0.139
+Loss after 108945 examples: 0.136
+Loss after 109695 examples: 0.135
+model tested on 400 images Disc F1 val score: 0.9244609545643944
+Epoch: 55 | Iteration Time: 3min 27s
+	Train Loss: 0.13423958
+	 Val Cup: 0.00000000
+
+ 73%|███████████████████████████▊          | 55/75 [3:10:18<1:09:11, 207.58s/it]
+Loss after 110435 examples: 0.131
+Loss after 111185 examples: 0.119
+Loss after 111935 examples: 0.127
+model tested on 400 images Disc F1 val score: 0.9154027597966787
+Epoch: 56 | Iteration Time: 3min 27s
+	Train Loss: 0.12835096
+	 Val Cup: 0.00000000
+
+ 75%|████████████████████████████▎         | 56/75 [3:13:46<1:05:45, 207.66s/it]
+Loss after 112675 examples: 0.121
+
+ 76%|████████████████████████████▉         | 57/75 [3:17:13<1:02:17, 207.64s/it]
+model tested on 400 images Disc F1 val score: 0.9251698377810175
+Epoch: 57 | Iteration Time: 3min 27s
+	Train Loss: 0.12283705
+	 Val Cup: 0.00000000
+	 Val Disk: 0.92516984
+Loss after 114165 examples: 0.118
+Loss after 114915 examples: 0.116
+Loss after 115665 examples: 0.121
+model tested on 400 images Disc F1 val score: 0.9059175221410686
+Epoch: 58 | Iteration Time: 3min 27s
+	Train Loss: 0.11729810
+	 Val Cup: 0.00000000
+
+ 77%|██████████████████████████████▉         | 58/75 [3:20:41<58:48, 207.59s/it]
+Loss after 116405 examples: 0.114
+Loss after 117155 examples: 0.109
+Loss after 117905 examples: 0.110
+model tested on 400 images Disc F1 val score: 0.8607884714607956
+Epoch: 59 | Iteration Time: 3min 26s
+	Train Loss: 0.11212891
+	 Val Cup: 0.00000000
+
+ 79%|███████████████████████████████▍        | 59/75 [3:24:08<55:17, 207.32s/it]
+Loss after 118645 examples: 0.106
+Loss after 119395 examples: 0.097
+model tested on 400 images Disc F1 val score: 0.918156370101736
+Epoch: 60 | Iteration Time: 3min 26s
+	Train Loss: 0.10705326
+	 Val Cup: 0.00000000
+
+ 80%|████████████████████████████████        | 60/75 [3:27:34<51:48, 207.20s/it]
+Loss after 120135 examples: 0.103
+Loss after 120885 examples: 0.102
+
+ 81%|████████████████████████████████▌       | 61/75 [3:31:02<48:23, 207.39s/it]
+model tested on 400 images Disc F1 val score: 0.9117896940545807
+Epoch: 61 | Iteration Time: 3min 27s
+	Train Loss: 0.10227463
+	 Val Cup: 0.00000000
+	 Val Disk: 0.91178969
+Loss after 122375 examples: 0.097
+Loss after 123125 examples: 0.094
+
+ 83%|█████████████████████████████████       | 62/75 [3:34:30<44:57, 207.53s/it]
+model tested on 400 images Disc F1 val score: 0.9162707536177217
+Epoch: 62 | Iteration Time: 3min 27s
+	Train Loss: 0.09777528
+	 Val Cup: 0.00000000
+	 Val Disk: 0.91627075
+Loss after 124615 examples: 0.088
+Loss after 125365 examples: 0.103
+model tested on 400 images Disc F1 val score: 0.905393497919095
+Epoch: 63 | Iteration Time: 3min 27s
+	Train Loss: 0.09362087
+	 Val Cup: 0.00000000
+
+ 84%|█████████████████████████████████▌      | 63/75 [3:37:57<41:29, 207.46s/it]
+Loss after 126105 examples: 0.094
+Loss after 126855 examples: 0.095
+Loss after 127605 examples: 0.089
+model tested on 400 images Disc F1 val score: 0.9047212906592805
+Epoch: 64 | Iteration Time: 3min 27s
+	Train Loss: 0.08915661
+	 Val Cup: 0.00000000
+
+ 85%|██████████████████████████████████▏     | 64/75 [3:41:25<38:03, 207.59s/it]
+Loss after 128345 examples: 0.088
+Loss after 129095 examples: 0.093
+Loss after 129845 examples: 0.086
+model tested on 400 images Disc F1 val score: 0.9105568506289475
+Epoch: 65 | Iteration Time: 3min 27s
+	Train Loss: 0.08527926
+	 Val Cup: 0.00000000
+
+ 87%|██████████████████████████████████▋     | 65/75 [3:44:53<34:36, 207.70s/it]
+Loss after 130585 examples: 0.077
+
+ 88%|███████████████████████████████████▏    | 66/75 [3:48:21<31:10, 207.80s/it]
+model tested on 400 images Disc F1 val score: 0.918246503573589
+Epoch: 66 | Iteration Time: 3min 28s
+	Train Loss: 0.08164035
+	 Val Cup: 0.00000000
+	 Val Disk: 0.91824650
+Loss after 132075 examples: 0.079
+Loss after 132825 examples: 0.085
+
+ 89%|███████████████████████████████████▋    | 67/75 [3:51:49<27:43, 207.90s/it]
+model tested on 400 images Disc F1 val score: 0.8992582024431371
+Epoch: 67 | Iteration Time: 3min 28s
+	Train Loss: 0.07801255
+	 Val Cup: 0.00000000
+	 Val Disk: 0.89925820
+Loss after 134315 examples: 0.072
+Loss after 135065 examples: 0.071
+Loss after 135815 examples: 0.072
+model tested on 400 images Disc F1 val score: 0.8943393170560883
+Epoch: 68 | Iteration Time: 3min 27s
+	Train Loss: 0.07437106
+	 Val Cup: 0.00000000
+
+ 91%|████████████████████████████████████▎   | 68/75 [3:55:17<24:14, 207.85s/it]
+Loss after 136555 examples: 0.070
+Loss after 137305 examples: 0.067
+model tested on 400 images Disc F1 val score: 0.9138425061258525
+Epoch: 69 | Iteration Time: 3min 27s
+	Train Loss: 0.07116243
+	 Val Cup: 0.00000000
+
+ 92%|████████████████████████████████████▊   | 69/75 [3:58:45<20:46, 207.79s/it]
+Loss after 138045 examples: 0.067
+Loss after 138795 examples: 0.072
+Loss after 139545 examples: 0.069
+model tested on 400 images Disc F1 val score: 0.9100981450137108
+Epoch: 70 | Iteration Time: 3min 27s
+	Train Loss: 0.06807050
+	 Val Cup: 0.00000000
+
+ 93%|█████████████████████████████████████▎  | 70/75 [4:02:13<17:18, 207.76s/it]
+Loss after 140285 examples: 0.064
+Loss after 141035 examples: 0.065
+
+ 95%|█████████████████████████████████████▊  | 71/75 [4:05:40<13:51, 207.77s/it]
+model tested on 400 images Disc F1 val score: 0.9160414068487752
+Epoch: 71 | Iteration Time: 3min 27s
+	Train Loss: 0.06501339
+	 Val Cup: 0.00000000
+	 Val Disk: 0.91604141
+Loss after 142525 examples: 0.064
+Loss after 143275 examples: 0.061
+model tested on 400 images Disc F1 val score: 0.9058959292545549
+Epoch: 72 | Iteration Time: 3min 27s
+	Train Loss: 0.06222965
+	 Val Cup: 0.00000000
+
+ 96%|██████████████████████████████████████▍ | 72/75 [4:09:08<10:23, 207.79s/it]
+Loss after 144015 examples: 0.059
+Loss after 144765 examples: 0.064
+Loss after 145515 examples: 0.057
+model tested on 400 images Disc F1 val score: 0.8997320890464496
+Epoch: 73 | Iteration Time: 3min 27s
+	Train Loss: 0.05966455
+	 Val Cup: 0.00000000
+
+ 97%|██████████████████████████████████████▉ | 73/75 [4:12:36<06:55, 207.71s/it]
+Loss after 146255 examples: 0.060
+Loss after 147005 examples: 0.059
+Loss after 147755 examples: 0.053
+model tested on 400 images Disc F1 val score: 0.899372017201441
+Epoch: 74 | Iteration Time: 3min 27s
+	Train Loss: 0.05708815
+	 Val Cup: 0.00000000
+
+ 99%|███████████████████████████████████████▍| 74/75 [4:16:04<03:27, 207.76s/it]
+Loss after 148495 examples: 0.056
+Loss after 149245 examples: 0.054
+
+100%|████████████████████████████████████████| 75/75 [4:19:31<00:00, 207.62s/it]
+model tested on 400 images Disc F1 val score: 0.9000899384704877
+Epoch: 75 | Iteration Time: 3min 27s
+	Train Loss: 0.05468275
+	 Val Cup: 0.00000000
+	 Val Disk: 0.90008994

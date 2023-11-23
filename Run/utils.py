@@ -2,8 +2,13 @@ import os
 import random
 import numpy as np
 import torch
+import cv2
+import sys
 import torch.nn as nn
 from glob import glob
+import matplotlib.pyplot as plt
+from pode import Contour, Polygon, divide, Requirement,Point
+from pode import joined_constrained_delaunay_triangles
 
 def seeding(seed):  # seeding the randomness
     random.seed(seed)
@@ -68,9 +73,19 @@ def segmentation_score(y_true, y_pred, num_classes):
 
     return score_matrix
 
-
+def f1_valid_two_classes(y_true,y_pred):
+    smooth = 0.00001
+    y_true = y_true.cpu().numpy().astype(int)
+    y_pred = y_pred.cpu().numpy().astype(int)
+    # 0 == background class - will classify disk class as not 0 so I don't have to change the combined f1
+    tp = np.sum(np.logical_and(y_true ==1, y_pred ==1))
+    fp = np.sum(np.logical_and(y_true != 1, y_pred == 1))
+    fn = np.sum(np.logical_and(y_true==1, y_pred==0))
+    f1 = 2 * tp / (2 * tp + fp + fn + smooth)
+    return f1
 def f1_valid_score(y_true, y_pred):
     if y_true.size() != y_pred.size():
+        print(f' y true size: {y_true.size()} y_pred size: {y_pred.size()}')
         raise DimensionError(f'Check dimensions of y_true {y_true.size()} and y_pred {y_pred.size()}')
 
     smooth = 0.00001
@@ -91,6 +106,55 @@ def f1_valid_score(y_true, y_pred):
 
     return score_matrix
 
+
+def generate_point(y_true,y_pred,num):
+    y_true = y_true.cpu().numpy().astype(int)
+    y_pred = y_pred.cpu().numpy().astype(int)
+
+    combined_results = list()
+
+    for class_idx in range(3):
+        map = np.zeros((512,512))
+        fn = (np.logical_and(y_true == class_idx, y_pred != class_idx))
+        fn_indices = np.argwhere(fn == True)
+        fn_indices = fn_indices[:,2:] # y_true indices are like [0,0,512,512]
+        print(f'fn_indices: {fn_indices}')
+
+
+        for i in range(fn_indices.shape[0]):
+            map[fn_indices[i,0],fn_indices[i,1]]=1
+        map = map.astype(np.uint8)
+        plt.figure(figsize=(15, 15))
+        plt.imshow(map,cmap='gray')
+        plt.title(f"{class_idx}")
+
+        (totalLabels, label_map, stats, centroids) = cv2.connectedComponentsWithStats(map, 8, cv2.CV_32S)
+        centroids_w_stats = list()
+
+        print(np.unique(label_map))
+        np.set_printoptions(threshold=sys.maxsize)
+        print('map')
+        print(label_map[241,132])
+        for a,b,c in zip(stats[1:], centroids[1:],list(range(1,totalLabels))):
+            centroids_w_stats.append([a,b[::-1],c]) #reverse b as centroid returns x-y coordinates whilst we want indice of array
+
+        for i in range(len(centroids_w_stats)):
+            if y_true[0,0,round(centroids_w_stats[i][1][0]),round(centroids_w_stats[i][1][1])]!= class_idx:
+
+
+                indices = np.argwhere(label_map==centroids_w_stats[i][2])
+                print(f'indices for {centroids_w_stats[i][2]}: {indices[:10]}')
+                l = list(range(indices.shape[0]))
+                l_i = random.choice(l)
+                centroids_w_stats[i][1] = indices[l_i,:]
+
+        combined_results = combined_results + centroids_w_stats
+
+
+    sorted_by_area = sorted(combined_results, key=lambda x: x[0][4])
+    sorted_stats, sorted_centroids,sorted_labels = zip(*sorted_by_area)
+
+    return [(round(x),round(y),y_true[0,0,round(x),round(y)]) for x,y in sorted_centroids[-1*num:]]
 
 def mask_parse(mask):
     mask = np.expand_dims(mask, axis=-1)                # (512, 512, 1)
@@ -115,7 +179,7 @@ def norm(input: torch.tensor, norm_name: str):
 
 def get_lr(step, lr):
     if step <= 100:
-        lr_ = 5e-5
+        lr_ = lr
     if step > 100:
         lr_ = lr + lr * np.cos(2 * np.pi * step / 100)
 

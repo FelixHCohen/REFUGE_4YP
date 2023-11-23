@@ -1,0 +1,36 @@
+2023-11-17 17:08:11,409 INFO    MainThread:537331 [wandb_setup.py:_flush():76] Current SDK version is 0.15.12
+2023-11-17 17:08:11,409 INFO    MainThread:537331 [wandb_setup.py:_flush():76] Configure stats pid to 537331
+2023-11-17 17:08:11,409 INFO    MainThread:537331 [wandb_setup.py:_flush():76] Loading settings from /home/kebl6872/.config/wandb/settings
+2023-11-17 17:08:11,409 INFO    MainThread:537331 [wandb_setup.py:_flush():76] Loading settings from /home/kebl6872/REFUGE_4YP/Run/wandb/settings
+2023-11-17 17:08:11,409 INFO    MainThread:537331 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-11-17 17:08:11,409 INFO    MainThread:537331 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'Run/wandb_train.py', 'program_abspath': '/home/kebl6872/REFUGE_4YP/Run/wandb_train.py', 'program': '/home/kebl6872/REFUGE_4YP/Run/wandb_train.py'}
+2023-11-17 17:08:11,409 INFO    MainThread:537331 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-11-17 17:08:11,409 INFO    MainThread:537331 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-11-17 17:08:11,409 INFO    MainThread:537331 [wandb_init.py:_log_setup():528] Logging user logs to /home/kebl6872/REFUGE_4YP/Run/wandb/run-20231117_170811-bnslf0r1/logs/debug.log
+2023-11-17 17:08:11,409 INFO    MainThread:537331 [wandb_init.py:_log_setup():529] Logging internal logs to /home/kebl6872/REFUGE_4YP/Run/wandb/run-20231117_170811-bnslf0r1/logs/debug-internal.log
+2023-11-17 17:08:11,409 INFO    MainThread:537331 [wandb_init.py:init():568] calling init triggers
+2023-11-17 17:08:11,409 INFO    MainThread:537331 [wandb_init.py:init():575] wandb.init called with sweep_config: {}
+config: {'epochs': 50, 'disc_only': False, 'cup_only': False, 'classes': 3, 'base_c': 12, 'kernels': [6, 12, 24, 48], 'norm_name': 'batch', 'batch_size': 16, 'learning_rate': 0.0002, 'dataset': 'REFUGE', 'architecture': 'unet', 'seed': 127, 'low_loss_path': '/home/kebl6872/Desktop/new_data/REFUGE2/test/1600_unet_batch_lr_0.0002_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/127/lr_0.0002_bs_16_lowloss.pth', 'final_path': '/home/kebl6872/Desktop/new_data/REFUGE2/test/1600_unet_batch_lr_0.0002_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/127/lr_0.0002_bs_16_final.pth'}
+2023-11-17 17:08:11,409 INFO    MainThread:537331 [wandb_init.py:init():618] starting backend
+2023-11-17 17:08:11,409 INFO    MainThread:537331 [wandb_init.py:init():622] setting up manager
+2023-11-17 17:08:11,410 INFO    MainThread:537331 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-11-17 17:08:11,410 INFO    MainThread:537331 [wandb_init.py:init():628] backend started and connected
+2023-11-17 17:08:11,412 INFO    MainThread:537331 [wandb_init.py:init():720] updated telemetry
+2023-11-17 17:08:11,414 INFO    MainThread:537331 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2023-11-17 17:08:12,792 INFO    MainThread:537331 [wandb_run.py:_on_init():2220] communicating current version
+2023-11-17 17:08:12,853 INFO    MainThread:537331 [wandb_run.py:_on_init():2229] got version response upgrade_message: "wandb version 0.16.0 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-11-17 17:08:12,854 INFO    MainThread:537331 [wandb_init.py:init():804] starting run threads in backend
+2023-11-17 17:08:13,569 INFO    MainThread:537331 [wandb_run.py:_console_start():2199] atexit reg
+2023-11-17 17:08:13,569 INFO    MainThread:537331 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-11-17 17:08:13,570 INFO    MainThread:537331 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-11-17 17:08:13,570 INFO    MainThread:537331 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-11-17 17:08:13,570 INFO    MainThread:537331 [wandb_init.py:init():845] run started, returning control to user process
+2023-11-17 17:08:13,603 INFO    MainThread:537331 [wandb_watch.py:watch():51] Watching
+2023-11-17 17:54:10,495 INFO    MainThread:537331 [wandb_run.py:_finish():1934] finishing run felixcohen/REFUGE_UNet_experiment_2/bnslf0r1
+2023-11-17 17:54:10,495 INFO    MainThread:537331 [wandb_run.py:_atexit_cleanup():2168] got exitcode: 0
+2023-11-17 17:54:10,495 INFO    MainThread:537331 [wandb_run.py:_restore():2151] restore
+2023-11-17 17:54:10,495 INFO    MainThread:537331 [wandb_run.py:_restore():2157] restore done
+2023-11-17 17:54:20,331 INFO    MainThread:537331 [wandb_run.py:_footer_history_summary_info():3599] rendering history
+2023-11-17 17:54:20,337 INFO    MainThread:537331 [wandb_run.py:_footer_history_summary_info():3631] rendering summary
+2023-11-17 17:54:20,338 INFO    MainThread:537331 [wandb_run.py:_footer_sync_info():3558] logging synced files

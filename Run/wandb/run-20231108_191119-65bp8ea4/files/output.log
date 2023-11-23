@@ -1,0 +1,13 @@
+Training dataset size: 1600
+Validation dataset size: 400
+  0%|                                              | 0/25 [00:00<?, ?it/s]
+Loss after 00735 examples: 0.670
+Loss after 01485 examples: 0.626
+model tested on 400 images Disc F1 val score: 0.7024237221001647
+  0%|                                              | 0/25 [01:25<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/kebl6872/REFUGE_4YP/Run/wandb_train.py", line 214, in model_pipeline
+    train(model,train_loader,test_loader,criterion,eval_criterion,config)
+  File "/home/kebl6872/REFUGE_4YP/Run/wandb_train.py", line 158, in train
+    data_str += f'\t Val Cup: {cup_loss:.8f}\n'
+ValueError: Unknown format code 'f' for object of type 'str'

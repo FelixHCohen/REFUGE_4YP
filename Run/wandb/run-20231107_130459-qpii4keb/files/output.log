@@ -1,0 +1,82 @@
+UNet(
+  (e1): encoder_block(
+    (conv): conv_block(
+      (conv1): Conv2d(3, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (conv2): Conv2d(12, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (relu): ReLU()
+    )
+    (pool): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), padding=0, dilation=1, ceil_mode=False)
+  )
+  (e2): encoder_block(
+    (conv): conv_block(
+      (conv1): Conv2d(12, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (conv2): Conv2d(24, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (relu): ReLU()
+    )
+    (pool): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), padding=0, dilation=1, ceil_mode=False)
+  )
+  (e3): encoder_block(
+    (conv): conv_block(
+      (conv1): Conv2d(24, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (conv2): Conv2d(48, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (relu): ReLU()
+    )
+    (pool): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), padding=0, dilation=1, ceil_mode=False)
+  )
+  (e4): encoder_block(
+    (conv): conv_block(
+      (conv1): Conv2d(48, 96, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (conv2): Conv2d(96, 96, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (relu): ReLU()
+    )
+    (pool): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), padding=0, dilation=1, ceil_mode=False)
+  )
+  (b): conv_block(
+    (conv1): Conv2d(96, 192, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (conv2): Conv2d(192, 192, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (relu): ReLU()
+  )
+  (d1): decoder_block(
+    (up): ConvTranspose2d(192, 96, kernel_size=(2, 2), stride=(2, 2))
+    (conv): conv_block(
+      (conv1): Conv2d(192, 96, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (conv2): Conv2d(96, 96, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (relu): ReLU()
+    )
+  )
+  (d2): decoder_block(
+    (up): ConvTranspose2d(96, 48, kernel_size=(2, 2), stride=(2, 2))
+    (conv): conv_block(
+      (conv1): Conv2d(96, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (conv2): Conv2d(48, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (relu): ReLU()
+    )
+  )
+  (d3): decoder_block(
+    (up): ConvTranspose2d(48, 24, kernel_size=(2, 2), stride=(2, 2))
+    (conv): conv_block(
+      (conv1): Conv2d(48, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (conv2): Conv2d(24, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (relu): ReLU()
+    )
+  )
+  (d4): decoder_block(
+    (up): ConvTranspose2d(24, 12, kernel_size=(2, 2), stride=(2, 2))
+    (conv): conv_block(
+      (conv1): Conv2d(24, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (conv2): Conv2d(12, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (relu): ReLU()
+    )
+  )
+  (outputs): Conv2d(12, 3, kernel_size=(1, 1), stride=(1, 1))
+)
+Traceback (most recent call last):
+  File "/home/kebl6872/REFUGE_4YP/Run/wandb_train.py", line 160, in model_pipeline
+    train(model,train_loader,test_loader,criterion,eval_criterion,optimizer,config)
+  File "/home/kebl6872/REFUGE_4YP/Run/wandb_train.py", line 106, in train
+    loss = train_batch(images,labels,model,optimizer,criterion)
+  File "/home/kebl6872/REFUGE_4YP/Run/wandb_train.py", line 37, in train_batch
+    images,labels = images.to(device,dtype=torch.float32),labels.to(device,dtype=torch.float32)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.

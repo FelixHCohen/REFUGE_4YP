@@ -1,0 +1,31 @@
+Training dataset size: 1600
+Validation dataset size: 400
+  0%|                                              | 0/25 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/kebl6872/REFUGE_4YP/Run/wandb_train.py", line 166, in model_pipeline
+    train(model,train_loader,test_loader,criterion,eval_criterion,config)
+  File "/home/kebl6872/REFUGE_4YP/Run/wandb_train.py", line 107, in train
+    loss = train_batch(images,labels,model,optimizer,criterion)
+  File "/home/kebl6872/REFUGE_4YP/Run/wandb_train.py", line 38, in train_batch
+    outputs = model(images)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1128, in _call_impl
+    result = forward_call(*input, **kwargs)
+  File "/home/kebl6872/REFUGE_4YP/Run/UNET/UNet_model.py", line 94, in forward
+    d4 = self.d4(d3, s1)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/kebl6872/REFUGE_4YP/Run/UNET/UNet_model.py", line 55, in forward
+    x = self.conv(x)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/kebl6872/REFUGE_4YP/Run/UNET/UNet_model.py", line 22, in forward
+    x = norm(x, self.norm_name)
+  File "/home/kebl6872/REFUGE_4YP/Run/utils.py", line 113, in norm
+    output = normaliza(input)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/nn/modules/batchnorm.py", line 168, in forward
+    return F.batch_norm(
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/nn/functional.py", line 2421, in batch_norm
+    return torch.batch_norm(
+RuntimeError: CUDA out of memory. Tried to allocate 540.00 MiB (GPU 0; 10.90 GiB total capacity; 9.29 GiB already allocated; 507.62 MiB free; 9.31 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

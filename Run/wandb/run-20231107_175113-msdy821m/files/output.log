@@ -1,0 +1,20 @@
+Training dataset size: 1600
+Validation dataset size: 400
+  0%|                                                    | 0/25 [00:00<?, ?it/s]
+Loss after 00735 examples: 1.021
+Loss after 01485 examples: 0.968
+model tested on 400 imagesval_score: 0.06448875632092944 f1_scores [0.81084174 0.         0.12897751 0.09689131]
+Valid score improved from 0.00000000 to 0.06448876. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/1600_unet_batch_lr_0.0001_bs_15_fs_12/Checkpoint/lr_0.0001_bs_15_lowloss.pth
+Epoch: 01 | Iteration Time: 1min 15s
+	Train Loss: 1.02714217
+
+  4%|█▊                                          | 1/25 [01:15<30:00, 75.03s/it]
+Loss after 02230 examples: 0.941
+Loss after 02980 examples: 0.923
+model tested on 400 imagesval_score: 0.10350120803562225 f1_scores [0.9175069  0.         0.20700242 0.19279179]
+Valid score improved from 0.06448876 to 0.10350121. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/1600_unet_batch_lr_0.0001_bs_15_fs_12/Checkpoint/lr_0.0001_bs_15_lowloss.pth
+Epoch: 02 | Iteration Time: 1min 14s
+	Train Loss: 0.93711936
+
+  8%|███▌                                        | 2/25 [02:29<28:44, 74.97s/it]
+Loss after 03725 examples: 0.905

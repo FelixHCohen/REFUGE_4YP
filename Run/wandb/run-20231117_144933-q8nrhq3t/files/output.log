@@ -1,0 +1,350 @@
+Training dataset size: 400
+Validation dataset size: 400
+  0%|                                                    | 0/50 [00:00<?, ?it/s]
+model tested on 400 imagesval_score: 0.022941227440640522 f1_scores [0.06298138 0.04342328 0.00245917 0.03317965]
+Valid score improved from 0.00000000 to 0.02294123. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/1600_unet_batch_lr_0.0002_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/50/lr_0.0002_bs_16_lowloss.pth
+Epoch: 01 | Iteration Time: 0min 54s
+	Train Loss: 1.17583513
+	 Val Cup: 0.00245917
+
+  2%|▉                                           | 1/50 [00:54<44:21, 54.32s/it]
+Loss after 00784 examples: 1.063
+model tested on 400 imagesval_score: 0.027103953912523224 f1_scores [0.3447271  0.04833894 0.00586896 0.04071758]
+Valid score improved from 0.02294123 to 0.02710395. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/1600_unet_batch_lr_0.0002_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/50/lr_0.0002_bs_16_lowloss.pth
+Epoch: 02 | Iteration Time: 0min 55s
+	Train Loss: 1.08304238
+	 Val Cup: 0.00586896
+
+  4%|█▊                                          | 2/50 [01:49<43:46, 54.72s/it]
+model tested on 400 imagesval_score: 0.03296087421882209 f1_scores [0.52787293 0.05789768 0.00802406 0.05009085]
+Valid score improved from 0.02710395 to 0.03296087. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/1600_unet_batch_lr_0.0002_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/50/lr_0.0002_bs_16_lowloss.pth
+Epoch: 03 | Iteration Time: 0min 55s
+	Train Loss: 1.04249656
+	 Val Cup: 0.00802406
+
+  6%|██▋                                         | 3/50 [02:44<43:01, 54.92s/it]
+Loss after 01584 examples: 1.008
+model tested on 400 imagesval_score: 0.03593013152772342 f1_scores [0.57210082 0.04738043 0.02447983 0.05265608]
+Valid score improved from 0.03296087 to 0.03593013. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/1600_unet_batch_lr_0.0002_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/50/lr_0.0002_bs_16_lowloss.pth
+Epoch: 04 | Iteration Time: 0min 55s
+	Train Loss: 1.01695514
+	 Val Cup: 0.02447983
+
+  8%|███▌                                        | 4/50 [03:40<42:17, 55.17s/it]
+model tested on 400 imagesval_score: 0.040574564765789994 f1_scores [0.62103089 0.04828618 0.03286295 0.05599152]
+Valid score improved from 0.03593013 to 0.04057456. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/1600_unet_batch_lr_0.0002_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/50/lr_0.0002_bs_16_lowloss.pth
+Epoch: 05 | Iteration Time: 0min 56s
+	Train Loss: 0.99872631
+	 Val Cup: 0.03286295
+
+ 10%|████▍                                       | 5/50 [04:36<41:38, 55.53s/it]
+Loss after 02384 examples: 0.975
+model tested on 400 imagesval_score: 0.06302246356173825 f1_scores [0.73694379 0.06236708 0.06367784 0.07411047]
+Valid score improved from 0.04057456 to 0.06302246. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/1600_unet_batch_lr_0.0002_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/50/lr_0.0002_bs_16_lowloss.pth
+Epoch: 06 | Iteration Time: 0min 55s
+	Train Loss: 0.98383397
+	 Val Cup: 0.06367784
+
+ 12%|█████▎                                      | 6/50 [05:31<40:45, 55.59s/it]
+model tested on 400 imagesval_score: 0.06648469377519525 f1_scores [0.78454973 0.06897314 0.06399625 0.08027388]
+Valid score improved from 0.06302246 to 0.06648469. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/1600_unet_batch_lr_0.0002_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/50/lr_0.0002_bs_16_lowloss.pth
+Epoch: 07 | Iteration Time: 0min 55s
+	Train Loss: 0.97075880
+	 Val Cup: 0.06399625
+
+ 14%|██████▏                                     | 7/50 [06:27<39:49, 55.57s/it]
+Loss after 03184 examples: 0.951
+model tested on 400 imagesval_score: 0.08772126820679498 f1_scores [0.86199738 0.10631264 0.06912989 0.11543673]
+Valid score improved from 0.06648469 to 0.08772127. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/1600_unet_batch_lr_0.0002_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/50/lr_0.0002_bs_16_lowloss.pth
+Epoch: 08 | Iteration Time: 0min 55s
+	Train Loss: 0.95831817
+	 Val Cup: 0.06912989
+
+ 16%|███████                                     | 8/50 [07:23<38:59, 55.69s/it]
+model tested on 400 imagesval_score: 0.13467851996072214 f1_scores [0.90315918 0.16505471 0.10430233 0.15288617]
+Valid score improved from 0.08772127 to 0.13467852. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/1600_unet_batch_lr_0.0002_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/50/lr_0.0002_bs_16_lowloss.pth
+Epoch: 09 | Iteration Time: 0min 55s
+	Train Loss: 0.94533283
+	 Val Cup: 0.10430233
+
+ 18%|███████▉                                    | 9/50 [08:18<37:56, 55.54s/it]
+Loss after 03984 examples: 0.924
+model tested on 400 imagesval_score: 0.15523968475535954 f1_scores [0.91530831 0.1842561  0.12622327 0.17068713]
+Valid score improved from 0.13467852 to 0.15523968. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/1600_unet_batch_lr_0.0002_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/50/lr_0.0002_bs_16_lowloss.pth
+Epoch: 10 | Iteration Time: 0min 55s
+	Train Loss: 0.93095070
+	 Val Cup: 0.12622327
+
+ 20%|████████▌                                  | 10/50 [09:13<36:56, 55.42s/it]
+model tested on 400 imagesval_score: 0.14141127362115757 f1_scores [0.91072671 0.1667167  0.11610585 0.14857375]
+Epoch: 11 | Iteration Time: 0min 55s
+	Train Loss: 0.91603005
+	 Val Cup: 0.11610585
+
+ 22%|█████████▍                                 | 11/50 [10:08<35:57, 55.32s/it]
+Loss after 04784 examples: 0.896
+model tested on 400 imagesval_score: 0.184219713964399 f1_scores [0.92903715 0.21197376 0.15646566 0.19959591]
+Valid score improved from 0.15523968 to 0.18421971. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/1600_unet_batch_lr_0.0002_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/50/lr_0.0002_bs_16_lowloss.pth
+Epoch: 12 | Iteration Time: 0min 55s
+	Train Loss: 0.90190864
+	 Val Cup: 0.15646566
+
+ 24%|██████████▎                                | 12/50 [11:04<35:01, 55.31s/it]
+model tested on 400 imagesval_score: 0.27071877102448605 f1_scores [0.94989015 0.3814926  0.15994495 0.2855583 ]
+Valid score improved from 0.18421971 to 0.27071877. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/1600_unet_batch_lr_0.0002_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/50/lr_0.0002_bs_16_lowloss.pth
+Epoch: 13 | Iteration Time: 0min 55s
+	Train Loss: 0.88837415
+	 Val Cup: 0.15994495
+
+ 26%|███████████▏                               | 13/50 [11:59<34:05, 55.28s/it]
+Loss after 05584 examples: 0.870
+model tested on 400 imagesval_score: 0.39125456101679257 f1_scores [0.97637622 0.54030602 0.2422031  0.45120363]
+Valid score improved from 0.27071877 to 0.39125456. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/1600_unet_batch_lr_0.0002_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/50/lr_0.0002_bs_16_lowloss.pth
+Epoch: 14 | Iteration Time: 0min 55s
+	Train Loss: 0.87519240
+	 Val Cup: 0.24220310
+
+ 28%|████████████                               | 14/50 [12:54<33:09, 55.27s/it]
+model tested on 400 imagesval_score: 0.21453851961787515 f1_scores [0.93159209 0.16693594 0.2621411  0.198159  ]
+Epoch: 15 | Iteration Time: 0min 55s
+	Train Loss: 0.86341000
+	 Val Cup: 0.26214110
+
+ 30%|████████████▉                              | 15/50 [13:49<32:13, 55.23s/it]
+Loss after 06384 examples: 0.844
+model tested on 400 imagesval_score: 0.2463412025399364 f1_scores [0.94831738 0.23973833 0.25294407 0.26220585]
+Epoch: 16 | Iteration Time: 0min 55s
+	Train Loss: 0.85171479
+	 Val Cup: 0.25294407
+
+ 32%|█████████████▊                             | 16/50 [14:45<31:20, 55.32s/it]
+model tested on 400 imagesval_score: 0.2649360406073446 f1_scores [0.93304548 0.16014614 0.36972595 0.20522891]
+Epoch: 17 | Iteration Time: 0min 54s
+	Train Loss: 0.84061718
+	 Val Cup: 0.36972595
+
+ 34%|██████████████▌                            | 17/50 [15:40<30:21, 55.19s/it]
+Loss after 07184 examples: 0.827
+model tested on 400 imagesval_score: 0.3757245543653553 f1_scores [0.97545362 0.47895585 0.27249326 0.4313454 ]
+Epoch: 18 | Iteration Time: 0min 54s
+	Train Loss: 0.83020824
+	 Val Cup: 0.27249326
+
+ 36%|███████████████▍                           | 18/50 [16:34<29:21, 55.06s/it]
+model tested on 400 imagesval_score: 0.39253492476155993 f1_scores [0.97896186 0.42731721 0.35775264 0.45702686]
+Valid score improved from 0.39125456 to 0.39253492. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/1600_unet_batch_lr_0.0002_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/50/lr_0.0002_bs_16_lowloss.pth
+Epoch: 19 | Iteration Time: 0min 55s
+	Train Loss: 0.82032609
+	 Val Cup: 0.35775264
+
+ 38%|████████████████▎                          | 19/50 [17:29<28:26, 55.06s/it]
+Loss after 07984 examples: 0.808
+model tested on 400 imagesval_score: 0.4927728473036529 f1_scores [0.98760311 0.59127162 0.39427408 0.59365055]
+Valid score improved from 0.39253492 to 0.49277285. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/1600_unet_batch_lr_0.0002_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/50/lr_0.0002_bs_16_lowloss.pth
+Epoch: 20 | Iteration Time: 0min 55s
+	Train Loss: 0.80956864
+	 Val Cup: 0.39427408
+
+ 40%|█████████████████▏                         | 20/50 [18:25<27:36, 55.21s/it]
+model tested on 400 imagesval_score: 0.5735534067414378 f1_scores [0.99064103 0.62697324 0.52013357 0.66774508]
+Valid score improved from 0.49277285 to 0.57355341. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/1600_unet_batch_lr_0.0002_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/50/lr_0.0002_bs_16_lowloss.pth
+Epoch: 21 | Iteration Time: 0min 55s
+	Train Loss: 0.79951155
+	 Val Cup: 0.52013357
+
+ 42%|██████████████████                         | 21/50 [19:20<26:41, 55.22s/it]
+Loss after 08784 examples: 0.785
+model tested on 400 imagesval_score: 0.6185618961602068 f1_scores [0.99349288 0.68880339 0.5483204  0.72656644]
+Valid score improved from 0.57355341 to 0.61856190. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/1600_unet_batch_lr_0.0002_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/50/lr_0.0002_bs_16_lowloss.pth
+Epoch: 22 | Iteration Time: 0min 55s
+	Train Loss: 0.79027802
+	 Val Cup: 0.54832040
+
+ 44%|██████████████████▉                        | 22/50 [20:16<25:51, 55.42s/it]
+model tested on 400 imagesval_score: 0.6253306805545447 f1_scores [0.99307516 0.70010705 0.55055431 0.72872084]
+Valid score improved from 0.61856190 to 0.62533068. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/1600_unet_batch_lr_0.0002_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/50/lr_0.0002_bs_16_lowloss.pth
+Epoch: 23 | Iteration Time: 0min 55s
+	Train Loss: 0.78042507
+	 Val Cup: 0.55055431
+
+ 46%|███████████████████▊                       | 23/50 [21:11<24:55, 55.39s/it]
+Loss after 09584 examples: 0.767
+model tested on 400 imagesval_score: 0.7140124876483004 f1_scores [0.9956735  0.74048711 0.68753787 0.81378086]
+Valid score improved from 0.62533068 to 0.71401249. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/1600_unet_batch_lr_0.0002_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/50/lr_0.0002_bs_16_lowloss.pth
+Epoch: 24 | Iteration Time: 0min 55s
+	Train Loss: 0.77095783
+	 Val Cup: 0.68753787
+
+ 48%|████████████████████▋                      | 24/50 [22:07<24:00, 55.41s/it]
+model tested on 400 imagesval_score: 0.5777713649464917 f1_scores [0.98976595 0.6403881  0.51515463 0.65751444]
+Epoch: 25 | Iteration Time: 0min 55s
+	Train Loss: 0.76195687
+	 Val Cup: 0.51515463
+
+ 50%|█████████████████████▌                     | 25/50 [23:02<23:03, 55.32s/it]
+Loss after 10384 examples: 0.750
+model tested on 400 imagesval_score: 0.6882540425614266 f1_scores [0.994629   0.7403394  0.63616869 0.78802189]
+Epoch: 26 | Iteration Time: 0min 55s
+	Train Loss: 0.75345778
+	 Val Cup: 0.63616869
+
+ 52%|██████████████████████▎                    | 26/50 [23:57<22:06, 55.27s/it]
+model tested on 400 imagesval_score: 0.662539722537736 f1_scores [0.99309983 0.71228958 0.61278987 0.74816102]
+Epoch: 27 | Iteration Time: 0min 55s
+	Train Loss: 0.74503928
+	 Val Cup: 0.61278987
+
+ 54%|███████████████████████▏                   | 27/50 [24:52<21:09, 55.22s/it]
+Loss after 11184 examples: 0.732
+model tested on 400 imagesval_score: 0.6503202226551746 f1_scores [0.99427808 0.67550106 0.62513939 0.77514771]
+Epoch: 28 | Iteration Time: 0min 55s
+	Train Loss: 0.73687255
+	 Val Cup: 0.62513939
+
+ 56%|████████████████████████                   | 28/50 [25:48<20:15, 55.26s/it]
+model tested on 400 imagesval_score: 0.658553436592187 f1_scores [0.99408602 0.73737613 0.57973075 0.75451214]
+Epoch: 29 | Iteration Time: 0min 54s
+	Train Loss: 0.72924888
+	 Val Cup: 0.57973075
+
+ 58%|████████████████████████▉                  | 29/50 [26:42<19:16, 55.09s/it]
+Loss after 11984 examples: 0.716
+model tested on 400 imagesval_score: 0.6799539334933741 f1_scores [0.99465079 0.71873004 0.64117782 0.7808584 ]
+Epoch: 30 | Iteration Time: 0min 54s
+	Train Loss: 0.72190291
+	 Val Cup: 0.64117782
+
+ 60%|█████████████████████████▊                 | 30/50 [27:37<18:19, 54.98s/it]
+model tested on 400 imagesval_score: 0.6386728899790848 f1_scores [0.99348066 0.67568261 0.60166317 0.74588379]
+Epoch: 31 | Iteration Time: 0min 54s
+	Train Loss: 0.71423692
+	 Val Cup: 0.60166317
+
+ 62%|██████████████████████████▋                | 31/50 [28:32<17:24, 54.97s/it]
+Loss after 12784 examples: 0.706
+model tested on 400 imagesval_score: 0.6890718560283686 f1_scores [0.99421575 0.74649539 0.63164832 0.77333374]
+Epoch: 32 | Iteration Time: 0min 55s
+	Train Loss: 0.70685971
+	 Val Cup: 0.63164832
+
+ 64%|███████████████████████████▌               | 32/50 [29:27<16:32, 55.12s/it]
+model tested on 400 imagesval_score: 0.6416346075419458 f1_scores [0.99285874 0.70515056 0.57811865 0.73492711]
+Epoch: 33 | Iteration Time: 0min 55s
+	Train Loss: 0.69959235
+	 Val Cup: 0.57811865
+
+ 66%|████████████████████████████▍              | 33/50 [30:23<15:37, 55.15s/it]
+Loss after 13584 examples: 0.689
+model tested on 400 imagesval_score: 0.5983468518794176 f1_scores [0.99070397 0.71078902 0.48590468 0.68343721]
+Epoch: 34 | Iteration Time: 0min 55s
+	Train Loss: 0.69235307
+	 Val Cup: 0.48590468
+
+ 68%|█████████████████████████████▏             | 34/50 [31:18<14:43, 55.19s/it]
+model tested on 400 imagesval_score: 0.679702987417195 f1_scores [0.99336064 0.7133561  0.64604987 0.76534656]
+Epoch: 35 | Iteration Time: 0min 54s
+	Train Loss: 0.68538308
+	 Val Cup: 0.64604987
+
+ 70%|██████████████████████████████             | 35/50 [32:13<13:46, 55.13s/it]
+Loss after 14384 examples: 0.675
+model tested on 400 imagesval_score: 0.6004263986566031 f1_scores [0.99230281 0.62183831 0.57901449 0.73377864]
+Epoch: 36 | Iteration Time: 0min 55s
+	Train Loss: 0.67880172
+	 Val Cup: 0.57901449
+
+ 72%|██████████████████████████████▉            | 36/50 [33:08<12:52, 55.21s/it]
+model tested on 400 imagesval_score: 0.6242801773582081 f1_scores [0.99212207 0.69579095 0.55276941 0.7131601 ]
+Epoch: 37 | Iteration Time: 0min 55s
+	Train Loss: 0.67218602
+	 Val Cup: 0.55276941
+
+ 74%|███████████████████████████████▊           | 37/50 [34:03<11:57, 55.16s/it]
+Loss after 15184 examples: 0.665
+model tested on 400 imagesval_score: 0.6655023163503266 f1_scores [0.99140814 0.65066134 0.6803433  0.72593023]
+Epoch: 38 | Iteration Time: 0min 54s
+	Train Loss: 0.66596633
+	 Val Cup: 0.68034330
+
+ 76%|████████████████████████████████▋          | 38/50 [34:58<11:00, 55.02s/it]
+model tested on 400 imagesval_score: 0.7076904186829297 f1_scores [0.99465145 0.72657138 0.68880946 0.79126064]
+Epoch: 39 | Iteration Time: 0min 54s
+	Train Loss: 0.65977502
+	 Val Cup: 0.68880946
+
+ 78%|█████████████████████████████████▌         | 39/50 [35:53<10:03, 54.85s/it]
+Loss after 15984 examples: 0.652
+model tested on 400 imagesval_score: 0.7585125007438428 f1_scores [0.99567004 0.73702022 0.78000478 0.8247969 ]
+Valid score improved from 0.71401249 to 0.75851250. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/1600_unet_batch_lr_0.0002_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/50/lr_0.0002_bs_16_lowloss.pth
+Epoch: 40 | Iteration Time: 0min 55s
+	Train Loss: 0.65324080
+	 Val Cup: 0.78000478
+
+ 80%|██████████████████████████████████▍        | 40/50 [36:48<09:10, 55.00s/it]
+model tested on 400 imagesval_score: 0.7147522527216169 f1_scores [0.99330227 0.65114214 0.77836237 0.74172564]
+Epoch: 41 | Iteration Time: 0min 54s
+	Train Loss: 0.64737189
+	 Val Cup: 0.77836237
+
+ 82%|███████████████████████████████████▎       | 41/50 [37:43<08:14, 54.96s/it]
+Loss after 16784 examples: 0.641
+model tested on 400 imagesval_score: 0.7736147896673535 f1_scores [0.99696159 0.76294829 0.78428129 0.8610725 ]
+Valid score improved from 0.75851250 to 0.77361479. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/1600_unet_batch_lr_0.0002_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/50/lr_0.0002_bs_16_lowloss.pth
+Epoch: 42 | Iteration Time: 0min 55s
+	Train Loss: 0.64134300
+	 Val Cup: 0.78428129
+
+ 84%|████████████████████████████████████       | 42/50 [38:38<07:20, 55.06s/it]
+model tested on 400 imagesval_score: 0.6754320442345133 f1_scores [0.99297174 0.67136609 0.679498   0.75922614]
+Epoch: 43 | Iteration Time: 0min 55s
+	Train Loss: 0.63561326
+	 Val Cup: 0.67949800
+
+ 86%|████████████████████████████████████▉      | 43/50 [39:33<06:25, 55.11s/it]
+Loss after 17584 examples: 0.623
+model tested on 400 imagesval_score: 0.7011488167676047 f1_scores [0.99340082 0.67311708 0.72918056 0.75804793]
+Epoch: 44 | Iteration Time: 0min 55s
+	Train Loss: 0.62997514
+	 Val Cup: 0.72918056
+
+ 88%|█████████████████████████████████████▊     | 44/50 [40:28<05:30, 55.08s/it]
+model tested on 400 imagesval_score: 0.767701925153773 f1_scores [0.99604717 0.73522515 0.8001787  0.83175915]
+Epoch: 45 | Iteration Time: 0min 54s
+	Train Loss: 0.62430596
+	 Val Cup: 0.80017870
+
+ 90%|██████████████████████████████████████▋    | 45/50 [41:23<04:35, 55.01s/it]
+Loss after 18384 examples: 0.617
+model tested on 400 imagesval_score: 0.7985443816342626 f1_scores [0.99723229 0.78908536 0.8080034  0.87465255]
+Valid score improved from 0.77361479 to 0.79854438. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE2/test/1600_unet_batch_lr_0.0002_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/50/lr_0.0002_bs_16_lowloss.pth
+Epoch: 46 | Iteration Time: 0min 55s
+	Train Loss: 0.61900306
+	 Val Cup: 0.80800340
+
+ 92%|███████████████████████████████████████▌   | 46/50 [42:19<03:40, 55.16s/it]
+model tested on 400 imagesval_score: 0.7824092016892782 f1_scores [0.99659579 0.77439565 0.79042275 0.85305898]
+Epoch: 47 | Iteration Time: 0min 55s
+	Train Loss: 0.61367083
+	 Val Cup: 0.79042275
+
+ 94%|████████████████████████████████████████▍  | 47/50 [43:14<02:45, 55.12s/it]
+Loss after 19184 examples: 0.609
+model tested on 400 imagesval_score: 0.7819066440821922 f1_scores [0.99679169 0.76829663 0.79551666 0.85304205]
+Epoch: 48 | Iteration Time: 0min 55s
+	Train Loss: 0.60818732
+	 Val Cup: 0.79551666
+
+ 96%|█████████████████████████████████████████▎ | 48/50 [44:09<01:50, 55.18s/it]
+model tested on 400 imagesval_score: 0.6897756018404624 f1_scores [0.99395013 0.70855838 0.67099282 0.77255819]
+Epoch: 49 | Iteration Time: 0min 54s
+	Train Loss: 0.60333461
+	 Val Cup: 0.67099282
+
+ 98%|██████████████████████████████████████████▏| 49/50 [45:04<00:55, 55.02s/it]
+Loss after 19984 examples: 0.599
+model tested on 400 imagesval_score: 0.7711654216368378 f1_scores [0.99609069 0.74933999 0.79299085 0.8329386 ]
+Epoch: 50 | Iteration Time: 0min 54s
+	Train Loss: 0.59811264
+	 Val Cup: 0.79299085
+
+100%|███████████████████████████████████████████| 50/50 [45:59<00:00, 55.18s/it]

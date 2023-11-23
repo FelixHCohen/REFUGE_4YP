@@ -1,0 +1,13 @@
+Training dataset size: 1600
+Validation dataset size: 400
+  0%|                                                    | 0/75 [00:00<?, ?it/s]
+Loss after 00735 examples: 0.635
+  0%|                                                    | 0/75 [00:19<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/kebl6872/REFUGE_4YP/Run/wandb_train.py", line 237, in cup_only_pipeline
+    train(model, train_loader, test_loader, criterion, eval_criterion, config)
+  File "/home/kebl6872/REFUGE_4YP/Run/wandb_train.py", line 148, in train
+    cup_loss,disk_loss = test(model,test_loader,eval_criterion,config,best_valid_score)
+  File "/home/kebl6872/REFUGE_4YP/Run/wandb_train.py", line 66, in test
+    val_score += score[1].item()/2 + score[2].item()/2
+IndexError: invalid index to scalar variable.

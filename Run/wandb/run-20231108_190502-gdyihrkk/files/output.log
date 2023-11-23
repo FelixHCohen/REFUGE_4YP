@@ -1,0 +1,15 @@
+Training dataset size: 1600
+Validation dataset size: 400
+  0%|                                              | 0/25 [00:00<?, ?it/s]
+Loss after 00735 examples: 0.670
+  0%|                                              | 0/25 [01:15<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/kebl6872/REFUGE_4YP/Run/wandb_train.py", line 214, in model_pipeline
+    train(model,train_loader,test_loader,criterion,eval_criterion,config)
+  File "/home/kebl6872/REFUGE_4YP/Run/wandb_train.py", line 150, in train
+    disk_loss = test_disc_only(model,test_loader,eval_criterion,config,best_valid_score)
+  File "/home/kebl6872/REFUGE_4YP/Run/wandb_train.py", line 101, in test_disc_only
+    score = criterion(outputs,labels)
+  File "/home/kebl6872/REFUGE_4YP/Run/utils.py", line 78, in f1_valid_disc
+    fn = np.sum(np.logical_and(y_true==1 and y_pred==0))
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
