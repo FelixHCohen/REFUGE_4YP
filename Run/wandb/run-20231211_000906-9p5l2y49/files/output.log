@@ -1,0 +1,35 @@
+Training dataset size: 400
+Training dataset size: 400
+inputs
+images:cuda:0
+pointscuda:0
+labels:cuda:0
+  0%|                                                  | 0/1000 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 146, in prompt_model_pipeline
+    prompt_train(model,train_loader,test_loader,criterion,eval_criterion,config)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 98, in prompt_train
+    loss = prompt_train_batch(images,labels,points,point_labels,model,optimizer,criterion)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 9, in prompt_train_batch
+    outputs = model(images,point_input,point_label_input)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1128, in _call_impl
+    result = forward_call(*input, **kwargs)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNet/PromptUNet.py", line 106, in forward
+    s1, p1 = self.e1(images)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNet/PromptUNet.py", line 55, in forward
+    x = self.conv(inputs)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNet/PromptUNet.py", line 37, in forward
+    x = norm(x, self.norm_name)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNet/PromptUNet.py", line 17, in norm
+    output = normaliza(input)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/nn/modules/batchnorm.py", line 168, in forward
+    return F.batch_norm(
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/nn/functional.py", line 2421, in batch_norm
+    return torch.batch_norm(
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument weight in method wrapper__cudnn_batch_norm)

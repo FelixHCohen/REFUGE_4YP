@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 143, in prompt_model_pipeline
+    model,train_loader,test_loader,criterion,eval_criterion = prompt_make(config)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 135, in prompt_make
+    model = PromptUNet(3,config.classes,config.base_c,)
+TypeError: PromptUNet.__init__() missing 1 required positional argument: 'base_c'
+Training dataset size: 400
+Training dataset size: 400

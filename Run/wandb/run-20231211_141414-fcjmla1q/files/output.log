@@ -1,0 +1,5 @@
+Training dataset size: 400
+Training dataset size: 400
+  0%|                                                  | 0/1000 [00:00<?, ?it/s]
+Loss after 00004 batches: 0.892
+Loss after 00008 batches: 0.834

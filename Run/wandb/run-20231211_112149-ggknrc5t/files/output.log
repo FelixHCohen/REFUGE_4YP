@@ -1,0 +1,23 @@
+Training dataset size: 400
+Training dataset size: 400
+  0%|                                                  | 0/1000 [00:00<?, ?it/s]
+Loss after 00004 batches: 0.916
+Loss after 00008 batches: 0.849
+Loss after 00012 batches: 0.817
+Loss after 00016 batches: 0.798
+Loss after 00020 batches: 0.781
+Loss after 00024 batches: 0.763
+Loss after 00028 batches: 0.753
+Loss after 00032 batches: 0.736
+Loss after 00036 batches: 0.725
+Loss after 00040 batches: 0.718
+Loss after 00044 batches: 0.709
+  0%|                                                  | 0/1000 [04:58<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 146, in prompt_model_pipeline
+    prompt_train(model,train_loader,test_loader,criterion,eval_criterion,config)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 108, in prompt_train
+    test_results = prompt_test(model,test_loader,eval_criterion,config,best_valid_score,batch_ct)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 49, in prompt_test
+    val_scores /= total
+TypeError: unsupported operand type(s) for /=: 'list' and 'int'

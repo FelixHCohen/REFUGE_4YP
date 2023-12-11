@@ -1,0 +1,160 @@
+Training dataset size: 70
+Training dataset size: 30
+(379.0,252.0): 1.0
+(363.0,260.0): 1.0
+(463.0,238.0): 1.0
+(508.0,245.0): 0.0
+(138.0,240.0): 1.0
+(360.0,237.0): 1.0
+  0%|                                                  | 0/1000 [00:00<?, ?it/s]
+Loss after 00004 batches: 0.250
+Loss after 00008 batches: 0.262
+Valid score for point 5 improved from 0.00000000 to 0.75480277. Saving checkpoint: /home/kebl6872/Desktop/new_data/GAMMA/test/promptunet_batch_lr_0.0003_bs_10_fs_12_[6_12_24_48]/Checkpoint/seed/745/lr_0.0003_bs_10_lowloss.pth
+Epoch: 01 | Iteration Time: 1min 35s
+	Train Loss: 0.23926765
+model tested on 30 images
+val_scores: 0.75480277, 0.75480277, 0.75480277, 0.75480277, 0.75480277
+disc f1 scores 0.84685016, 0.84685016, 0.84685016, 0.84685016, 0.84685016
+
+  0%|                                       | 1/1000 [01:35<26:35:26, 95.82s/it]
+Loss after 00012 batches: 0.249
+Epoch: 02 | Iteration Time: 1min 35s
+	Train Loss: 0.23420641
+model tested on 30 images
+val_scores: 0.75480277, 0.75480277, 0.75480277, 0.75480277, 0.75480277
+disc f1 scores 0.84685016, 0.84685016, 0.84685016, 0.84685016, 0.84685016
+
+  0%|                                       | 2/1000 [03:11<26:29:26, 95.56s/it]
+Loss after 00016 batches: 0.198
+Loss after 00020 batches: 0.217
+Epoch: 03 | Iteration Time: 1min 35s
+	Train Loss: 0.23267546
+model tested on 30 images
+val_scores: 0.75480277, 0.75480277, 0.75480277, 0.75480277, 0.75480277
+disc f1 scores 0.84685016, 0.84685016, 0.84685016, 0.84685016, 0.84685016
+
+  0%|                                       | 3/1000 [04:46<26:27:24, 95.53s/it]
+Loss after 00024 batches: 0.271
+point_tuples: [(231.0, 466.0, 2.0)]
+(466.0,231.0): 2.0
+point_tuples: [(231.0, 466.0, 2.0), (209.0, 437.0, 1.0)]
+(466.0,231.0): 2.0
+(437.0,209.0): 1.0
+point_tuples: [(231.0, 466.0, 2.0), (209.0, 437.0, 1.0), (209.0, 438.0, 1.0)]
+(466.0,231.0): 2.0
+(437.0,209.0): 1.0
+(438.0,209.0): 1.0
+point_tuples: [(231.0, 466.0, 2.0), (209.0, 437.0, 1.0), (209.0, 438.0, 1.0), (209.0, 437.0, 1.0)]
+(466.0,231.0): 2.0
+(437.0,209.0): 1.0
+(438.0,209.0): 1.0
+(437.0,209.0): 1.0
+point_tuples: [(231.0, 466.0, 2.0), (209.0, 437.0, 1.0), (209.0, 438.0, 1.0), (209.0, 437.0, 1.0), (210.0, 438.0, 1.0)]
+(466.0,231.0): 2.0
+(437.0,209.0): 1.0
+(438.0,209.0): 1.0
+(437.0,209.0): 1.0
+(438.0,210.0): 1.0
+Loss after 00028 batches: 0.180
+Epoch: 04 | Iteration Time: 2min 8s
+	Train Loss: 0.21695998
+model tested on 30 images
+val_scores: 0.75480277, 0.75480277, 0.75480277, 0.75480277, 0.75480277
+disc f1 scores 0.84685016, 0.84685016, 0.84685016, 0.84685016, 0.84685016
+
+  0%|▏                                     | 4/1000 [06:55<30:01:02, 108.50s/it]
+Loss after 00032 batches: 0.188
+Loss after 00036 batches: 0.203
+Epoch: 05 | Iteration Time: 1min 38s
+	Train Loss: 0.21071249
+model tested on 30 images
+val_scores: 0.75480277, 0.75480277, 0.75480277, 0.75480277, 0.75480277
+disc f1 scores 0.84685016, 0.84685016, 0.84685016, 0.84685016, 0.84685016
+
+  0%|▏                                     | 5/1000 [08:33<28:58:40, 104.85s/it]
+
+  1%|▏                                     | 6/1000 [10:12<28:22:13, 102.75s/it]
+Epoch: 06 | Iteration Time: 1min 38s
+	Train Loss: 0.20648609
+model tested on 30 images
+val_scores: 0.75480277, 0.75480277, 0.75480277, 0.75480277, 0.75480277
+disc f1 scores 0.84685016, 0.84685016, 0.84685016, 0.84685016, 0.84685016
+cup scores: 0.77976727, 0.77976727, 0.77976727, 0.77976727, 0.77976727
+Loss after 00044 batches: 0.209
+Loss after 00048 batches: 0.215
+Epoch: 07 | Iteration Time: 1min 38s
+	Train Loss: 0.20498285
+model tested on 30 images
+val_scores: 0.75480277, 0.75480277, 0.75480277, 0.75480277, 0.75480277
+disc f1 scores 0.84685016, 0.84685016, 0.84685016, 0.84685016, 0.84685016
+
+  1%|▎                                     | 7/1000 [11:50<27:57:55, 101.38s/it]
+Loss after 00052 batches: 0.237
+
+  1%|▎                                     | 8/1000 [13:30<27:47:08, 100.83s/it]
+Epoch: 08 | Iteration Time: 1min 39s
+	Train Loss: 0.21100661
+model tested on 30 images
+val_scores: 0.75480277, 0.75480277, 0.75480277, 0.75480277, 0.75480277
+disc f1 scores 0.84685016, 0.84685016, 0.84685016, 0.84685016, 0.84685016
+cup scores: 0.77976727, 0.77976727, 0.77976727, 0.77976727, 0.77976727
+Loss after 00060 batches: 0.173
+Loss after 00064 batches: 0.215
+Epoch: 09 | Iteration Time: 1min 39s
+	Train Loss: 0.20815514
+model tested on 30 images
+val_scores: 0.75480277, 0.75480277, 0.75480277, 0.75480277, 0.75480277
+disc f1 scores 0.84685016, 0.84685016, 0.84685016, 0.84685016, 0.84685016
+
+  1%|▎                                     | 9/1000 [15:09<27:36:51, 100.31s/it]
+Loss after 00068 batches: 0.196
+Epoch: 10 | Iteration Time: 1min 40s
+	Train Loss: 0.19701470
+model tested on 30 images
+val_scores: 0.75480277, 0.75480277, 0.75480277, 0.75480277, 0.75480277
+disc f1 scores 0.84685016, 0.84685016, 0.84685016, 0.84685016, 0.84685016
+
+  1%|▎                                    | 10/1000 [16:49<27:35:22, 100.33s/it]
+Loss after 00072 batches: 0.194
+Loss after 00076 batches: 0.203
+Epoch: 11 | Iteration Time: 1min 39s
+	Train Loss: 0.20158865
+model tested on 30 images
+val_scores: 0.75480277, 0.75480277, 0.75480277, 0.75480277, 0.75480277
+disc f1 scores 0.84685016, 0.84685016, 0.84685016, 0.84685016, 0.84685016
+
+  1%|▍                                    | 11/1000 [18:29<27:28:46, 100.03s/it]
+Loss after 00080 batches: 0.173
+Loss after 00084 batches: 0.185
+Epoch: 12 | Iteration Time: 1min 36s
+	Train Loss: 0.19766256
+model tested on 30 images
+val_scores: 0.75480277, 0.75480277, 0.75480277, 0.75480277, 0.75480277
+disc f1 scores 0.84685016, 0.84685016, 0.84685016, 0.84685016, 0.84685016
+
+  1%|▍                                     | 12/1000 [20:06<27:11:05, 99.05s/it]
+Loss after 00088 batches: 0.174
+
+  1%|▍                                     | 13/1000 [21:42<26:58:38, 98.40s/it]
+Epoch: 13 | Iteration Time: 1min 36s
+	Train Loss: 0.19292828
+model tested on 30 images
+val_scores: 0.75480277, 0.75480277, 0.75480277, 0.75480277, 0.75480277
+disc f1 scores 0.84685016, 0.84685016, 0.84685016, 0.84685016, 0.84685016
+cup scores: 0.77976727, 0.77976727, 0.77976727, 0.77976727, 0.77976727
+Loss after 00096 batches: 0.183
+Epoch: 14 | Iteration Time: 1min 36s
+	Train Loss: 0.19903117
+model tested on 30 images
+val_scores: 0.75480277, 0.75480277, 0.75480277, 0.75480277, 0.75480277
+disc f1 scores 0.84685016, 0.84685016, 0.84685016, 0.84685016, 0.84685016
+
+  1%|▌                                     | 14/1000 [23:19<26:49:50, 97.96s/it]
+Loss after 00100 batches: 0.181
+
+  2%|▌                                     | 15/1000 [24:58<26:53:40, 98.29s/it]
+Epoch: 15 | Iteration Time: 1min 39s
+	Train Loss: 0.20172139
+model tested on 30 images
+val_scores: 0.75480277, 0.75480277, 0.75480277, 0.75480277, 0.75480277
+disc f1 scores 0.84685016, 0.84685016, 0.84685016, 0.84685016, 0.84685016

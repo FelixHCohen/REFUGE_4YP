@@ -1,0 +1,26 @@
+Training dataset size: 400
+Training dataset size: 400
+indices: [] length: 0
+satisfied
+indices: [] length: 0
+satisfied
+indices: [[390]
+ [391]
+ [392]
+ ...
+ [401]
+ [402]
+ [403]] length: 3436
+  0%|                                                  | 0/1000 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 146, in prompt_model_pipeline
+    prompt_train(model,train_loader,test_loader,criterion,eval_criterion,config)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 95, in prompt_train
+    points, point_labels = generate_points_batch(labels.to(device), torch.from_numpy(np.zeros((config.batch_size, 1, 512, 512), np.uint8)).to(device))
+  File "/home/kebl6872/REFUGE_4YP/Run/utils.py", line 238, in generate_points_batch
+    p_i,p_j,p_label = generate_points(y_true[i,:,:,:],y_pred[i,:,:,:])[0]
+  File "/home/kebl6872/REFUGE_4YP/Run/utils.py", line 217, in generate_points
+    db_centroids = evaluate_centroids(y_true,maps[2],db_misclass,cup_scores,disc_scores,db=True)
+  File "/home/kebl6872/REFUGE_4YP/Run/utils.py", line 138, in evaluate_centroids
+    map[indices[i, 0], indices[i, 1]] = 1
+IndexError: index 1 is out of bounds for axis 1 with size 1

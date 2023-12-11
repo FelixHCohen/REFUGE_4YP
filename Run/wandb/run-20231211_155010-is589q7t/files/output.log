@@ -1,0 +1,9 @@
+Training dataset size: 400
+Training dataset size: 400
+  0%|                                                  | 0/1000 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 201, in prompt_model_pipeline
+    prompt_train(model,train_loader,test_loader,criterion,eval_criterion,config)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 138, in prompt_train
+    avg_epoch_loss += loss
+TypeError: unsupported operand type(s) for +=: 'float' and 'tuple'

@@ -14,7 +14,7 @@ class PromptUNet(nn.Module):
         self.e2 = encoder_block(base_c, base_c * kernels[0], norm_name)
         self.e3 = encoder_block(base_c * kernels[0], base_c * kernels[1], norm_name)
         self.e4 = encoder_block(base_c * kernels[1], base_c * kernels[2], norm_name)
-        self.e5 = encoder_block(base_c * kernels[2], base_c * kernels[2], norm_name)
+
         """ Bottleneck """
         self.b = conv_block(base_c * kernels[2], base_c * kernels[3], norm_name)
 
@@ -25,10 +25,9 @@ class PromptUNet(nn.Module):
         self.crossattention = PromptImageCrossAttention(device,d_model,)
         """ Decoder """
         self.d1 = decoder_block(base_c * kernels[3], base_c * kernels[2], norm_name)
-        self.d2 = decoder_block(base_c * kernels[2], base_c * kernels[2], norm_name)
-        self.d3 = decoder_block(base_c * kernels[2], base_c * kernels[1], norm_name)
-        self.d4 = decoder_block(base_c * kernels[1], base_c * kernels[0], norm_name)
-        self.d5 = decoder_block(base_c * kernels[0], base_c, norm_name)
+        self.d2 = decoder_block(base_c * kernels[2], base_c * kernels[1], norm_name)
+        self.d3 = decoder_block(base_c * kernels[1], base_c * kernels[0], norm_name)
+        self.d4 = decoder_block(base_c * kernels[0], base_c, norm_name)
 
         """ Classifier """
         self.outputs = nn.Conv2d(base_c, out_c, kernel_size=1, padding=0)
@@ -40,10 +39,10 @@ class PromptUNet(nn.Module):
         s2, p2 = self.e2(p1)
         s3, p3 = self.e3(p2)
         s4, p4 = self.e4(p3)
-        s5, p5 = self.e5(p4)
+
         """ Bottleneck """
 
-        b = self.b(p5)
+        b = self.b(p4)
 
         b = einops.rearrange(b, 'b c h w  -> b (c h w)')
 
@@ -55,13 +54,13 @@ class PromptUNet(nn.Module):
         b = einops.rearrange(b, 'b (c h w) -> b c h w ', c=96, h=16, w=16)
 
         """ Decoder """
-        d1 = self.d1(b, s5)
-        d2 = self.d2(d1, s4)
-        d3 = self.d3(d2, s3)
-        d4 = self.d4(d3, s2)
-        d5 = self.d5(d4, s1)
+        d1 = self.d1(b, s4)
+        d2 = self.d2(d1, s3)
+        d3 = self.d3(d2, s2)
+        d4 = self.d4(d3, s1)
 
-        outputs = self.outputs(d5)
+
+        outputs = self.outputs(d4)
 
         return outputs
 
@@ -224,7 +223,7 @@ class PromptSelfAttention(nn.Module):
 
         labels = prompts[:, 2]
 
-        label_embeddings = self.labelEmbeddings(labels)  # [B*L,d_model-d_position]
+        label_embeddings = self.labelEmbeddings(labels.to(torch.int))  # [B*L,d_model-d_position]
 
         embeddings_and_position = torch.cat((label_embeddings, x_pos, y_pos), 1)
 
@@ -255,5 +254,5 @@ class PromptSelfAttention(nn.Module):
 unet = PromptUNet(device,3, 1, kernels=[2, 4, 6, 8], base_c=12,).to(device)
 
 input = torch.randn((2, 3, 512, 512)).to(device)
-prompt_input = torch.tensor([[(1, 2, 1), (1, 1, 0), (0, 0, 1)], [(1, 2, 1), (1, 1, 1), (0, 0, 1)]]).to(device)
+prompt_input = torch.tensor([[[1, 2, 1], [1, 1, 0], [0, 0, 1]], [[1, 2, 1], [1, 1, 1], [0, 0, 1]]]).to(device)
 print(unet(input, prompt_input).shape)

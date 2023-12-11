@@ -1,0 +1,29 @@
+Training dataset size: 400
+Training dataset size: 400
+  0%|                                                  | 0/1000 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 200, in prompt_model_pipeline
+    prompt_train(model,train_loader,test_loader,criterion,eval_criterion,config)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 136, in prompt_train
+    loss = encoder_decoder_train_batch(images, labels, model, optimizer, criterion)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 24, in encoder_decoder_train_batch
+    outputs = model(images, [], [], train_attention=False)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1128, in _call_impl
+    result = forward_call(*input, **kwargs)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNet/PromptUNet.py", line 106, in forward
+    s1, p1 = self.e1(images)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNet/PromptUNet.py", line 55, in forward
+    x = self.conv(inputs)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNet/PromptUNet.py", line 35, in forward
+    x = self.conv1(inputs)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 447, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 443, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: Input type (torch.FloatTensor) and weight type (torch.cuda.FloatTensor) should be the same or input should be a MKLDNN tensor and weight is a dense tensor

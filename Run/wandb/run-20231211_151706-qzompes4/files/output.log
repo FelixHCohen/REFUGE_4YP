@@ -1,0 +1,13 @@
+Training dataset size: 400
+Training dataset size: 400
+  0%|                                                  | 0/1000 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 191, in prompt_model_pipeline
+    prompt_train(model,train_loader,test_loader,criterion,eval_criterion,config)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 127, in prompt_train
+    loss = train_batch(images, labels, model, optimizer, criterion)
+  File "/home/kebl6872/REFUGE_4YP/Run/train_neat.py", line 40, in train_batch
+    outputs = model(images)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1128, in _call_impl
+    result = forward_call(*input, **kwargs)
+TypeError: PromptUNet.forward() missing 2 required positional arguments: 'points' and 'labels'

@@ -1,0 +1,17 @@
+Training dataset size: 70
+Training dataset size: 30
+(379.0,252.0): 1.0
+(363.0,260.0): 1.0
+(463.0,238.0): 1.0
+(508.0,245.0): 0.0
+(138.0,240.0): 1.0
+(360.0,237.0): 1.0
+  0%|                                                  | 0/1000 [00:02<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 254, in prompt_model_pipeline
+    prompt_train_from_prev_model(model,train_loader,test_loader,criterion,eval_criterion,config)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 206, in prompt_train_from_prev_model
+    loss, points, point_labels = prompt_train_batch(images, labels, points, point_labels, model, optimizer,
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 21, in prompt_train_batch
+    new_points,new_point_labels,new_blob_maps = generate_points_batch(labels,outputs,detach=True)
+ValueError: not enough values to unpack (expected 3, got 2)

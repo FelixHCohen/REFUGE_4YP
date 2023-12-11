@@ -1,0 +1,84 @@
+Training dataset size: 400
+Training dataset size: 400
+  0%|                                                  | 0/1000 [00:00<?, ?it/s]
+Loss after 00004 batches: 1.058
+Loss after 00008 batches: 0.998
+Loss after 00012 batches: 0.974
+Loss after 00016 batches: 0.944
+Loss after 00020 batches: 0.926
+Loss after 00024 batches: 0.918
+Loss after 00028 batches: 0.911
+Valid score for point 5 improved from 0.00000000 to 0.24372655. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE/test/promptunet_batch_lr_0.0003_bs_14_fs_12_[6_12_24_48]/Checkpoint/seed/746/lr_0.0003_bs_14_lowloss.pth
+Epoch: 01 | Iteration Time: 2min 3s
+	Train Loss: 0.96228808
+model tested on 400 images
+val_scores: 0.24372655, 0.24372655, 0.24372655, 0.24372655, 0.24372655
+disc f1 scores 0.15251812, 0.15251812, 0.15251812, 0.15251812, 0.15251812
+cup scores: 0.02405543, 0.02405543, 0.02405543, 0.02405543, 0.02405543
+
+  0%|                                      | 1/1000 [02:03<34:23:00, 123.90s/it]
+Loss after 00036 batches: 0.898
+Loss after 00040 batches: 0.896
+Loss after 00044 batches: 0.892
+Loss after 00048 batches: 0.886
+Loss after 00052 batches: 0.883
+Loss after 00056 batches: 0.877
+Epoch: 02 | Iteration Time: 2min 4s
+	Train Loss: 0.88931876
+model tested on 400 images
+val_scores: 0.20351901, 0.20351901, 0.20351901, 0.20351901, 0.20351901
+disc f1 scores 0.12283539, 0.12283539, 0.12283539, 0.12283539, 0.12283539
+
+  0%|                                      | 2/1000 [04:08<34:29:41, 124.43s/it]
+Loss after 00060 batches: 0.872
+Loss after 00064 batches: 0.870
+Loss after 00068 batches: 0.865
+Loss after 00072 batches: 0.868
+Loss after 00076 batches: 0.864
+Loss after 00080 batches: 0.856
+Loss after 00084 batches: 0.854
+Loss after 00088 batches: 0.853
+Valid score for point 5 improved from 0.24372655 to 0.42913930. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE/test/promptunet_batch_lr_0.0003_bs_14_fs_12_[6_12_24_48]/Checkpoint/seed/746/lr_0.0003_bs_14_lowloss.pth
+Epoch: 03 | Iteration Time: 2min 2s
+	Train Loss: 0.86319381
+model tested on 400 images
+val_scores: 0.42913930, 0.42913930, 0.42913930, 0.42913930, 0.42913930
+disc f1 scores 0.68255037, 0.68255037, 0.68255037, 0.68255037, 0.68255037
+
+  0%|                                      | 3/1000 [06:11<34:15:01, 123.67s/it]
+Loss after 00092 batches: 0.847
+Loss after 00096 batches: 0.842
+Loss after 00100 batches: 0.840
+Loss after 00104 batches: 0.835
+Loss after 00108 batches: 0.831
+Loss after 00112 batches: 0.828
+Loss after 00116 batches: 0.824
+Valid score for point 5 improved from 0.42913930 to 0.51149674. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE/test/promptunet_batch_lr_0.0003_bs_14_fs_12_[6_12_24_48]/Checkpoint/seed/746/lr_0.0003_bs_14_lowloss.pth
+Epoch: 04 | Iteration Time: 2min 7s
+	Train Loss: 0.83688480
+model tested on 400 images
+val_scores: 0.51149674, 0.51149674, 0.51149674, 0.51149674, 0.51149674
+disc f1 scores 0.60176837, 0.60176837, 0.60176837, 0.60176837, 0.60176837
+cup scores: 0.26971388, 0.26971388, 0.26971388, 0.26971388, 0.26971388
+
+  0%|▏                                     | 4/1000 [08:18<34:34:55, 125.00s/it]
+Loss after 00124 batches: 0.818
+Loss after 00128 batches: 0.818
+Loss after 00132 batches: 0.811
+Loss after 00136 batches: 0.807
+Loss after 00140 batches: 0.807
+Loss after 00144 batches: 0.797
+Valid score for point 5 improved from 0.51149674 to 0.61953395. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE/test/promptunet_batch_lr_0.0003_bs_14_fs_12_[6_12_24_48]/Checkpoint/seed/746/lr_0.0003_bs_14_lowloss.pth
+Epoch: 05 | Iteration Time: 2min 4s
+	Train Loss: 0.81137162
+model tested on 400 images
+val_scores: 0.61953395, 0.61953395, 0.61953395, 0.61953395, 0.61953395
+disc f1 scores 0.77023432, 0.77023432, 0.77023432, 0.77023432, 0.77023432
+
+  0%|▏                                     | 5/1000 [10:36<35:11:08, 127.30s/it]
+Traceback (most recent call last):
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 202, in prompt_model_pipeline
+    model,train_loader,test_loader,criterion,eval_criterion = prompt_make(config)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 160, in prompt_train
+    batch_ct +=1
+NameError: name 'prompt_train_log' is not defined

@@ -1,0 +1,21 @@
+Training dataset size: 400
+Training dataset size: 400
+  0%|                                                  | 0/1000 [00:00<?, ?it/s]
+Loss after 00004 batches: 0.891
+Loss after 00008 batches: 0.845
+Loss after 00012 batches: 0.816
+Loss after 00016 batches: 0.800
+Loss after 00020 batches: 0.777
+Loss after 00024 batches: 0.764
+Loss after 00028 batches: 0.748
+model tested on 1 images
+val_scores: 0.67755160, 0.67755160, 0.67755160, 0.67755160, 0.67755160
+disc f1 scores 0.79026800, 0.79026800, 0.79026800, 0.79026800, 0.79026800
+cup scores: 0.51815718, 0.51815718, 0.51815718, 0.51815718, 0.51815718
+  0%|                                                  | 0/1000 [04:36<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 146, in prompt_model_pipeline
+    prompt_train(model,train_loader,test_loader,criterion,eval_criterion,config)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 114, in prompt_train
+    data_str += test_results
+TypeError: can only concatenate str (not "NoneType") to str

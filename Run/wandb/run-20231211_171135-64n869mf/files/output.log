@@ -1,0 +1,59 @@
+Training dataset size: 400
+Training dataset size: 400
+  0%|                                                  | 0/1000 [00:00<?, ?it/s]
+Loss after 00004 batches: 0.924
+Loss after 00008 batches: 0.878
+Loss after 00012 batches: 0.853
+Loss after 00016 batches: 0.830
+Loss after 00020 batches: 0.810
+Loss after 00024 batches: 0.794
+point_tuples: [(220.0, 78.0, 2.0)]
+(78.0,220.0): 2.0
+point_tuples: [(220.0, 78.0, 2.0), (220.0, 78.0, 2.0)]
+(78.0,220.0): 2.0
+(78.0,220.0): 2.0
+point_tuples: [(220.0, 78.0, 2.0), (220.0, 78.0, 2.0), (220.0, 78.0, 2.0)]
+(78.0,220.0): 2.0
+(78.0,220.0): 2.0
+(78.0,220.0): 2.0
+point_tuples: [(220.0, 78.0, 2.0), (220.0, 78.0, 2.0), (220.0, 78.0, 2.0), (220.0, 78.0, 2.0)]
+(78.0,220.0): 2.0
+(78.0,220.0): 2.0
+(78.0,220.0): 2.0
+(78.0,220.0): 2.0
+point_tuples: [(220.0, 78.0, 2.0), (220.0, 78.0, 2.0), (220.0, 78.0, 2.0), (220.0, 78.0, 2.0), (220.0, 78.0, 2.0)]
+(78.0,220.0): 2.0
+(78.0,220.0): 2.0
+(78.0,220.0): 2.0
+(78.0,220.0): 2.0
+(78.0,220.0): 2.0
+Loss after 00028 batches: 0.774
+Loss after 00032 batches: 0.755
+Loss after 00036 batches: 0.740
+Loss after 00040 batches: 0.725
+Valid score for point 5 improved from 0.00000000 to 0.57845215. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE/test/promptunet_batch_lr_0.0003_bs_10_fs_12_[6_12_24_48]/Checkpoint/seed/728/lr_0.0003_bs_10_lowloss.pth
+Epoch: 01 | Iteration Time: 9min 42s
+	Train Loss: 0.81311768
+model tested on 400 images
+val_scores: 0.57845215, 0.57845215, 0.57845215, 0.57845215, 0.57845215
+disc f1 scores 0.63885129, 0.63885129, 0.63885129, 0.63885129, 0.63885129
+
+  0%|                                     | 1/1000 [09:42<161:32:30, 582.13s/it]
+Loss after 00044 batches: 0.712
+Loss after 00048 batches: 0.698
+Loss after 00052 batches: 0.682
+Loss after 00056 batches: 0.670
+Loss after 00060 batches: 0.665
+Loss after 00064 batches: 0.648
+Loss after 00068 batches: 0.636
+Loss after 00072 batches: 0.627
+Loss after 00076 batches: 0.617
+Loss after 00080 batches: 0.607
+Valid score for point 5 improved from 0.57845215 to 0.75727174. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE/test/promptunet_batch_lr_0.0003_bs_10_fs_12_[6_12_24_48]/Checkpoint/seed/728/lr_0.0003_bs_10_lowloss.pth
+Epoch: 02 | Iteration Time: 9min 53s
+	Train Loss: 0.65772909
+model tested on 400 images
+val_scores: 0.75727174, 0.75727174, 0.75727174, 0.75727174, 0.75727174
+disc f1 scores 0.85775184, 0.85775184, 0.85775184, 0.85775184, 0.85775184
+
+  0%|                                     | 2/1000 [19:35<163:09:27, 588.55s/it]

@@ -1,0 +1,24 @@
+Training dataset size: 400
+Training dataset size: 400
+point_tuples: [(316.0, 416.0, 2.0)]
+  0%|                                                  | 0/1000 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 153, in prompt_model_pipeline
+    prompt_train(model,train_loader,test_loader,criterion,eval_criterion,config)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 105, in prompt_train
+    loss = prompt_train_batch(images,labels,points,point_labels,model,optimizer,criterion)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 13, in prompt_train_batch
+    plot_output(outputs,images,labels,loss,point_tuples,detach=True)
+  File "/home/kebl6872/REFUGE_4YP/Run/test_on_diff_data.py", line 79, in plot_output
+    output = vfunc(output)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/numpy/lib/function_base.py", line 2372, in __call__
+    return self._call_as_normal(*args, **kwargs)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/numpy/lib/function_base.py", line 2365, in _call_as_normal
+    return self._vectorize_call(func=func, args=vargs)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/numpy/lib/function_base.py", line 2450, in _vectorize_call
+    ufunc, otypes = self._get_ufunc_and_otypes(func=func, args=args)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/numpy/lib/function_base.py", line 2410, in _get_ufunc_and_otypes
+    outputs = func(*inputs)
+  File "/home/kebl6872/REFUGE_4YP/Run/test_on_diff_data.py", line 75, in <lambda>
+    vfunc = np.vectorize(lambda x: d[x])
+KeyError: 0.40282336

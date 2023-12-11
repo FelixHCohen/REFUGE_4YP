@@ -1,0 +1,31 @@
+Training dataset size: 400
+Training dataset size: 400
+  0%|                                                  | 0/1000 [00:02<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 146, in prompt_model_pipeline
+    prompt_train(model,train_loader,test_loader,criterion,eval_criterion,config)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 98, in prompt_train
+    loss = prompt_train_batch(images,labels,points,point_labels,model,optimizer,criterion)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 9, in prompt_train_batch
+    outputs = model(images,point_input,point_label_input)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1128, in _call_impl
+    result = forward_call(*input, **kwargs)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNet/PromptUNet.py", line 122, in forward
+    d4 = self.d4(d3, s1)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNet/PromptUNet.py", line 70, in forward
+    x = self.conv(x)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNet/PromptUNet.py", line 42, in forward
+    x = norm(x, self.norm_name)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNet/PromptUNet.py", line 17, in norm
+    output = normaliza(input)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/nn/modules/batchnorm.py", line 168, in forward
+    return F.batch_norm(
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/nn/functional.py", line 2421, in batch_norm
+    return torch.batch_norm(
+RuntimeError: CUDA out of memory. Tried to allocate 192.00 MiB (GPU 0; 10.90 GiB total capacity; 9.09 GiB already allocated; 41.06 MiB free; 9.40 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

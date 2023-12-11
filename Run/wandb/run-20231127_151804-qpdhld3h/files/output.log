@@ -1,0 +1,22 @@
+train dataset size: 71
+test dataset size: 30
+  0%|                                                   | 0/500 [00:00<?, ?it/s]
+model tested on 30 imagesval_score: 0.2348955187417209 f1_scores [0.98139119 0.46979104 0.         0.66520574]
+Valid score improved from 0.00000000 to 0.23489552. Saving checkpoint: /home/kebl6872/Desktop/new_data/GS1/test/unet_batch_lr_0.0005_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/220/lr_0.0005_bs_16_lowloss.pth
+Epoch: 01 | Iteration Time: 0min 9s
+	Train Loss: 1.71816063
+	 Val Cup: 0.00000000
+
+  0%|                                         | 1/500 [00:09<1:16:10,  9.16s/it]
+model tested on 30 imagesval_score: 0.2863483047887983 f1_scores [0.99020367 0.57269661 0.         0.78504503]
+
+  0%|▏                                        | 2/500 [00:17<1:14:16,  8.95s/it]
+Epoch: 02 | Iteration Time: 0min 8s
+	Train Loss: 1.68118274
+	 Val Cup: 0.00000000
+	 Val Disk: 0.78504503
+model tested on 30 imagesval_score: 0.2524953184225998 f1_scores [0.98562808 0.50499064 0.         0.71984675]
+Epoch: 03 | Iteration Time: 0min 8s
+	Train Loss: 1.65413404
+	 Val Cup: 0.00000000
+

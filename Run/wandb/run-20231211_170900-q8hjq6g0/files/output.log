@@ -1,0 +1,19 @@
+Training dataset size: 400
+Training dataset size: 400
+  0%|                                                  | 0/1000 [00:03<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 217, in prompt_model_pipeline
+    prompt_train(model,train_loader,test_loader,criterion,eval_criterion,config)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 131, in prompt_train
+    loss,points,point_labels = prompt_train_batch(images,labels,points,point_labels,model,optimizer,criterion,plot)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 12, in prompt_train_batch
+    outputs = model(images,point_input,point_label_input,train_attention=True)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1128, in _call_impl
+    result = forward_call(*input, **kwargs)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNet/PromptUNet.py", line 124, in forward
+    d4 = self.d4(d3, s1)
+  File "/home/kebl6872/miniconda3/envs/pytorch_env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNet/PromptUNet.py", line 69, in forward
+    x = torch.cat([x, skip], axis=1)
+RuntimeError: CUDA out of memory. Tried to allocate 336.00 MiB (GPU 0; 10.90 GiB total capacity; 8.53 GiB already allocated; 311.25 MiB free; 9.20 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

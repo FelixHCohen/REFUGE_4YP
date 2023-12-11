@@ -1,0 +1,2461 @@
+Training dataset size: 400
+Training dataset size: 400
+  0%|                                                   | 0/200 [00:00<?, ?it/s]
+Loss after 00003 examples: 0.957
+Loss after 00007 examples: 0.926
+Loss after 00011 examples: 0.906
+Loss after 00015 examples: 0.886
+Loss after 00019 examples: 0.873
+Loss after 00023 examples: 0.863
+model tested on 400 imagesval_score: 0.19778260640285403 f1_scores [0.96696347 0.30395405 0.09161117 0.30204482]
+Valid score improved from 0.00000000 to 0.19778261. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE/test/unet_batch_lr_0.0003_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/507/lr_0.0003_bs_16_lowloss.pth
+Epoch: 01 | Iteration Time: 0min 55s
+	Train Loss: 0.90378171
+	 Val Cup: 0.09161117
+	 Val Disk: 0.30204482
+
+  0%|▏                                        | 1/200 [00:55<3:04:11, 55.54s/it]
+Loss after 00031 examples: 0.846
+Loss after 00035 examples: 0.836
+Loss after 00039 examples: 0.832
+Loss after 00043 examples: 0.827
+Loss after 00047 examples: 0.821
+model tested on 400 imagesval_score: 0.5113871718689524 f1_scores [0.99423981 0.62960727 0.39316708 0.70765384]
+Valid score improved from 0.19778261 to 0.51138717. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE/test/unet_batch_lr_0.0003_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/507/lr_0.0003_bs_16_lowloss.pth
+Epoch: 02 | Iteration Time: 0min 56s
+	Train Loss: 0.83454579
+	 Val Cup: 0.39316708
+	 Val Disk: 0.70765384
+
+  1%|▍                                        | 2/200 [01:51<3:04:24, 55.88s/it]
+Loss after 00055 examples: 0.809
+Loss after 00059 examples: 0.807
+Loss after 00063 examples: 0.801
+Loss after 00067 examples: 0.797
+Loss after 00071 examples: 0.793
+Loss after 00075 examples: 0.786
+model tested on 400 imagesval_score: 0.6940013084167123 f1_scores [0.99631108 0.71178352 0.6762191  0.80694378]
+Valid score improved from 0.51138717 to 0.69400131. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE/test/unet_batch_lr_0.0003_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/507/lr_0.0003_bs_16_lowloss.pth
+Epoch: 03 | Iteration Time: 0min 56s
+	Train Loss: 0.80158073
+	 Val Cup: 0.67621910
+
+  2%|▌                                        | 3/200 [02:47<3:04:05, 56.07s/it]
+Loss after 00079 examples: 0.784
+Loss after 00083 examples: 0.782
+Loss after 00087 examples: 0.777
+Loss after 00091 examples: 0.777
+Loss after 00095 examples: 0.776
+
+  2%|▊                                        | 4/200 [03:43<3:02:21, 55.83s/it]
+model tested on 400 imagesval_score: 0.618793440411626 f1_scores [0.9946876  0.67375747 0.56382941 0.73512171]
+Epoch: 04 | Iteration Time: 0min 55s
+	Train Loss: 0.77913934
+	 Val Cup: 0.56382941
+	 Val Disk: 0.73512171
+Loss after 00103 examples: 0.765
+Loss after 00107 examples: 0.763
+Loss after 00111 examples: 0.762
+Loss after 00115 examples: 0.760
+Loss after 00119 examples: 0.755
+
+  2%|█                                        | 5/200 [04:39<3:01:17, 55.78s/it]
+model tested on 400 imagesval_score: 0.6203772802758862 f1_scores [0.99413979 0.7351144  0.50564016 0.7301176 ]
+Epoch: 05 | Iteration Time: 0min 55s
+	Train Loss: 0.75856626
+	 Val Cup: 0.50564016
+	 Val Disk: 0.73011760
+Loss after 00127 examples: 0.745
+Loss after 00131 examples: 0.746
+Loss after 00135 examples: 0.742
+Loss after 00139 examples: 0.737
+Loss after 00143 examples: 0.733
+Loss after 00147 examples: 0.732
+model tested on 400 imagesval_score: 0.7015306195381855 f1_scores [0.99644492 0.69805698 0.70500426 0.80756074]
+
+  3%|█▏                                       | 6/200 [05:35<3:00:32, 55.84s/it]
+Epoch: 06 | Iteration Time: 0min 55s
+	Train Loss: 0.73847449
+	 Val Cup: 0.70500426
+	 Val Disk: 0.80756074
+Loss after 00151 examples: 0.730
+Loss after 00155 examples: 0.734
+Loss after 00159 examples: 0.727
+Loss after 00163 examples: 0.723
+Loss after 00167 examples: 0.719
+Loss after 00171 examples: 0.719
+
+  4%|█▍                                       | 7/200 [06:30<2:59:26, 55.78s/it]
+model tested on 400 imagesval_score: 0.6918582278872394 f1_scores [0.99614412 0.71116093 0.67255552 0.79878927]
+Epoch: 07 | Iteration Time: 0min 55s
+	Train Loss: 0.72290784
+	 Val Cup: 0.67255552
+	 Val Disk: 0.79878927
+Loss after 00179 examples: 0.714
+Loss after 00183 examples: 0.710
+Loss after 00187 examples: 0.708
+Loss after 00191 examples: 0.707
+Loss after 00195 examples: 0.703
+
+  4%|█▋                                       | 8/200 [07:25<2:57:52, 55.59s/it]
+model tested on 400 imagesval_score: 0.5837202002667534 f1_scores [0.99222278 0.67474305 0.49269735 0.67027046]
+Epoch: 08 | Iteration Time: 0min 55s
+	Train Loss: 0.70868194
+	 Val Cup: 0.49269735
+	 Val Disk: 0.67027046
+Loss after 00203 examples: 0.700
+Loss after 00207 examples: 0.701
+Loss after 00211 examples: 0.696
+Loss after 00215 examples: 0.694
+Loss after 00219 examples: 0.694
+
+  4%|█▊                                       | 9/200 [08:21<2:56:42, 55.51s/it]
+model tested on 400 imagesval_score: 0.6956952806512802 f1_scores [0.99607181 0.69893638 0.69245418 0.79183079]
+Epoch: 09 | Iteration Time: 0min 55s
+	Train Loss: 0.69489813
+	 Val Cup: 0.69245418
+	 Val Disk: 0.79183079
+Loss after 00227 examples: 0.688
+Loss after 00231 examples: 0.684
+Loss after 00235 examples: 0.686
+Loss after 00239 examples: 0.676
+Loss after 00243 examples: 0.680
+Loss after 00247 examples: 0.676
+model tested on 400 imagesval_score: 0.7292498116304985 f1_scores [0.99662056 0.77493485 0.68356477 0.82814584]
+
+  5%|██                                      | 10/200 [09:17<2:56:12, 55.64s/it]
+Epoch: 10 | Iteration Time: 0min 55s
+	Train Loss: 0.68205816
+	 Val Cup: 0.68356477
+	 Val Disk: 0.82814584
+Loss after 00251 examples: 0.674
+Loss after 00255 examples: 0.676
+Loss after 00259 examples: 0.671
+Loss after 00263 examples: 0.670
+Loss after 00267 examples: 0.671
+Loss after 00271 examples: 0.669
+
+  6%|██▏                                     | 11/200 [10:13<2:55:27, 55.70s/it]
+model tested on 400 imagesval_score: 0.6289523266081899 f1_scores [0.99485194 0.6534057  0.60449895 0.75157392]
+Epoch: 11 | Iteration Time: 0min 55s
+	Train Loss: 0.67008942
+	 Val Cup: 0.60449895
+	 Val Disk: 0.75157392
+Loss after 00279 examples: 0.663
+Loss after 00283 examples: 0.660
+Loss after 00287 examples: 0.655
+Loss after 00291 examples: 0.655
+Loss after 00295 examples: 0.655
+Loss after 00299 examples: 0.658
+model tested on 400 imagesval_score: 0.6863220306772664 f1_scores [0.99530484 0.71975175 0.65289231 0.76896177]
+Epoch: 12 | Iteration Time: 0min 55s
+	Train Loss: 0.65838081
+	 Val Cup: 0.65289231
+
+  6%|██▍                                     | 12/200 [11:08<2:54:02, 55.54s/it]
+Loss after 00303 examples: 0.654
+Loss after 00307 examples: 0.654
+Loss after 00311 examples: 0.649
+Loss after 00315 examples: 0.645
+Loss after 00319 examples: 0.644
+Loss after 00323 examples: 0.644
+model tested on 400 imagesval_score: 0.682793720129043 f1_scores [0.9954765  0.69971702 0.66587042 0.78380394]
+Epoch: 13 | Iteration Time: 0min 55s
+	Train Loss: 0.64811516
+	 Val Cup: 0.66587042
+
+  6%|██▌                                     | 13/200 [12:03<2:52:53, 55.47s/it]
+Loss after 00327 examples: 0.643
+Loss after 00331 examples: 0.640
+Loss after 00335 examples: 0.638
+Loss after 00339 examples: 0.634
+Loss after 00343 examples: 0.635
+Loss after 00347 examples: 0.635
+model tested on 400 imagesval_score: 0.6048948419967988 f1_scores [0.99283767 0.64110519 0.56868449 0.68552486]
+Epoch: 14 | Iteration Time: 0min 55s
+	Train Loss: 0.63752598
+	 Val Cup: 0.56868449
+	 Val Disk: 0.68552486
+
+  7%|██▊                                     | 14/200 [12:58<2:51:45, 55.40s/it]
+Loss after 00355 examples: 0.632
+Loss after 00359 examples: 0.630
+Loss after 00363 examples: 0.627
+Loss after 00367 examples: 0.623
+Loss after 00371 examples: 0.627
+Loss after 00375 examples: 0.621
+model tested on 400 imagesval_score: 0.7472706422553713 f1_scores [0.99693758 0.75292491 0.74161637 0.84308431]
+Valid score improved from 0.72924981 to 0.74727064. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE/test/unet_batch_lr_0.0003_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/507/lr_0.0003_bs_16_lowloss.pth
+Epoch: 15 | Iteration Time: 0min 56s
+	Train Loss: 0.62714761
+	 Val Cup: 0.74161637
+
+  8%|███                                     | 15/200 [13:54<2:51:29, 55.62s/it]
+Loss after 00379 examples: 0.621
+Loss after 00383 examples: 0.626
+Loss after 00387 examples: 0.617
+Loss after 00391 examples: 0.614
+Loss after 00395 examples: 0.614
+Loss after 00399 examples: 0.616
+model tested on 400 imagesval_score: 0.779365526980646 f1_scores [0.99782821 0.77417    0.78456106 0.88150367]
+Valid score improved from 0.74727064 to 0.77936553. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE/test/unet_batch_lr_0.0003_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/507/lr_0.0003_bs_16_lowloss.pth
+Epoch: 16 | Iteration Time: 0min 56s
+	Train Loss: 0.61761624
+	 Val Cup: 0.78456106
+
+  8%|███▏                                    | 16/200 [14:50<2:51:00, 55.77s/it]
+Loss after 00403 examples: 0.611
+Loss after 00407 examples: 0.608
+Loss after 00411 examples: 0.613
+Loss after 00415 examples: 0.603
+Loss after 00419 examples: 0.602
+Loss after 00423 examples: 0.607
+model tested on 400 imagesval_score: 0.724668606394344 f1_scores [0.99580957 0.73370501 0.71563221 0.8096536 ]
+Epoch: 17 | Iteration Time: 0min 55s
+	Train Loss: 0.60847241
+	 Val Cup: 0.71563221
+
+  8%|███▍                                    | 17/200 [15:46<2:49:32, 55.59s/it]
+Loss after 00427 examples: 0.604
+Loss after 00431 examples: 0.600
+Loss after 00435 examples: 0.602
+Loss after 00439 examples: 0.599
+Loss after 00443 examples: 0.593
+Loss after 00447 examples: 0.600
+model tested on 400 imagesval_score: 0.7378332256944712 f1_scores [0.99729733 0.73094411 0.74472234 0.86087389]
+Epoch: 18 | Iteration Time: 0min 55s
+	Train Loss: 0.59913462
+	 Val Cup: 0.74472234
+
+  9%|███▌                                    | 18/200 [16:41<2:48:42, 55.62s/it]
+Loss after 00451 examples: 0.595
+Loss after 00455 examples: 0.592
+Loss after 00459 examples: 0.590
+Loss after 00463 examples: 0.594
+Loss after 00467 examples: 0.584
+Loss after 00471 examples: 0.594
+Loss after 00475 examples: 0.581
+model tested on 400 imagesval_score: 0.7274959401632785 f1_scores [0.99753013 0.72929455 0.72569733 0.86786853]
+Epoch: 19 | Iteration Time: 0min 55s
+	Train Loss: 0.59068692
+	 Val Cup: 0.72569733
+
+ 10%|███▊                                    | 19/200 [17:37<2:47:31, 55.53s/it]
+Loss after 00479 examples: 0.586
+Loss after 00483 examples: 0.587
+Loss after 00487 examples: 0.584
+Loss after 00491 examples: 0.585
+Loss after 00495 examples: 0.585
+Loss after 00499 examples: 0.578
+model tested on 400 imagesval_score: 0.6665421967401628 f1_scores [0.99474923 0.66846252 0.66462187 0.75325126]
+Epoch: 20 | Iteration Time: 0min 56s
+	Train Loss: 0.58335197
+	 Val Cup: 0.66462187
+
+ 10%|████                                    | 20/200 [18:33<2:47:02, 55.68s/it]
+Loss after 00503 examples: 0.574
+Loss after 00507 examples: 0.580
+Loss after 00511 examples: 0.572
+Loss after 00515 examples: 0.575
+Loss after 00519 examples: 0.573
+Loss after 00523 examples: 0.570
+model tested on 400 imagesval_score: 0.7228864507040546 f1_scores [0.99609006 0.72890091 0.716872   0.81131631]
+Epoch: 21 | Iteration Time: 0min 55s
+	Train Loss: 0.57438618
+	 Val Cup: 0.71687200
+
+ 10%|████▏                                   | 21/200 [19:29<2:46:16, 55.74s/it]
+Loss after 00527 examples: 0.567
+Loss after 00531 examples: 0.568
+Loss after 00535 examples: 0.564
+Loss after 00539 examples: 0.569
+Loss after 00543 examples: 0.562
+Loss after 00547 examples: 0.563
+model tested on 400 imagesval_score: 0.7358511084218923 f1_scores [0.99620826 0.72771015 0.74399207 0.81643691]
+Epoch: 22 | Iteration Time: 0min 55s
+	Train Loss: 0.56642413
+	 Val Cup: 0.74399207
+
+ 11%|████▍                                   | 22/200 [20:24<2:45:10, 55.68s/it]
+Loss after 00551 examples: 0.562
+Loss after 00555 examples: 0.560
+Loss after 00559 examples: 0.554
+Loss after 00563 examples: 0.556
+Loss after 00567 examples: 0.559
+Loss after 00571 examples: 0.556
+Loss after 00575 examples: 0.558
+model tested on 400 imagesval_score: 0.7334057897523633 f1_scores [0.99605263 0.73602748 0.7307841  0.80821245]
+Epoch: 23 | Iteration Time: 0min 55s
+	Train Loss: 0.55947775
+	 Val Cup: 0.73078410
+
+ 12%|████▌                                   | 23/200 [21:19<2:43:46, 55.52s/it]
+Loss after 00579 examples: 0.556
+Loss after 00583 examples: 0.552
+Loss after 00587 examples: 0.551
+Loss after 00591 examples: 0.553
+Loss after 00595 examples: 0.545
+
+ 12%|████▊                                   | 24/200 [22:14<2:42:32, 55.41s/it]
+model tested on 400 imagesval_score: 0.7029827709091273 f1_scores [0.99648562 0.72785744 0.6781081  0.81324877]
+Epoch: 24 | Iteration Time: 0min 55s
+	Train Loss: 0.55141938
+	 Val Cup: 0.67810810
+	 Val Disk: 0.81324877
+Loss after 00603 examples: 0.546
+Loss after 00607 examples: 0.542
+Loss after 00611 examples: 0.544
+Loss after 00615 examples: 0.543
+Loss after 00619 examples: 0.542
+
+ 12%|█████                                   | 25/200 [23:10<2:41:50, 55.49s/it]
+model tested on 400 imagesval_score: 0.7717385721149264 f1_scores [0.99728384 0.77929258 0.76418456 0.86018336]
+Epoch: 25 | Iteration Time: 0min 55s
+	Train Loss: 0.54402596
+	 Val Cup: 0.76418456
+	 Val Disk: 0.86018336
+Loss after 00627 examples: 0.544
+Loss after 00631 examples: 0.540
+Loss after 00635 examples: 0.535
+Loss after 00639 examples: 0.540
+Loss after 00643 examples: 0.531
+
+ 13%|█████▏                                  | 26/200 [24:06<2:40:58, 55.51s/it]
+model tested on 400 imagesval_score: 0.7244223067677198 f1_scores [0.99626443 0.7420674  0.70677721 0.82098107]
+Epoch: 26 | Iteration Time: 0min 55s
+	Train Loss: 0.53735268
+	 Val Cup: 0.70677721
+	 Val Disk: 0.82098107
+Loss after 00651 examples: 0.535
+Loss after 00655 examples: 0.532
+Loss after 00659 examples: 0.530
+Loss after 00663 examples: 0.529
+Loss after 00667 examples: 0.528
+Loss after 00671 examples: 0.524
+
+ 14%|█████▍                                  | 27/200 [25:01<2:40:08, 55.54s/it]
+model tested on 400 imagesval_score: 0.7474902874204444 f1_scores [0.9971424  0.745412   0.74956857 0.84697275]
+Epoch: 27 | Iteration Time: 0min 55s
+	Train Loss: 0.53024673
+	 Val Cup: 0.74956857
+	 Val Disk: 0.84697275
+Loss after 00679 examples: 0.522
+Loss after 00683 examples: 0.529
+Loss after 00687 examples: 0.523
+Loss after 00691 examples: 0.521
+Loss after 00695 examples: 0.524
+
+ 14%|█████▌                                  | 28/200 [25:57<2:39:30, 55.64s/it]
+model tested on 400 imagesval_score: 0.7386225107851533 f1_scores [0.99650198 0.75123422 0.7260108  0.82511539]
+Epoch: 28 | Iteration Time: 0min 55s
+	Train Loss: 0.52328205
+	 Val Cup: 0.72601080
+	 Val Disk: 0.82511539
+Loss after 00703 examples: 0.518
+Loss after 00707 examples: 0.517
+Loss after 00711 examples: 0.517
+Loss after 00715 examples: 0.519
+Loss after 00719 examples: 0.508
+
+ 14%|█████▊                                  | 29/200 [26:53<2:38:25, 55.59s/it]
+model tested on 400 imagesval_score: 0.764721553818629 f1_scores [0.99711477 0.76924821 0.76019489 0.84932756]
+Epoch: 29 | Iteration Time: 0min 55s
+	Train Loss: 0.51648176
+	 Val Cup: 0.76019489
+	 Val Disk: 0.84932756
+Loss after 00727 examples: 0.519
+Loss after 00731 examples: 0.507
+Loss after 00735 examples: 0.516
+Loss after 00739 examples: 0.510
+Loss after 00743 examples: 0.511
+
+ 15%|██████                                  | 30/200 [27:48<2:37:42, 55.66s/it]
+model tested on 400 imagesval_score: 0.6191335190704921 f1_scores [0.993237   0.63949601 0.59877102 0.69404132]
+Epoch: 30 | Iteration Time: 0min 55s
+	Train Loss: 0.51017880
+	 Val Cup: 0.59877102
+	 Val Disk: 0.69404132
+Loss after 00751 examples: 0.506
+Loss after 00755 examples: 0.510
+Loss after 00759 examples: 0.500
+Loss after 00763 examples: 0.504
+Loss after 00767 examples: 0.502
+Loss after 00771 examples: 0.502
+
+ 16%|██████▏                                 | 31/200 [28:44<2:36:52, 55.69s/it]
+model tested on 400 imagesval_score: 0.6900714940951447 f1_scores [0.99491581 0.69140408 0.68873891 0.76408894]
+Epoch: 31 | Iteration Time: 0min 55s
+	Train Loss: 0.50435811
+	 Val Cup: 0.68873891
+	 Val Disk: 0.76408894
+Loss after 00779 examples: 0.502
+Loss after 00783 examples: 0.503
+Loss after 00787 examples: 0.493
+Loss after 00791 examples: 0.495
+Loss after 00795 examples: 0.499
+
+ 16%|██████▍                                 | 32/200 [29:40<2:36:04, 55.74s/it]
+model tested on 400 imagesval_score: 0.706250614228149 f1_scores [0.99575321 0.69839032 0.71411091 0.79267828]
+Epoch: 32 | Iteration Time: 0min 55s
+	Train Loss: 0.49685591
+	 Val Cup: 0.71411091
+	 Val Disk: 0.79267828
+Loss after 00803 examples: 0.489
+Loss after 00807 examples: 0.482
+Loss after 00811 examples: 0.492
+Loss after 00815 examples: 0.493
+Loss after 00819 examples: 0.490
+
+ 16%|██████▌                                 | 33/200 [30:36<2:34:55, 55.66s/it]
+model tested on 400 imagesval_score: 0.6542163882096633 f1_scores [0.99378897 0.68052796 0.62790481 0.72560908]
+Epoch: 33 | Iteration Time: 0min 55s
+	Train Loss: 0.49031183
+	 Val Cup: 0.62790481
+	 Val Disk: 0.72560908
+Loss after 00827 examples: 0.484
+Loss after 00831 examples: 0.485
+Loss after 00835 examples: 0.484
+Loss after 00839 examples: 0.486
+Loss after 00843 examples: 0.491
+
+ 17%|██████▊                                 | 34/200 [31:31<2:33:52, 55.62s/it]
+model tested on 400 imagesval_score: 0.7424816358811323 f1_scores [0.99675407 0.75663832 0.72832496 0.83745236]
+Epoch: 34 | Iteration Time: 0min 55s
+	Train Loss: 0.48452476
+	 Val Cup: 0.72832496
+	 Val Disk: 0.83745236
+Loss after 00851 examples: 0.480
+Loss after 00855 examples: 0.484
+Loss after 00859 examples: 0.474
+Loss after 00863 examples: 0.473
+Loss after 00867 examples: 0.477
+Loss after 00871 examples: 0.487
+
+ 18%|███████                                 | 35/200 [32:26<2:32:48, 55.57s/it]
+model tested on 400 imagesval_score: 0.7299757963762792 f1_scores [0.99653514 0.76096527 0.69898632 0.82103392]
+Epoch: 35 | Iteration Time: 0min 55s
+	Train Loss: 0.47807303
+	 Val Cup: 0.69898632
+	 Val Disk: 0.82103392
+Loss after 00879 examples: 0.477
+Loss after 00883 examples: 0.466
+Loss after 00887 examples: 0.471
+Loss after 00891 examples: 0.469
+Loss after 00895 examples: 0.474
+
+ 18%|███████▏                                | 36/200 [33:22<2:31:52, 55.57s/it]
+model tested on 400 imagesval_score: 0.6918275900169122 f1_scores [0.99438893 0.67870004 0.70495514 0.76027619]
+Epoch: 36 | Iteration Time: 0min 55s
+	Train Loss: 0.47190249
+	 Val Cup: 0.70495514
+	 Val Disk: 0.76027619
+Loss after 00903 examples: 0.467
+Loss after 00907 examples: 0.470
+Loss after 00911 examples: 0.465
+Loss after 00915 examples: 0.470
+Loss after 00919 examples: 0.466
+
+ 18%|███████▍                                | 37/200 [34:18<2:31:13, 55.67s/it]
+model tested on 400 imagesval_score: 0.6525238468304702 f1_scores [0.99407871 0.66489452 0.64015318 0.74540594]
+Epoch: 37 | Iteration Time: 0min 55s
+	Train Loss: 0.46606672
+	 Val Cup: 0.64015318
+	 Val Disk: 0.74540594
+Loss after 00927 examples: 0.459
+Loss after 00931 examples: 0.470
+Loss after 00935 examples: 0.463
+Loss after 00939 examples: 0.462
+Loss after 00943 examples: 0.455
+Loss after 00947 examples: 0.460
+model tested on 400 imagesval_score: 0.7711623683360653 f1_scores [0.9975296  0.77362425 0.76870049 0.87210444]
+Epoch: 38 | Iteration Time: 0min 55s
+	Train Loss: 0.45937830
+	 Val Cup: 0.76870049
+
+ 19%|███████▌                                | 38/200 [35:14<2:30:17, 55.66s/it]
+Loss after 00951 examples: 0.455
+Loss after 00955 examples: 0.451
+Loss after 00959 examples: 0.456
+Loss after 00963 examples: 0.455
+Loss after 00967 examples: 0.449
+Loss after 00971 examples: 0.459
+
+ 20%|███████▊                                | 39/200 [36:09<2:29:27, 55.70s/it]
+model tested on 400 imagesval_score: 0.6673958668216251 f1_scores [0.99402863 0.65910922 0.67568251 0.73365601]
+Epoch: 39 | Iteration Time: 0min 55s
+	Train Loss: 0.45344830
+	 Val Cup: 0.67568251
+	 Val Disk: 0.73365601
+Loss after 00979 examples: 0.443
+Loss after 00983 examples: 0.445
+Loss after 00987 examples: 0.448
+Loss after 00991 examples: 0.451
+Loss after 00995 examples: 0.451
+Loss after 00999 examples: 0.450
+model tested on 400 imagesval_score: 0.7800476924782306 f1_scores [0.99738275 0.7795474  0.78054799 0.86897835]
+
+ 20%|████████                                | 40/200 [37:05<2:28:41, 55.76s/it]
+Epoch: 40 | Iteration Time: 0min 55s
+	Train Loss: 0.44653013
+	 Val Cup: 0.78054799
+	 Val Disk: 0.86897835
+Loss after 01003 examples: 0.444
+Loss after 01007 examples: 0.436
+Loss after 01011 examples: 0.437
+Loss after 01015 examples: 0.434
+Loss after 01019 examples: 0.439
+
+ 20%|████████▏                               | 41/200 [38:01<2:27:38, 55.71s/it]
+model tested on 400 imagesval_score: 0.7478764495587339 f1_scores [0.99636166 0.76467751 0.73107539 0.83109512]
+Epoch: 41 | Iteration Time: 0min 55s
+	Train Loss: 0.44071382
+	 Val Cup: 0.73107539
+	 Val Disk: 0.83109512
+Loss after 01027 examples: 0.434
+Loss after 01031 examples: 0.424
+Loss after 01035 examples: 0.445
+Loss after 01039 examples: 0.437
+Loss after 01043 examples: 0.433
+
+ 21%|████████▍                               | 42/200 [38:57<2:26:41, 55.70s/it]
+model tested on 400 imagesval_score: 0.7086492777730843 f1_scores [0.99571235 0.72735378 0.68994478 0.80206879]
+Epoch: 42 | Iteration Time: 0min 55s
+	Train Loss: 0.43460906
+	 Val Cup: 0.68994478
+	 Val Disk: 0.80206879
+Loss after 01051 examples: 0.431
+Loss after 01055 examples: 0.426
+Loss after 01059 examples: 0.436
+Loss after 01063 examples: 0.427
+Loss after 01067 examples: 0.426
+Loss after 01071 examples: 0.430
+
+ 22%|████████▌                               | 43/200 [39:52<2:25:47, 55.72s/it]
+model tested on 400 imagesval_score: 0.7327962614360556 f1_scores [0.99606824 0.72502707 0.74056546 0.81594972]
+Epoch: 43 | Iteration Time: 0min 55s
+	Train Loss: 0.42826372
+	 Val Cup: 0.74056546
+	 Val Disk: 0.81594972
+Loss after 01079 examples: 0.423
+Loss after 01083 examples: 0.422
+Loss after 01087 examples: 0.421
+Loss after 01091 examples: 0.424
+Loss after 01095 examples: 0.420
+Loss after 01099 examples: 0.419
+model tested on 400 imagesval_score: 0.7068988577825648 f1_scores [0.99508273 0.72306338 0.69073433 0.77924945]
+Epoch: 44 | Iteration Time: 0min 55s
+	Train Loss: 0.42205721
+	 Val Cup: 0.69073433
+
+ 22%|████████▊                               | 44/200 [40:48<2:24:48, 55.69s/it]
+Loss after 01103 examples: 0.417
+Loss after 01107 examples: 0.417
+Loss after 01111 examples: 0.416
+Loss after 01115 examples: 0.414
+Loss after 01119 examples: 0.407
+Loss after 01123 examples: 0.425
+model tested on 400 imagesval_score: 0.6711085214808322 f1_scores [0.99412628 0.67362009 0.66859695 0.74449   ]
+Epoch: 45 | Iteration Time: 0min 55s
+	Train Loss: 0.41579124
+	 Val Cup: 0.66859695
+
+ 22%|█████████                               | 45/200 [41:43<2:23:34, 55.58s/it]
+Loss after 01127 examples: 0.416
+Loss after 01131 examples: 0.415
+Loss after 01135 examples: 0.405
+Loss after 01139 examples: 0.410
+Loss after 01143 examples: 0.407
+
+ 23%|█████████▏                              | 46/200 [42:39<2:22:32, 55.54s/it]
+model tested on 400 imagesval_score: 0.6663635833941396 f1_scores [0.99437403 0.7056159  0.62711126 0.7518977 ]
+Epoch: 46 | Iteration Time: 0min 55s
+	Train Loss: 0.40995383
+	 Val Cup: 0.62711126
+	 Val Disk: 0.75189770
+Loss after 01151 examples: 0.402
+Loss after 01155 examples: 0.413
+Loss after 01159 examples: 0.407
+Loss after 01163 examples: 0.408
+Loss after 01167 examples: 0.393
+Loss after 01171 examples: 0.396
+Loss after 01175 examples: 0.400
+model tested on 400 imagesval_score: 0.7218312932823856 f1_scores [0.99574849 0.72859334 0.71506925 0.7974749 ]
+Epoch: 47 | Iteration Time: 0min 55s
+	Train Loss: 0.40272582
+	 Val Cup: 0.71506925
+
+ 24%|█████████▍                              | 47/200 [43:34<2:21:42, 55.57s/it]
+Loss after 01179 examples: 0.394
+Loss after 01183 examples: 0.400
+Loss after 01187 examples: 0.397
+Loss after 01191 examples: 0.391
+Loss after 01195 examples: 0.398
+Loss after 01199 examples: 0.390
+model tested on 400 imagesval_score: 0.7040194299997786 f1_scores [0.9950825  0.73256998 0.67546888 0.7839774 ]
+Epoch: 48 | Iteration Time: 0min 55s
+	Train Loss: 0.39666209
+	 Val Cup: 0.67546888
+
+ 24%|█████████▌                              | 48/200 [44:30<2:20:42, 55.54s/it]
+Loss after 01203 examples: 0.390
+Loss after 01207 examples: 0.387
+Loss after 01211 examples: 0.393
+Loss after 01215 examples: 0.391
+Loss after 01219 examples: 0.393
+Loss after 01223 examples: 0.392
+model tested on 400 imagesval_score: 0.6770200111359975 f1_scores [0.99519849 0.67842781 0.67561221 0.76292375]
+Epoch: 49 | Iteration Time: 0min 55s
+	Train Loss: 0.39056945
+	 Val Cup: 0.67561221
+
+ 24%|█████████▊                              | 49/200 [45:25<2:19:33, 55.46s/it]
+Loss after 01227 examples: 0.385
+Loss after 01231 examples: 0.389
+Loss after 01235 examples: 0.384
+Loss after 01239 examples: 0.391
+Loss after 01243 examples: 0.386
+
+ 25%|██████████                              | 50/200 [46:20<2:18:26, 55.38s/it]
+model tested on 400 imagesval_score: 0.6438600153205897 f1_scores [0.99401716 0.64803928 0.63968075 0.72121894]
+Epoch: 50 | Iteration Time: 0min 55s
+	Train Loss: 0.38351378
+	 Val Cup: 0.63968075
+	 Val Disk: 0.72121894
+Loss after 01251 examples: 0.387
+Loss after 01255 examples: 0.380
+Loss after 01259 examples: 0.374
+Loss after 01263 examples: 0.363
+Loss after 01267 examples: 0.371
+Loss after 01271 examples: 0.384
+
+ 26%|██████████▏                             | 51/200 [47:16<2:17:41, 55.45s/it]
+model tested on 400 imagesval_score: 0.6701037780870068 f1_scores [0.99487177 0.68495212 0.65525544 0.7549407 ]
+Epoch: 51 | Iteration Time: 0min 55s
+	Train Loss: 0.37649938
+	 Val Cup: 0.65525544
+	 Val Disk: 0.75494070
+Loss after 01279 examples: 0.364
+Loss after 01283 examples: 0.366
+Loss after 01287 examples: 0.370
+Loss after 01291 examples: 0.369
+Loss after 01295 examples: 0.367
+
+ 26%|██████████▍                             | 52/200 [48:11<2:16:48, 55.46s/it]
+model tested on 400 imagesval_score: 0.6197691916869441 f1_scores [0.99401288 0.67117206 0.56836633 0.70300452]
+Epoch: 52 | Iteration Time: 0min 55s
+	Train Loss: 0.37000331
+	 Val Cup: 0.56836633
+	 Val Disk: 0.70300452
+Loss after 01303 examples: 0.366
+Loss after 01307 examples: 0.362
+Loss after 01311 examples: 0.367
+Loss after 01315 examples: 0.357
+Loss after 01319 examples: 0.359
+
+ 26%|██████████▌                             | 53/200 [49:07<2:15:54, 55.47s/it]
+model tested on 400 imagesval_score: 0.6974537182931846 f1_scores [0.99639264 0.69659319 0.69831424 0.80971556]
+Epoch: 53 | Iteration Time: 0min 55s
+	Train Loss: 0.36330238
+	 Val Cup: 0.69831424
+	 Val Disk: 0.80971556
+Loss after 01327 examples: 0.364
+Loss after 01331 examples: 0.363
+Loss after 01335 examples: 0.354
+Loss after 01339 examples: 0.349
+Loss after 01343 examples: 0.350
+Loss after 01347 examples: 0.358
+model tested on 400 imagesval_score: 0.6976925652687634 f1_scores [0.9961485  0.7017114  0.69367373 0.777273  ]
+Epoch: 54 | Iteration Time: 0min 55s
+	Train Loss: 0.35661849
+	 Val Cup: 0.69367373
+	 Val Disk: 0.77727300
+
+ 27%|██████████▊                             | 54/200 [50:03<2:15:12, 55.57s/it]
+Loss after 01355 examples: 0.351
+Loss after 01359 examples: 0.360
+Loss after 01363 examples: 0.347
+Loss after 01367 examples: 0.353
+Loss after 01371 examples: 0.354
+Loss after 01375 examples: 0.346
+model tested on 400 imagesval_score: 0.6754380033691025 f1_scores [0.99552642 0.67990177 0.67097424 0.75317552]
+Epoch: 55 | Iteration Time: 0min 55s
+	Train Loss: 0.35109764
+	 Val Cup: 0.67097424
+
+ 28%|███████████                             | 55/200 [50:58<2:14:25, 55.63s/it]
+Loss after 01379 examples: 0.345
+Loss after 01383 examples: 0.350
+Loss after 01387 examples: 0.345
+Loss after 01391 examples: 0.351
+Loss after 01395 examples: 0.339
+
+ 28%|███████████▏                            | 56/200 [51:54<2:13:43, 55.72s/it]
+model tested on 400 imagesval_score: 0.4260210446111987 f1_scores [0.9897841  0.47649001 0.37555208 0.49209565]
+Epoch: 56 | Iteration Time: 0min 55s
+	Train Loss: 0.34515190
+	 Val Cup: 0.37555208
+	 Val Disk: 0.49209565
+Loss after 01403 examples: 0.336
+Loss after 01407 examples: 0.345
+Loss after 01411 examples: 0.337
+Loss after 01415 examples: 0.337
+Loss after 01419 examples: 0.329
+Loss after 01423 examples: 0.340
+model tested on 400 imagesval_score: 0.6550030351604705 f1_scores [0.9953829  0.68513886 0.62486721 0.74582918]
+Epoch: 57 | Iteration Time: 0min 55s
+	Train Loss: 0.33730429
+	 Val Cup: 0.62486721
+
+ 28%|███████████▍                            | 57/200 [52:50<2:12:45, 55.70s/it]
+Loss after 01427 examples: 0.342
+Loss after 01431 examples: 0.332
+Loss after 01435 examples: 0.335
+Loss after 01439 examples: 0.339
+Loss after 01443 examples: 0.338
+
+ 29%|███████████▌                            | 58/200 [53:46<2:12:04, 55.80s/it]
+model tested on 400 imagesval_score: 0.6059142288025194 f1_scores [0.99332656 0.59840442 0.61342403 0.66378666]
+Epoch: 58 | Iteration Time: 0min 56s
+	Train Loss: 0.33059382
+	 Val Cup: 0.61342403
+	 Val Disk: 0.66378666
+Loss after 01451 examples: 0.327
+Loss after 01455 examples: 0.336
+Loss after 01459 examples: 0.327
+Loss after 01463 examples: 0.326
+Loss after 01467 examples: 0.329
+Loss after 01471 examples: 0.322
+Loss after 01475 examples: 0.328
+model tested on 400 imagesval_score: 0.6999441920705537 f1_scores [0.99636543 0.70733038 0.692558   0.78032112]
+Epoch: 59 | Iteration Time: 0min 55s
+	Train Loss: 0.32380131
+	 Val Cup: 0.69255800
+
+ 30%|███████████▊                            | 59/200 [54:42<2:11:11, 55.83s/it]
+Loss after 01479 examples: 0.323
+Loss after 01483 examples: 0.322
+Loss after 01487 examples: 0.312
+Loss after 01491 examples: 0.315
+Loss after 01495 examples: 0.311
+
+ 30%|████████████                            | 60/200 [55:38<2:10:13, 55.81s/it]
+model tested on 400 imagesval_score: 0.6048204378619125 f1_scores [0.99443084 0.6357977  0.57384318 0.67525265]
+Epoch: 60 | Iteration Time: 0min 55s
+	Train Loss: 0.31773791
+	 Val Cup: 0.57384318
+	 Val Disk: 0.67525265
+Loss after 01503 examples: 0.305
+Loss after 01507 examples: 0.315
+Loss after 01511 examples: 0.311
+Loss after 01515 examples: 0.315
+Loss after 01519 examples: 0.313
+Loss after 01523 examples: 0.314
+model tested on 400 imagesval_score: 0.6893681502451693 f1_scores [0.99575313 0.67363304 0.70510326 0.76345527]
+Epoch: 61 | Iteration Time: 0min 55s
+	Train Loss: 0.31164280
+	 Val Cup: 0.70510326
+
+ 30%|████████████▏                           | 61/200 [56:33<2:08:59, 55.68s/it]
+Loss after 01527 examples: 0.302
+Loss after 01531 examples: 0.306
+Loss after 01535 examples: 0.302
+Loss after 01539 examples: 0.307
+Loss after 01543 examples: 0.313
+Loss after 01547 examples: 0.301
+model tested on 400 imagesval_score: 0.7251720557637975 f1_scores [0.99653418 0.75678123 0.69356288 0.81241053]
+Epoch: 62 | Iteration Time: 0min 55s
+	Train Loss: 0.30505705
+	 Val Cup: 0.69356288
+
+ 31%|████████████▍                           | 62/200 [57:29<2:07:55, 55.62s/it]
+Loss after 01551 examples: 0.298
+Loss after 01555 examples: 0.296
+Loss after 01559 examples: 0.305
+Loss after 01563 examples: 0.298
+Loss after 01567 examples: 0.294
+Loss after 01571 examples: 0.307
+
+ 32%|████████████▌                           | 63/200 [58:24<2:07:00, 55.63s/it]
+model tested on 400 imagesval_score: 0.654284169937893 f1_scores [0.99556469 0.65903388 0.64953446 0.71815454]
+Epoch: 63 | Iteration Time: 0min 55s
+	Train Loss: 0.29771513
+	 Val Cup: 0.64953446
+	 Val Disk: 0.71815454
+Loss after 01579 examples: 0.300
+Loss after 01583 examples: 0.287
+Loss after 01587 examples: 0.288
+Loss after 01591 examples: 0.284
+Loss after 01595 examples: 0.292
+
+ 32%|████████████▊                           | 64/200 [59:20<2:06:01, 55.60s/it]
+model tested on 400 imagesval_score: 0.5971933204217649 f1_scores [0.99301187 0.62482286 0.56956378 0.66627278]
+Epoch: 64 | Iteration Time: 0min 55s
+	Train Loss: 0.29030615
+	 Val Cup: 0.56956378
+	 Val Disk: 0.66627278
+Loss after 01603 examples: 0.286
+Loss after 01607 examples: 0.287
+Loss after 01611 examples: 0.286
+Loss after 01615 examples: 0.275
+Loss after 01619 examples: 0.271
+
+ 32%|████████████▎                         | 65/200 [1:00:15<2:04:59, 55.55s/it]
+model tested on 400 imagesval_score: 0.5822295160074387 f1_scores [0.99418519 0.62516517 0.53929386 0.64594868]
+Epoch: 65 | Iteration Time: 0min 55s
+	Train Loss: 0.28402445
+	 Val Cup: 0.53929386
+	 Val Disk: 0.64594868
+Loss after 01627 examples: 0.283
+Loss after 01631 examples: 0.278
+Loss after 01635 examples: 0.269
+Loss after 01639 examples: 0.287
+Loss after 01643 examples: 0.274
+
+ 33%|████████████▌                         | 66/200 [1:01:11<2:04:16, 55.64s/it]
+model tested on 400 imagesval_score: 0.6702335390187488 f1_scores [0.99547974 0.68720604 0.65326103 0.74295463]
+Epoch: 66 | Iteration Time: 0min 55s
+	Train Loss: 0.27724680
+	 Val Cup: 0.65326103
+	 Val Disk: 0.74295463
+Loss after 01651 examples: 0.275
+Loss after 01655 examples: 0.278
+Loss after 01659 examples: 0.273
+Loss after 01663 examples: 0.263
+Loss after 01667 examples: 0.262
+Loss after 01671 examples: 0.263
+
+ 34%|████████████▋                         | 67/200 [1:02:07<2:03:24, 55.68s/it]
+model tested on 400 imagesval_score: 0.7612381652062674 f1_scores [0.99757359 0.76589294 0.75658339 0.85185964]
+Epoch: 67 | Iteration Time: 0min 55s
+	Train Loss: 0.27157018
+	 Val Cup: 0.75658339
+	 Val Disk: 0.85185964
+Loss after 01679 examples: 0.277
+Loss after 01683 examples: 0.260
+Loss after 01687 examples: 0.269
+Loss after 01691 examples: 0.276
+Loss after 01695 examples: 0.262
+
+ 34%|████████████▉                         | 68/200 [1:03:02<2:02:15, 55.57s/it]
+model tested on 400 imagesval_score: 0.6389023408240275 f1_scores [0.99536806 0.61344698 0.6643577  0.70151828]
+Epoch: 68 | Iteration Time: 0min 55s
+	Train Loss: 0.26396915
+	 Val Cup: 0.66435770
+	 Val Disk: 0.70151828
+Loss after 01703 examples: 0.268
+Loss after 01707 examples: 0.262
+Loss after 01711 examples: 0.250
+Loss after 01715 examples: 0.249
+Loss after 01719 examples: 0.252
+
+ 34%|█████████████                         | 69/200 [1:03:57<2:01:10, 55.50s/it]
+model tested on 400 imagesval_score: 0.5330837373835924 f1_scores [0.99261112 0.5468586  0.51930887 0.59659162]
+Epoch: 69 | Iteration Time: 0min 55s
+	Train Loss: 0.25685385
+	 Val Cup: 0.51930887
+	 Val Disk: 0.59659162
+Loss after 01727 examples: 0.254
+Loss after 01731 examples: 0.251
+Loss after 01735 examples: 0.249
+Loss after 01739 examples: 0.254
+Loss after 01743 examples: 0.249
+
+ 35%|█████████████▎                        | 70/200 [1:04:52<1:59:52, 55.33s/it]
+model tested on 400 imagesval_score: 0.6562459219278612 f1_scores [0.99607287 0.6660725  0.64641934 0.74385372]
+Epoch: 70 | Iteration Time: 0min 54s
+	Train Loss: 0.25171137
+	 Val Cup: 0.64641934
+	 Val Disk: 0.74385372
+Loss after 01751 examples: 0.240
+Loss after 01755 examples: 0.252
+Loss after 01759 examples: 0.238
+Loss after 01763 examples: 0.243
+Loss after 01767 examples: 0.236
+Loss after 01771 examples: 0.251
+
+ 36%|█████████████▍                        | 71/200 [1:05:48<1:59:14, 55.46s/it]
+model tested on 400 imagesval_score: 0.6044166810018937 f1_scores [0.99467842 0.66307888 0.54575449 0.69950434]
+Epoch: 71 | Iteration Time: 0min 55s
+	Train Loss: 0.24330123
+	 Val Cup: 0.54575449
+	 Val Disk: 0.69950434
+Loss after 01779 examples: 0.238
+Loss after 01783 examples: 0.249
+Loss after 01787 examples: 0.235
+Loss after 01791 examples: 0.237
+Loss after 01795 examples: 0.240
+
+ 36%|█████████████▋                        | 72/200 [1:06:44<1:58:27, 55.53s/it]
+model tested on 400 imagesval_score: 0.54160537441863 f1_scores [0.99416987 0.58255526 0.50065549 0.62181235]
+Epoch: 72 | Iteration Time: 0min 55s
+	Train Loss: 0.23804869
+	 Val Cup: 0.50065549
+	 Val Disk: 0.62181235
+Loss after 01803 examples: 0.242
+Loss after 01807 examples: 0.226
+Loss after 01811 examples: 0.227
+Loss after 01815 examples: 0.232
+Loss after 01819 examples: 0.228
+
+ 36%|█████████████▊                        | 73/200 [1:07:39<1:57:28, 55.50s/it]
+model tested on 400 imagesval_score: 0.5975566520435062 f1_scores [0.99469444 0.63072754 0.56438576 0.6891749 ]
+Epoch: 73 | Iteration Time: 0min 55s
+	Train Loss: 0.23221970
+	 Val Cup: 0.56438576
+	 Val Disk: 0.68917490
+Loss after 01827 examples: 0.252
+Loss after 01831 examples: 0.231
+Loss after 01835 examples: 0.227
+Loss after 01839 examples: 0.223
+Loss after 01843 examples: 0.229
+
+ 37%|██████████████                        | 74/200 [1:08:35<1:56:31, 55.49s/it]
+model tested on 400 imagesval_score: 0.5945781604408542 f1_scores [0.99486652 0.65646802 0.5326883  0.6813577 ]
+Epoch: 74 | Iteration Time: 0min 55s
+	Train Loss: 0.22627181
+	 Val Cup: 0.53268830
+	 Val Disk: 0.68135770
+Loss after 01851 examples: 0.215
+Loss after 01855 examples: 0.216
+Loss after 01859 examples: 0.221
+Loss after 01863 examples: 0.222
+Loss after 01867 examples: 0.226
+Loss after 01871 examples: 0.222
+
+ 38%|██████████████▎                       | 75/200 [1:09:30<1:55:26, 55.42s/it]
+model tested on 400 imagesval_score: 0.6625249813460377 f1_scores [0.99598254 0.65964206 0.6654079  0.75547315]
+Epoch: 75 | Iteration Time: 0min 55s
+	Train Loss: 0.22055265
+	 Val Cup: 0.66540790
+	 Val Disk: 0.75547315
+Loss after 01879 examples: 0.220
+Loss after 01883 examples: 0.212
+Loss after 01887 examples: 0.224
+Loss after 01891 examples: 0.214
+Loss after 01895 examples: 0.218
+
+ 38%|██████████████▍                       | 76/200 [1:10:26<1:54:39, 55.48s/it]
+model tested on 400 imagesval_score: 0.7079941449619938 f1_scores [0.99631279 0.70903198 0.70695631 0.78947718]
+Epoch: 76 | Iteration Time: 0min 55s
+	Train Loss: 0.21343735
+	 Val Cup: 0.70695631
+	 Val Disk: 0.78947718
+Loss after 01903 examples: 0.205
+Loss after 01907 examples: 0.201
+Loss after 01911 examples: 0.207
+Loss after 01915 examples: 0.210
+Loss after 01919 examples: 0.209
+
+ 38%|██████████████▋                       | 77/200 [1:11:21<1:53:46, 55.50s/it]
+model tested on 400 imagesval_score: 0.7594573483956698 f1_scores [0.99743366 0.76541889 0.75349581 0.84466232]
+Epoch: 77 | Iteration Time: 0min 55s
+	Train Loss: 0.20816156
+	 Val Cup: 0.75349581
+	 Val Disk: 0.84466232
+Loss after 01927 examples: 0.199
+Loss after 01931 examples: 0.207
+Loss after 01935 examples: 0.208
+Loss after 01939 examples: 0.196
+Loss after 01943 examples: 0.212
+
+ 39%|██████████████▊                       | 78/200 [1:12:17<1:53:01, 55.58s/it]
+model tested on 400 imagesval_score: 0.7174454455459 f1_scores [0.99668455 0.724881   0.71000989 0.80098059]
+Epoch: 78 | Iteration Time: 0min 55s
+	Train Loss: 0.20256771
+	 Val Cup: 0.71000989
+	 Val Disk: 0.80098059
+Loss after 01951 examples: 0.196
+Loss after 01955 examples: 0.208
+Loss after 01959 examples: 0.202
+Loss after 01963 examples: 0.199
+Loss after 01967 examples: 0.187
+Loss after 01971 examples: 0.195
+
+ 40%|███████████████                       | 79/200 [1:13:13<1:52:06, 55.59s/it]
+model tested on 400 imagesval_score: 0.6900921613652313 f1_scores [0.99659276 0.70681267 0.67337165 0.78280678]
+Epoch: 79 | Iteration Time: 0min 55s
+	Train Loss: 0.19542512
+	 Val Cup: 0.67337165
+	 Val Disk: 0.78280678
+Loss after 01979 examples: 0.187
+Loss after 01983 examples: 0.187
+Loss after 01987 examples: 0.185
+Loss after 01991 examples: 0.189
+Loss after 01995 examples: 0.184
+
+ 40%|███████████████▏                      | 80/200 [1:14:08<1:51:13, 55.61s/it]
+model tested on 400 imagesval_score: 0.7266364989051088 f1_scores [0.99711013 0.72953298 0.72374001 0.81020617]
+Epoch: 80 | Iteration Time: 0min 55s
+	Train Loss: 0.18972941
+	 Val Cup: 0.72374001
+	 Val Disk: 0.81020617
+Loss after 02003 examples: 0.183
+Loss after 02007 examples: 0.183
+Loss after 02011 examples: 0.185
+Loss after 02015 examples: 0.186
+Loss after 02019 examples: 0.184
+
+ 40%|███████████████▍                      | 81/200 [1:15:03<1:50:05, 55.51s/it]
+model tested on 400 imagesval_score: 0.6578680313762582 f1_scores [0.99611436 0.6773014  0.63843467 0.73163402]
+Epoch: 81 | Iteration Time: 0min 55s
+	Train Loss: 0.18277818
+	 Val Cup: 0.63843467
+	 Val Disk: 0.73163402
+Loss after 02027 examples: 0.177
+Loss after 02031 examples: 0.174
+Loss after 02035 examples: 0.174
+Loss after 02039 examples: 0.171
+Loss after 02043 examples: 0.183
+
+ 41%|███████████████▌                      | 82/200 [1:15:59<1:49:16, 55.57s/it]
+model tested on 400 imagesval_score: 0.6765570488365981 f1_scores [0.99591729 0.68513638 0.66797772 0.75558036]
+Epoch: 82 | Iteration Time: 0min 55s
+	Train Loss: 0.17365830
+	 Val Cup: 0.66797772
+	 Val Disk: 0.75558036
+Loss after 02051 examples: 0.170
+Loss after 02055 examples: 0.176
+Loss after 02059 examples: 0.167
+Loss after 02063 examples: 0.182
+Loss after 02067 examples: 0.169
+Loss after 02071 examples: 0.167
+
+ 42%|███████████████▊                      | 83/200 [1:16:55<1:48:21, 55.57s/it]
+model tested on 400 imagesval_score: 0.5755351782303022 f1_scores [0.99474379 0.60500679 0.54606356 0.64741096]
+Epoch: 83 | Iteration Time: 0min 55s
+	Train Loss: 0.16786677
+	 Val Cup: 0.54606356
+	 Val Disk: 0.64741096
+Loss after 02079 examples: 0.156
+Loss after 02083 examples: 0.161
+Loss after 02087 examples: 0.157
+Loss after 02091 examples: 0.153
+Loss after 02095 examples: 0.165
+
+ 42%|███████████████▉                      | 84/200 [1:17:51<1:47:36, 55.66s/it]
+model tested on 400 imagesval_score: 0.6070111699095357 f1_scores [0.99510122 0.6288313  0.58519104 0.67993592]
+Epoch: 84 | Iteration Time: 0min 55s
+	Train Loss: 0.16308962
+	 Val Cup: 0.58519104
+	 Val Disk: 0.67993592
+Loss after 02103 examples: 0.147
+Loss after 02107 examples: 0.149
+Loss after 02111 examples: 0.160
+Loss after 02115 examples: 0.169
+Loss after 02119 examples: 0.146
+
+ 42%|████████████████▏                     | 85/200 [1:18:46<1:46:24, 55.51s/it]
+model tested on 400 imagesval_score: 0.6366180299587825 f1_scores [0.99610138 0.67490928 0.59832678 0.722353  ]
+Epoch: 85 | Iteration Time: 0min 55s
+	Train Loss: 0.15529571
+	 Val Cup: 0.59832678
+	 Val Disk: 0.72235300
+Loss after 02127 examples: 0.153
+Loss after 02131 examples: 0.152
+Loss after 02135 examples: 0.158
+Loss after 02139 examples: 0.149
+Loss after 02143 examples: 0.152
+
+ 43%|████████████████▎                     | 86/200 [1:19:41<1:45:23, 55.47s/it]
+model tested on 400 imagesval_score: 0.5557228276878491 f1_scores [0.99476173 0.61525026 0.4961954  0.63936703]
+Epoch: 86 | Iteration Time: 0min 55s
+	Train Loss: 0.15059876
+	 Val Cup: 0.49619540
+	 Val Disk: 0.63936703
+Loss after 02151 examples: 0.151
+Loss after 02155 examples: 0.145
+Loss after 02159 examples: 0.157
+Loss after 02163 examples: 0.143
+Loss after 02167 examples: 0.152
+Loss after 02171 examples: 0.148
+
+ 44%|████████████████▌                     | 87/200 [1:20:37<1:44:24, 55.44s/it]
+model tested on 400 imagesval_score: 0.5920535691224678 f1_scores [0.99463457 0.60699421 0.57711293 0.66448809]
+Epoch: 87 | Iteration Time: 0min 55s
+	Train Loss: 0.14551960
+	 Val Cup: 0.57711293
+	 Val Disk: 0.66448809
+Loss after 02179 examples: 0.140
+Loss after 02183 examples: 0.141
+Loss after 02187 examples: 0.138
+Loss after 02191 examples: 0.146
+Loss after 02195 examples: 0.145
+
+ 44%|████████████████▋                     | 88/200 [1:21:32<1:43:23, 55.39s/it]
+model tested on 400 imagesval_score: 0.5862345706727143 f1_scores [0.9955632  0.64364818 0.52882096 0.68227672]
+Epoch: 88 | Iteration Time: 0min 55s
+	Train Loss: 0.14096498
+	 Val Cup: 0.52882096
+	 Val Disk: 0.68227672
+Loss after 02203 examples: 0.123
+Loss after 02207 examples: 0.131
+Loss after 02211 examples: 0.141
+Loss after 02215 examples: 0.142
+Loss after 02219 examples: 0.137
+
+ 44%|████████████████▉                     | 89/200 [1:22:27<1:42:31, 55.42s/it]
+model tested on 400 imagesval_score: 0.5713639351242965 f1_scores [0.99483492 0.60758576 0.53514211 0.65023281]
+Epoch: 89 | Iteration Time: 0min 55s
+	Train Loss: 0.13506728
+	 Val Cup: 0.53514211
+	 Val Disk: 0.65023281
+Loss after 02227 examples: 0.128
+Loss after 02231 examples: 0.124
+Loss after 02235 examples: 0.136
+Loss after 02239 examples: 0.131
+Loss after 02243 examples: 0.128
+
+ 45%|█████████████████                     | 90/200 [1:23:23<1:41:45, 55.50s/it]
+model tested on 400 imagesval_score: 0.7053435423999048 f1_scores [0.99664176 0.71137041 0.69931667 0.79335217]
+Epoch: 90 | Iteration Time: 0min 55s
+	Train Loss: 0.13032180
+	 Val Cup: 0.69931667
+	 Val Disk: 0.79335217
+Loss after 02251 examples: 0.129
+Loss after 02255 examples: 0.121
+Loss after 02259 examples: 0.124
+Loss after 02263 examples: 0.134
+Loss after 02267 examples: 0.120
+Loss after 02271 examples: 0.125
+
+ 46%|█████████████████▎                    | 91/200 [1:24:19<1:40:55, 55.55s/it]
+model tested on 400 imagesval_score: 0.7013364226125318 f1_scores [0.99618472 0.72558729 0.67708556 0.7875602 ]
+Epoch: 91 | Iteration Time: 0min 55s
+	Train Loss: 0.12735939
+	 Val Cup: 0.67708556
+	 Val Disk: 0.78756020
+Loss after 02279 examples: 0.114
+Loss after 02283 examples: 0.121
+Loss after 02287 examples: 0.122
+Loss after 02291 examples: 0.123
+Loss after 02295 examples: 0.127
+
+ 46%|█████████████████▍                    | 92/200 [1:25:14<1:39:57, 55.53s/it]
+model tested on 400 imagesval_score: 0.6591604471397406 f1_scores [0.99612666 0.67756156 0.64075933 0.73505915]
+Epoch: 92 | Iteration Time: 0min 55s
+	Train Loss: 0.12497750
+	 Val Cup: 0.64075933
+	 Val Disk: 0.73505915
+Loss after 02303 examples: 0.118
+Loss after 02307 examples: 0.119
+Loss after 02311 examples: 0.126
+Loss after 02315 examples: 0.110
+Loss after 02319 examples: 0.115
+
+ 46%|█████████████████▋                    | 93/200 [1:26:10<1:39:09, 55.60s/it]
+model tested on 400 imagesval_score: 0.6485733273995136 f1_scores [0.99610166 0.65945219 0.63769447 0.72916445]
+Epoch: 93 | Iteration Time: 0min 55s
+	Train Loss: 0.11945874
+	 Val Cup: 0.63769447
+	 Val Disk: 0.72916445
+Loss after 02327 examples: 0.122
+Loss after 02331 examples: 0.119
+Loss after 02335 examples: 0.127
+Loss after 02339 examples: 0.119
+Loss after 02343 examples: 0.112
+
+ 47%|█████████████████▊                    | 94/200 [1:27:05<1:37:59, 55.47s/it]
+model tested on 400 imagesval_score: 0.5547872804063477 f1_scores [0.99476758 0.5863367  0.52323786 0.64769847]
+Epoch: 94 | Iteration Time: 0min 55s
+	Train Loss: 0.11539873
+	 Val Cup: 0.52323786
+	 Val Disk: 0.64769847
+Loss after 02351 examples: 0.110
+Loss after 02355 examples: 0.119
+Loss after 02359 examples: 0.111
+Loss after 02363 examples: 0.118
+Loss after 02367 examples: 0.109
+Loss after 02371 examples: 0.107
+Loss after 02375 examples: 0.107
+model tested on 400 imagesval_score: 0.5577104577861389 f1_scores [0.99463136 0.58818933 0.52723158 0.63567949]
+Epoch: 95 | Iteration Time: 0min 55s
+	Train Loss: 0.11271647
+	 Val Cup: 0.52723158
+
+ 48%|██████████████████                    | 95/200 [1:28:01<1:37:11, 55.54s/it]
+Loss after 02379 examples: 0.107
+Loss after 02383 examples: 0.108
+Loss after 02387 examples: 0.107
+Loss after 02391 examples: 0.101
+Loss after 02395 examples: 0.103
+
+ 48%|██████████████████▏                   | 96/200 [1:28:56<1:36:20, 55.58s/it]
+model tested on 400 imagesval_score: 0.5831519346355927 f1_scores [0.99494344 0.61132644 0.55497743 0.66361138]
+Epoch: 96 | Iteration Time: 0min 55s
+	Train Loss: 0.10893111
+	 Val Cup: 0.55497743
+	 Val Disk: 0.66361138
+Loss after 02403 examples: 0.111
+Loss after 02407 examples: 0.107
+Loss after 02411 examples: 0.111
+Loss after 02415 examples: 0.103
+Loss after 02419 examples: 0.112
+
+ 48%|██████████████████▍                   | 97/200 [1:29:52<1:35:38, 55.72s/it]
+model tested on 400 imagesval_score: 0.6375921004882324 f1_scores [0.995409   0.65384801 0.62133619 0.71049268]
+Epoch: 97 | Iteration Time: 0min 56s
+	Train Loss: 0.10791532
+	 Val Cup: 0.62133619
+	 Val Disk: 0.71049268
+Loss after 02427 examples: 0.102
+Loss after 02431 examples: 0.102
+Loss after 02435 examples: 0.110
+Loss after 02439 examples: 0.108
+Loss after 02443 examples: 0.103
+
+ 49%|██████████████████▌                   | 98/200 [1:30:48<1:34:44, 55.73s/it]
+model tested on 400 imagesval_score: 0.5098673627283026 f1_scores [0.99363992 0.56407832 0.4556564  0.5875686 ]
+Epoch: 98 | Iteration Time: 0min 55s
+	Train Loss: 0.10527737
+	 Val Cup: 0.45565640
+	 Val Disk: 0.58756860
+Loss after 02451 examples: 0.097
+Loss after 02455 examples: 0.098
+Loss after 02459 examples: 0.096
+Loss after 02463 examples: 0.102
+Loss after 02467 examples: 0.101
+Loss after 02471 examples: 0.102
+
+ 50%|██████████████████▊                   | 99/200 [1:31:44<1:33:43, 55.68s/it]
+model tested on 400 imagesval_score: 0.6075885384160389 f1_scores [0.99493149 0.63109567 0.58408141 0.68134622]
+Epoch: 99 | Iteration Time: 0min 55s
+	Train Loss: 0.10298279
+	 Val Cup: 0.58408141
+	 Val Disk: 0.68134622
+Loss after 02479 examples: 0.102
+Loss after 02483 examples: 0.094
+Loss after 02487 examples: 0.102
+Loss after 02491 examples: 0.101
+Loss after 02495 examples: 0.097
+
+ 50%|██████████████████▌                  | 100/200 [1:32:39<1:32:38, 55.58s/it]
+model tested on 400 imagesval_score: 0.4920869149861566 f1_scores [0.99372345 0.52998604 0.45418779 0.56155775]
+Epoch: 100 | Iteration Time: 0min 55s
+	Train Loss: 0.09832050
+	 Val Cup: 0.45418779
+	 Val Disk: 0.56155775
+Loss after 02503 examples: 0.098
+Loss after 02507 examples: 0.096
+Loss after 02511 examples: 0.094
+Loss after 02515 examples: 0.094
+Loss after 02519 examples: 0.087
+
+ 50%|██████████████████▋                  | 101/200 [1:33:35<1:31:38, 55.54s/it]
+model tested on 400 imagesval_score: 0.6006622080292806 f1_scores [0.99556571 0.62619862 0.57512579 0.68327502]
+Epoch: 101 | Iteration Time: 0min 55s
+	Train Loss: 0.09599128
+	 Val Cup: 0.57512579
+	 Val Disk: 0.68327502
+Loss after 02527 examples: 0.092
+Loss after 02531 examples: 0.094
+Loss after 02535 examples: 0.092
+Loss after 02539 examples: 0.088
+Loss after 02543 examples: 0.084
+
+ 51%|██████████████████▊                  | 102/200 [1:34:30<1:30:41, 55.53s/it]
+model tested on 400 imagesval_score: 0.6462838437898827 f1_scores [0.99629847 0.70775008 0.58481761 0.74446201]
+Epoch: 102 | Iteration Time: 0min 55s
+	Train Loss: 0.09419027
+	 Val Cup: 0.58481761
+	 Val Disk: 0.74446201
+Loss after 02551 examples: 0.101
+Loss after 02555 examples: 0.093
+Loss after 02559 examples: 0.097
+Loss after 02563 examples: 0.098
+Loss after 02567 examples: 0.101
+Loss after 02571 examples: 0.099
+
+ 52%|███████████████████                  | 103/200 [1:35:26<1:29:45, 55.52s/it]
+model tested on 400 imagesval_score: 0.5842729778331374 f1_scores [0.99511541 0.62812141 0.54042455 0.66256761]
+Epoch: 103 | Iteration Time: 0min 55s
+	Train Loss: 0.09580793
+	 Val Cup: 0.54042455
+	 Val Disk: 0.66256761
+Loss after 02579 examples: 0.087
+Loss after 02583 examples: 0.102
+Loss after 02587 examples: 0.095
+Loss after 02591 examples: 0.089
+Loss after 02595 examples: 0.092
+Loss after 02599 examples: 0.089
+model tested on 400 imagesval_score: 0.5828499122831505 f1_scores [0.99531562 0.63329462 0.53240521 0.68394495]
+Epoch: 104 | Iteration Time: 0min 55s
+	Train Loss: 0.09129248
+	 Val Cup: 0.53240521
+
+ 52%|███████████████████▏                 | 104/200 [1:36:21<1:28:53, 55.56s/it]
+Loss after 02603 examples: 0.090
+Loss after 02607 examples: 0.081
+Loss after 02611 examples: 0.091
+Loss after 02615 examples: 0.086
+Loss after 02619 examples: 0.095
+
+ 52%|███████████████████▍                 | 105/200 [1:37:17<1:27:59, 55.57s/it]
+model tested on 400 imagesval_score: 0.6769815207582949 f1_scores [0.99601119 0.67190575 0.68205729 0.7433549 ]
+Epoch: 105 | Iteration Time: 0min 55s
+	Train Loss: 0.08978784
+	 Val Cup: 0.68205729
+	 Val Disk: 0.74335490
+Loss after 02627 examples: 0.090
+Loss after 02631 examples: 0.083
+Loss after 02635 examples: 0.090
+Loss after 02639 examples: 0.086
+Loss after 02643 examples: 0.085
+
+ 53%|███████████████████▌                 | 106/200 [1:38:13<1:27:09, 55.63s/it]
+model tested on 400 imagesval_score: 0.5853018610525459 f1_scores [0.99465752 0.62199935 0.54860437 0.65183181]
+Epoch: 106 | Iteration Time: 0min 55s
+	Train Loss: 0.08677794
+	 Val Cup: 0.54860437
+	 Val Disk: 0.65183181
+Loss after 02651 examples: 0.090
+Loss after 02655 examples: 0.090
+Loss after 02659 examples: 0.097
+Loss after 02663 examples: 0.087
+Loss after 02667 examples: 0.083
+Loss after 02671 examples: 0.085
+
+ 54%|███████████████████▊                 | 107/200 [1:39:08<1:26:14, 55.64s/it]
+model tested on 400 imagesval_score: 0.6388960577626045 f1_scores [0.99549649 0.64661039 0.63118172 0.70840186]
+Epoch: 107 | Iteration Time: 0min 55s
+	Train Loss: 0.08530514
+	 Val Cup: 0.63118172
+	 Val Disk: 0.70840186
+Loss after 02679 examples: 0.085
+Loss after 02683 examples: 0.077
+Loss after 02687 examples: 0.086
+Loss after 02691 examples: 0.083
+Loss after 02695 examples: 0.084
+
+ 54%|███████████████████▉                 | 108/200 [1:40:04<1:25:28, 55.74s/it]
+model tested on 400 imagesval_score: 0.626469109784474 f1_scores [0.9955582  0.64224479 0.61069343 0.69114968]
+Epoch: 108 | Iteration Time: 0min 55s
+	Train Loss: 0.08347815
+	 Val Cup: 0.61069343
+	 Val Disk: 0.69114968
+Loss after 02703 examples: 0.078
+Loss after 02707 examples: 0.092
+Loss after 02711 examples: 0.086
+Loss after 02715 examples: 0.081
+Loss after 02719 examples: 0.083
+
+ 55%|████████████████████▏                | 109/200 [1:41:00<1:24:19, 55.60s/it]
+model tested on 400 imagesval_score: 0.6040307425588378 f1_scores [0.99522923 0.64864494 0.55941655 0.67440032]
+Epoch: 109 | Iteration Time: 0min 55s
+	Train Loss: 0.08167803
+	 Val Cup: 0.55941655
+	 Val Disk: 0.67440032
+Loss after 02727 examples: 0.073
+Loss after 02731 examples: 0.072
+Loss after 02735 examples: 0.092
+Loss after 02739 examples: 0.085
+Loss after 02743 examples: 0.075
+
+ 55%|████████████████████▎                | 110/200 [1:41:55<1:23:12, 55.48s/it]
+model tested on 400 imagesval_score: 0.5608262086508478 f1_scores [0.99497838 0.57923825 0.54241417 0.62246112]
+Epoch: 110 | Iteration Time: 0min 55s
+	Train Loss: 0.08025467
+	 Val Cup: 0.54241417
+	 Val Disk: 0.62246112
+Loss after 02751 examples: 0.081
+Loss after 02755 examples: 0.080
+Loss after 02759 examples: 0.086
+Loss after 02763 examples: 0.084
+Loss after 02767 examples: 0.082
+Loss after 02771 examples: 0.081
+
+ 56%|████████████████████▌                | 111/200 [1:42:50<1:21:59, 55.27s/it]
+model tested on 400 imagesval_score: 0.7088031201608852 f1_scores [0.99680028 0.72269121 0.69491503 0.77996163]
+Epoch: 111 | Iteration Time: 0min 54s
+	Train Loss: 0.07867713
+	 Val Cup: 0.69491503
+	 Val Disk: 0.77996163
+Loss after 02779 examples: 0.080
+Loss after 02783 examples: 0.074
+Loss after 02787 examples: 0.075
+Loss after 02791 examples: 0.072
+Loss after 02795 examples: 0.080
+
+ 56%|████████████████████▋                | 112/200 [1:43:45<1:21:03, 55.26s/it]
+model tested on 400 imagesval_score: 0.5452401109134758 f1_scores [0.99461761 0.56548785 0.52499237 0.61364029]
+Epoch: 112 | Iteration Time: 0min 55s
+	Train Loss: 0.07505080
+	 Val Cup: 0.52499237
+	 Val Disk: 0.61364029
+Loss after 02803 examples: 0.073
+Loss after 02807 examples: 0.072
+Loss after 02811 examples: 0.078
+Loss after 02815 examples: 0.073
+Loss after 02819 examples: 0.071
+
+ 56%|████████████████████▉                | 113/200 [1:44:40<1:20:13, 55.33s/it]
+model tested on 400 imagesval_score: 0.5164995843174826 f1_scores [0.99305181 0.55820233 0.47479684 0.58275893]
+Epoch: 113 | Iteration Time: 0min 55s
+	Train Loss: 0.07535075
+	 Val Cup: 0.47479684
+	 Val Disk: 0.58275893
+Loss after 02827 examples: 0.078
+Loss after 02831 examples: 0.077
+Loss after 02835 examples: 0.068
+Loss after 02839 examples: 0.066
+Loss after 02843 examples: 0.065
+
+ 57%|█████████████████████                | 114/200 [1:45:36<1:19:40, 55.59s/it]
+model tested on 400 imagesval_score: 0.641482637636643 f1_scores [0.99622582 0.66458557 0.61837971 0.71560846]
+Epoch: 114 | Iteration Time: 0min 56s
+	Train Loss: 0.07443292
+	 Val Cup: 0.61837971
+	 Val Disk: 0.71560846
+Loss after 02851 examples: 0.073
+Loss after 02855 examples: 0.072
+Loss after 02859 examples: 0.077
+Loss after 02863 examples: 0.071
+Loss after 02867 examples: 0.070
+Loss after 02871 examples: 0.079
+
+ 57%|█████████████████████▎               | 115/200 [1:46:32<1:18:40, 55.54s/it]
+model tested on 400 imagesval_score: 0.5284930588650412 f1_scores [0.99456908 0.55260082 0.50438529 0.58699452]
+Epoch: 115 | Iteration Time: 0min 55s
+	Train Loss: 0.07544357
+	 Val Cup: 0.50438529
+	 Val Disk: 0.58699452
+Loss after 02879 examples: 0.069
+Loss after 02883 examples: 0.086
+Loss after 02887 examples: 0.083
+Loss after 02891 examples: 0.076
+Loss after 02895 examples: 0.074
+
+ 58%|█████████████████████▍               | 116/200 [1:47:28<1:17:55, 55.66s/it]
+model tested on 400 imagesval_score: 0.5647176299220891 f1_scores [0.99388438 0.62133213 0.50810313 0.633153  ]
+Epoch: 116 | Iteration Time: 0min 55s
+	Train Loss: 0.07346186
+	 Val Cup: 0.50810313
+	 Val Disk: 0.63315300
+Loss after 02903 examples: 0.080
+Loss after 02907 examples: 0.077
+Loss after 02911 examples: 0.081
+Loss after 02915 examples: 0.076
+Loss after 02919 examples: 0.068
+
+ 58%|█████████████████████▋               | 117/200 [1:48:23<1:16:58, 55.65s/it]
+model tested on 400 imagesval_score: 0.5654463784432894 f1_scores [0.99384265 0.61167195 0.51922081 0.63480251]
+Epoch: 117 | Iteration Time: 0min 55s
+	Train Loss: 0.07300518
+	 Val Cup: 0.51922081
+	 Val Disk: 0.63480251
+Loss after 02927 examples: 0.072
+Loss after 02931 examples: 0.065
+Loss after 02935 examples: 0.067
+Loss after 02939 examples: 0.062
+Loss after 02943 examples: 0.069
+
+ 59%|█████████████████████▊               | 118/200 [1:49:19<1:16:01, 55.63s/it]
+model tested on 400 imagesval_score: 0.6139630117018083 f1_scores [0.99510825 0.65072476 0.57720126 0.68887007]
+Epoch: 118 | Iteration Time: 0min 55s
+	Train Loss: 0.06813693
+	 Val Cup: 0.57720126
+	 Val Disk: 0.68887007
+Loss after 02951 examples: 0.073
+Loss after 02955 examples: 0.066
+Loss after 02959 examples: 0.064
+Loss after 02963 examples: 0.062
+Loss after 02967 examples: 0.070
+Loss after 02971 examples: 0.066
+
+ 60%|██████████████████████               | 119/200 [1:50:15<1:15:10, 55.69s/it]
+model tested on 400 imagesval_score: 0.506384494079991 f1_scores [0.9936356  0.57710284 0.43566615 0.57293851]
+Epoch: 119 | Iteration Time: 0min 55s
+	Train Loss: 0.06842860
+	 Val Cup: 0.43566615
+	 Val Disk: 0.57293851
+Loss after 02979 examples: 0.066
+Loss after 02983 examples: 0.062
+Loss after 02987 examples: 0.060
+Loss after 02991 examples: 0.071
+Loss after 02995 examples: 0.061
+
+ 60%|██████████████████████▏              | 120/200 [1:51:10<1:14:13, 55.67s/it]
+model tested on 400 imagesval_score: 0.5751489370186317 f1_scores [0.994832   0.62019247 0.53010541 0.64684943]
+Epoch: 120 | Iteration Time: 0min 55s
+	Train Loss: 0.06584792
+	 Val Cup: 0.53010541
+	 Val Disk: 0.64684943
+Loss after 03003 examples: 0.069
+Loss after 03007 examples: 0.066
+Loss after 03011 examples: 0.063
+Loss after 03015 examples: 0.063
+Loss after 03019 examples: 0.066
+
+ 60%|██████████████████████▍              | 121/200 [1:52:06<1:13:08, 55.55s/it]
+model tested on 400 imagesval_score: 0.5702051057362841 f1_scores [0.99446031 0.60406669 0.53634353 0.63498689]
+Epoch: 121 | Iteration Time: 0min 55s
+	Train Loss: 0.06515821
+	 Val Cup: 0.53634353
+	 Val Disk: 0.63498689
+Loss after 03027 examples: 0.059
+Loss after 03031 examples: 0.065
+Loss after 03035 examples: 0.062
+Loss after 03039 examples: 0.066
+Loss after 03043 examples: 0.069
+
+ 61%|██████████████████████▌              | 122/200 [1:53:01<1:12:03, 55.43s/it]
+model tested on 400 imagesval_score: 0.5513747401068188 f1_scores [0.99499924 0.60093481 0.50181467 0.62457924]
+Epoch: 122 | Iteration Time: 0min 55s
+	Train Loss: 0.06375127
+	 Val Cup: 0.50181467
+	 Val Disk: 0.62457924
+Loss after 03051 examples: 0.068
+Loss after 03055 examples: 0.060
+Loss after 03059 examples: 0.061
+Loss after 03063 examples: 0.058
+Loss after 03067 examples: 0.063
+Loss after 03071 examples: 0.061
+
+ 62%|██████████████████████▊              | 123/200 [1:53:56<1:10:53, 55.24s/it]
+model tested on 400 imagesval_score: 0.5427411747437374 f1_scores [0.99482384 0.60572591 0.47975644 0.62549707]
+Epoch: 123 | Iteration Time: 0min 54s
+	Train Loss: 0.06215730
+	 Val Cup: 0.47975644
+	 Val Disk: 0.62549707
+Loss after 03079 examples: 0.059
+Loss after 03083 examples: 0.059
+Loss after 03087 examples: 0.055
+Loss after 03091 examples: 0.060
+Loss after 03095 examples: 0.053
+
+ 62%|██████████████████████▉              | 124/200 [1:54:51<1:10:02, 55.29s/it]
+model tested on 400 imagesval_score: 0.6396568910645899 f1_scores [0.99576516 0.68252398 0.5967898  0.70690586]
+Epoch: 124 | Iteration Time: 0min 55s
+	Train Loss: 0.06307397
+	 Val Cup: 0.59678980
+	 Val Disk: 0.70690586
+Loss after 03103 examples: 0.061
+Loss after 03107 examples: 0.061
+Loss after 03111 examples: 0.063
+Loss after 03115 examples: 0.063
+Loss after 03119 examples: 0.062
+
+ 62%|███████████████████████▏             | 125/200 [1:55:46<1:09:09, 55.32s/it]
+model tested on 400 imagesval_score: 0.6227080546134799 f1_scores [0.99549839 0.65146316 0.59395295 0.68793066]
+Epoch: 125 | Iteration Time: 0min 55s
+	Train Loss: 0.06169297
+	 Val Cup: 0.59395295
+	 Val Disk: 0.68793066
+Loss after 03127 examples: 0.067
+Loss after 03131 examples: 0.061
+Loss after 03135 examples: 0.068
+Loss after 03139 examples: 0.070
+Loss after 03143 examples: 0.065
+
+ 63%|███████████████████████▎             | 126/200 [1:56:42<1:08:14, 55.33s/it]
+model tested on 400 imagesval_score: 0.5482489172859325 f1_scores [0.99450821 0.58721215 0.50928568 0.62814912]
+Epoch: 126 | Iteration Time: 0min 55s
+	Train Loss: 0.06345260
+	 Val Cup: 0.50928568
+	 Val Disk: 0.62814912
+Loss after 03151 examples: 0.067
+Loss after 03155 examples: 0.065
+Loss after 03159 examples: 0.061
+Loss after 03163 examples: 0.055
+Loss after 03167 examples: 0.061
+Loss after 03171 examples: 0.064
+
+ 64%|███████████████████████▍             | 127/200 [1:57:38<1:07:30, 55.49s/it]
+model tested on 400 imagesval_score: 0.4422481630524795 f1_scores [0.99255773 0.50551163 0.37898469 0.50050837]
+Epoch: 127 | Iteration Time: 0min 55s
+	Train Loss: 0.06185434
+	 Val Cup: 0.37898469
+	 Val Disk: 0.50050837
+Loss after 03179 examples: 0.060
+Loss after 03183 examples: 0.059
+Loss after 03187 examples: 0.055
+Loss after 03191 examples: 0.057
+Loss after 03195 examples: 0.070
+
+ 64%|███████████████████████▋             | 128/200 [1:58:33<1:06:39, 55.55s/it]
+model tested on 400 imagesval_score: 0.6035560966377318 f1_scores [0.99535864 0.64963434 0.55747785 0.68908417]
+Epoch: 128 | Iteration Time: 0min 55s
+	Train Loss: 0.06104458
+	 Val Cup: 0.55747785
+	 Val Disk: 0.68908417
+Loss after 03203 examples: 0.057
+Loss after 03207 examples: 0.060
+Loss after 03211 examples: 0.058
+Loss after 03215 examples: 0.058
+Loss after 03219 examples: 0.060
+
+ 64%|███████████████████████▊             | 129/200 [1:59:29<1:05:48, 55.61s/it]
+model tested on 400 imagesval_score: 0.5750283045294367 f1_scores [0.99473445 0.62829398 0.52176262 0.65138465]
+Epoch: 129 | Iteration Time: 0min 55s
+	Train Loss: 0.05964787
+	 Val Cup: 0.52176262
+	 Val Disk: 0.65138465
+Loss after 03227 examples: 0.057
+Loss after 03231 examples: 0.060
+Loss after 03235 examples: 0.058
+Loss after 03239 examples: 0.059
+Loss after 03243 examples: 0.055
+Loss after 03247 examples: 0.054
+model tested on 400 imagesval_score: 0.5425795051892411 f1_scores [0.99442901 0.64505222 0.44010679 0.6330855 ]
+Epoch: 130 | Iteration Time: 0min 55s
+	Train Loss: 0.05807027
+	 Val Cup: 0.44010679
+
+ 65%|████████████████████████             | 130/200 [2:00:25<1:04:57, 55.67s/it]
+Loss after 03251 examples: 0.064
+Loss after 03255 examples: 0.061
+Loss after 03259 examples: 0.059
+Loss after 03263 examples: 0.054
+Loss after 03267 examples: 0.054
+Loss after 03271 examples: 0.054
+
+ 66%|████████████████████████▏            | 131/200 [2:01:20<1:03:53, 55.55s/it]
+model tested on 400 imagesval_score: 0.6226090319335918 f1_scores [0.99539888 0.6746155  0.57060256 0.69368244]
+Epoch: 131 | Iteration Time: 0min 55s
+	Train Loss: 0.05667286
+	 Val Cup: 0.57060256
+	 Val Disk: 0.69368244
+Loss after 03279 examples: 0.056
+Loss after 03283 examples: 0.051
+Loss after 03287 examples: 0.057
+Loss after 03291 examples: 0.056
+Loss after 03295 examples: 0.054
+
+ 66%|████████████████████████▍            | 132/200 [2:02:16<1:02:55, 55.52s/it]
+model tested on 400 imagesval_score: 0.5515873274625636 f1_scores [0.99490869 0.62151975 0.4816549  0.63237215]
+Epoch: 132 | Iteration Time: 0min 55s
+	Train Loss: 0.05539483
+	 Val Cup: 0.48165490
+	 Val Disk: 0.63237215
+Loss after 03303 examples: 0.055
+Loss after 03307 examples: 0.058
+Loss after 03311 examples: 0.053
+Loss after 03315 examples: 0.051
+Loss after 03319 examples: 0.057
+
+ 66%|████████████████████████▌            | 133/200 [2:03:11<1:02:01, 55.54s/it]
+model tested on 400 imagesval_score: 0.555583824227941 f1_scores [0.995138   0.63046582 0.48070183 0.63972281]
+Epoch: 133 | Iteration Time: 0min 55s
+	Train Loss: 0.05506391
+	 Val Cup: 0.48070183
+	 Val Disk: 0.63972281
+Loss after 03327 examples: 0.062
+Loss after 03331 examples: 0.058
+Loss after 03335 examples: 0.053
+Loss after 03339 examples: 0.051
+Loss after 03343 examples: 0.054
+
+ 67%|████████████████████████▊            | 134/200 [2:04:07<1:01:11, 55.62s/it]
+model tested on 400 imagesval_score: 0.5620838550618864 f1_scores [0.99454222 0.62652094 0.49764677 0.63804827]
+Epoch: 134 | Iteration Time: 0min 55s
+	Train Loss: 0.05566410
+	 Val Cup: 0.49764677
+	 Val Disk: 0.63804827
+Loss after 03351 examples: 0.053
+Loss after 03355 examples: 0.052
+Loss after 03359 examples: 0.052
+Loss after 03363 examples: 0.055
+Loss after 03367 examples: 0.046
+Loss after 03371 examples: 0.059
+
+ 68%|████████████████████████▉            | 135/200 [2:05:02<1:00:11, 55.56s/it]
+model tested on 400 imagesval_score: 0.600322859823335 f1_scores [0.99544456 0.65771374 0.54293198 0.6770378 ]
+Epoch: 135 | Iteration Time: 0min 55s
+	Train Loss: 0.05438878
+	 Val Cup: 0.54293198
+	 Val Disk: 0.67703780
+Loss after 03379 examples: 0.054
+Loss after 03383 examples: 0.049
+Loss after 03387 examples: 0.047
+Loss after 03391 examples: 0.051
+Loss after 03395 examples: 0.050
+
+ 68%|██████████████████████████▌            | 136/200 [2:05:58<59:14, 55.54s/it]
+model tested on 400 imagesval_score: 0.5925394024094367 f1_scores [0.99505309 0.66451398 0.52056483 0.66763845]
+Epoch: 136 | Iteration Time: 0min 55s
+	Train Loss: 0.05255542
+	 Val Cup: 0.52056483
+	 Val Disk: 0.66763845
+Loss after 03403 examples: 0.052
+Loss after 03407 examples: 0.046
+Loss after 03411 examples: 0.049
+Loss after 03415 examples: 0.048
+Loss after 03419 examples: 0.055
+
+ 68%|██████████████████████████▋            | 137/200 [2:06:53<58:15, 55.48s/it]
+model tested on 400 imagesval_score: 0.6228312944848868 f1_scores [0.99558957 0.6677604  0.57790219 0.69380661]
+Epoch: 137 | Iteration Time: 0min 55s
+	Train Loss: 0.05122280
+	 Val Cup: 0.57790219
+	 Val Disk: 0.69380661
+Loss after 03427 examples: 0.047
+Loss after 03431 examples: 0.055
+Loss after 03435 examples: 0.060
+Loss after 03439 examples: 0.057
+Loss after 03443 examples: 0.058
+
+ 69%|██████████████████████████▉            | 138/200 [2:07:49<57:17, 55.44s/it]
+model tested on 400 imagesval_score: 0.604323350185578 f1_scores [0.99519747 0.65271961 0.55592709 0.67380853]
+Epoch: 138 | Iteration Time: 0min 55s
+	Train Loss: 0.05286376
+	 Val Cup: 0.55592709
+	 Val Disk: 0.67380853
+Loss after 03451 examples: 0.049
+Loss after 03455 examples: 0.047
+Loss after 03459 examples: 0.048
+Loss after 03463 examples: 0.054
+Loss after 03467 examples: 0.054
+Loss after 03471 examples: 0.049
+
+ 70%|███████████████████████████            | 139/200 [2:08:44<56:23, 55.46s/it]
+model tested on 400 imagesval_score: 0.5935888607310578 f1_scores [0.99532001 0.67710917 0.51006855 0.67759063]
+Epoch: 139 | Iteration Time: 0min 55s
+	Train Loss: 0.05002033
+	 Val Cup: 0.51006855
+	 Val Disk: 0.67759063
+Loss after 03479 examples: 0.054
+Loss after 03483 examples: 0.049
+Loss after 03487 examples: 0.045
+Loss after 03491 examples: 0.058
+Loss after 03495 examples: 0.053
+
+ 70%|███████████████████████████▎           | 140/200 [2:09:40<55:30, 55.50s/it]
+model tested on 400 imagesval_score: 0.5664880658767872 f1_scores [0.9949845  0.63364206 0.49933407 0.63971106]
+Epoch: 140 | Iteration Time: 0min 55s
+	Train Loss: 0.05066597
+	 Val Cup: 0.49933407
+	 Val Disk: 0.63971106
+Loss after 03503 examples: 0.049
+Loss after 03507 examples: 0.047
+Loss after 03511 examples: 0.046
+Loss after 03515 examples: 0.043
+Loss after 03519 examples: 0.048
+
+ 70%|███████████████████████████▍           | 141/200 [2:10:35<54:37, 55.55s/it]
+model tested on 400 imagesval_score: 0.5510340526083876 f1_scores [0.99437723 0.60530244 0.49676567 0.62185323]
+Epoch: 141 | Iteration Time: 0min 55s
+	Train Loss: 0.04907868
+	 Val Cup: 0.49676567
+	 Val Disk: 0.62185323
+Loss after 03527 examples: 0.052
+Loss after 03531 examples: 0.051
+Loss after 03535 examples: 0.048
+Loss after 03539 examples: 0.046
+Loss after 03543 examples: 0.048
+
+ 71%|███████████████████████████▋           | 142/200 [2:11:31<53:43, 55.58s/it]
+model tested on 400 imagesval_score: 0.4772833135796176 f1_scores [0.99413531 0.5653681  0.38919852 0.55880392]
+Epoch: 142 | Iteration Time: 0min 55s
+	Train Loss: 0.04930132
+	 Val Cup: 0.38919852
+	 Val Disk: 0.55880392
+Loss after 03551 examples: 0.042
+Loss after 03555 examples: 0.045
+Loss after 03559 examples: 0.052
+Loss after 03563 examples: 0.043
+Loss after 03567 examples: 0.054
+Loss after 03571 examples: 0.055
+
+ 72%|███████████████████████████▉           | 143/200 [2:12:26<52:42, 55.48s/it]
+model tested on 400 imagesval_score: 0.5602019752890409 f1_scores [0.99491643 0.62829119 0.49211277 0.64089306]
+Epoch: 143 | Iteration Time: 0min 55s
+	Train Loss: 0.04857349
+	 Val Cup: 0.49211277
+	 Val Disk: 0.64089306
+Loss after 03579 examples: 0.050
+Loss after 03583 examples: 0.051
+Loss after 03587 examples: 0.048
+Loss after 03591 examples: 0.047
+Loss after 03595 examples: 0.048
+
+ 72%|████████████████████████████           | 144/200 [2:13:22<51:43, 55.42s/it]
+model tested on 400 imagesval_score: 0.5975618749446434 f1_scores [0.99530094 0.65354032 0.54158343 0.67609543]
+Epoch: 144 | Iteration Time: 0min 55s
+	Train Loss: 0.04835311
+	 Val Cup: 0.54158343
+	 Val Disk: 0.67609543
+Loss after 03603 examples: 0.050
+Loss after 03607 examples: 0.051
+Loss after 03611 examples: 0.044
+Loss after 03615 examples: 0.042
+Loss after 03619 examples: 0.044
+
+ 72%|████████████████████████████▎          | 145/200 [2:14:17<50:51, 55.47s/it]
+model tested on 400 imagesval_score: 0.6592226130141305 f1_scores [0.99617123 0.69195746 0.62648777 0.73402221]
+Epoch: 145 | Iteration Time: 0min 55s
+	Train Loss: 0.04766966
+	 Val Cup: 0.62648777
+	 Val Disk: 0.73402221
+Loss after 03627 examples: 0.043
+Loss after 03631 examples: 0.046
+Loss after 03635 examples: 0.044
+Loss after 03639 examples: 0.049
+Loss after 03643 examples: 0.039
+
+ 73%|████████████████████████████▍          | 146/200 [2:15:12<49:52, 55.41s/it]
+model tested on 400 imagesval_score: 0.5233236684367778 f1_scores [0.99423182 0.62189748 0.42474986 0.60424514]
+Epoch: 146 | Iteration Time: 0min 55s
+	Train Loss: 0.04615072
+	 Val Cup: 0.42474986
+	 Val Disk: 0.60424514
+Loss after 03651 examples: 0.049
+Loss after 03655 examples: 0.048
+Loss after 03659 examples: 0.044
+Loss after 03663 examples: 0.046
+Loss after 03667 examples: 0.044
+Loss after 03671 examples: 0.046
+
+ 74%|████████████████████████████▋          | 147/200 [2:16:09<49:06, 55.60s/it]
+model tested on 400 imagesval_score: 0.5658158227045321 f1_scores [0.99510082 0.63499573 0.49663591 0.65124908]
+Epoch: 147 | Iteration Time: 0min 56s
+	Train Loss: 0.04678039
+	 Val Cup: 0.49663591
+	 Val Disk: 0.65124908
+Loss after 03679 examples: 0.047
+Loss after 03683 examples: 0.048
+Loss after 03687 examples: 0.046
+Loss after 03691 examples: 0.049
+Loss after 03695 examples: 0.043
+
+ 74%|████████████████████████████▊          | 148/200 [2:17:04<48:02, 55.43s/it]
+model tested on 400 imagesval_score: 0.5376444404453689 f1_scores [0.99439069 0.60069566 0.47459322 0.61019909]
+Epoch: 148 | Iteration Time: 0min 55s
+	Train Loss: 0.04754099
+	 Val Cup: 0.47459322
+	 Val Disk: 0.61019909
+Loss after 03703 examples: 0.044
+Loss after 03707 examples: 0.041
+Loss after 03711 examples: 0.046
+Loss after 03715 examples: 0.048
+Loss after 03719 examples: 0.044
+
+ 74%|█████████████████████████████          | 149/200 [2:17:59<47:09, 55.48s/it]
+model tested on 400 imagesval_score: 0.5438545335206646 f1_scores [0.9947125  0.60990249 0.47780658 0.6210385 ]
+Epoch: 149 | Iteration Time: 0min 55s
+	Train Loss: 0.04557063
+	 Val Cup: 0.47780658
+	 Val Disk: 0.62103850
+Loss after 03727 examples: 0.041
+Loss after 03731 examples: 0.041
+Loss after 03735 examples: 0.041
+Loss after 03739 examples: 0.037
+Loss after 03743 examples: 0.046
+
+ 75%|█████████████████████████████▎         | 150/200 [2:18:55<46:15, 55.52s/it]
+model tested on 400 imagesval_score: 0.596794917397275 f1_scores [0.9955578  0.64435639 0.54923344 0.67372346]
+Epoch: 150 | Iteration Time: 0min 55s
+	Train Loss: 0.04432578
+	 Val Cup: 0.54923344
+	 Val Disk: 0.67372346
+Loss after 03751 examples: 0.044
+Loss after 03755 examples: 0.045
+Loss after 03759 examples: 0.038
+Loss after 03763 examples: 0.042
+Loss after 03767 examples: 0.052
+Loss after 03771 examples: 0.042
+
+ 76%|█████████████████████████████▍         | 151/200 [2:19:51<45:30, 55.73s/it]
+model tested on 400 imagesval_score: 0.6438970891716963 f1_scores [0.99589715 0.66934908 0.6184451  0.7114324 ]
+Epoch: 151 | Iteration Time: 0min 56s
+	Train Loss: 0.04408154
+	 Val Cup: 0.61844510
+	 Val Disk: 0.71143240
+Loss after 03779 examples: 0.040
+Loss after 03783 examples: 0.045
+Loss after 03787 examples: 0.047
+Loss after 03791 examples: 0.044
+Loss after 03795 examples: 0.039
+
+ 76%|█████████████████████████████▋         | 152/200 [2:20:47<44:37, 55.79s/it]
+model tested on 400 imagesval_score: 0.6276695574506506 f1_scores [0.99615239 0.67519105 0.58014807 0.70842799]
+Epoch: 152 | Iteration Time: 0min 55s
+	Train Loss: 0.04381611
+	 Val Cup: 0.58014807
+	 Val Disk: 0.70842799
+Loss after 03803 examples: 0.039
+Loss after 03807 examples: 0.047
+Loss after 03811 examples: 0.041
+Loss after 03815 examples: 0.045
+Loss after 03819 examples: 0.043
+
+ 76%|█████████████████████████████▊         | 153/200 [2:21:42<43:33, 55.60s/it]
+model tested on 400 imagesval_score: 0.6502154978419226 f1_scores [0.9962217  0.69155504 0.60887595 0.73120466]
+Epoch: 153 | Iteration Time: 0min 55s
+	Train Loss: 0.04269847
+	 Val Cup: 0.60887595
+	 Val Disk: 0.73120466
+Loss after 03827 examples: 0.041
+Loss after 03831 examples: 0.042
+Loss after 03835 examples: 0.038
+Loss after 03839 examples: 0.048
+Loss after 03843 examples: 0.042
+Loss after 03847 examples: 0.040
+model tested on 400 imagesval_score: 0.5382343260065705 f1_scores [0.99480385 0.60746374 0.46900491 0.61232806]
+Epoch: 154 | Iteration Time: 0min 55s
+	Train Loss: 0.04286651
+	 Val Cup: 0.46900491
+
+ 77%|██████████████████████████████         | 154/200 [2:22:38<42:38, 55.62s/it]
+Loss after 03851 examples: 0.040
+Loss after 03855 examples: 0.041
+Loss after 03859 examples: 0.039
+Loss after 03863 examples: 0.043
+Loss after 03867 examples: 0.040
+Loss after 03871 examples: 0.039
+
+ 78%|██████████████████████████████▏        | 155/200 [2:23:33<41:37, 55.51s/it]
+model tested on 400 imagesval_score: 0.61865867951308 f1_scores [0.99575241 0.65456662 0.58275074 0.68696947]
+Epoch: 155 | Iteration Time: 0min 55s
+	Train Loss: 0.04223238
+	 Val Cup: 0.58275074
+	 Val Disk: 0.68696947
+Loss after 03879 examples: 0.042
+Loss after 03883 examples: 0.043
+Loss after 03887 examples: 0.043
+Loss after 03891 examples: 0.045
+Loss after 03895 examples: 0.046
+
+ 78%|██████████████████████████████▍        | 156/200 [2:24:28<40:39, 55.45s/it]
+model tested on 400 imagesval_score: 0.5614237537047608 f1_scores [0.99522609 0.61177962 0.51106789 0.63138275]
+Epoch: 156 | Iteration Time: 0min 55s
+	Train Loss: 0.04199374
+	 Val Cup: 0.51106789
+	 Val Disk: 0.63138275
+Loss after 03903 examples: 0.045
+Loss after 03907 examples: 0.044
+Loss after 03911 examples: 0.038
+Loss after 03915 examples: 0.050
+Loss after 03919 examples: 0.038
+
+ 78%|██████████████████████████████▌        | 157/200 [2:25:23<39:41, 55.38s/it]
+model tested on 400 imagesval_score: 0.6192990987851225 f1_scores [0.99617195 0.66305515 0.57554305 0.69426561]
+Epoch: 157 | Iteration Time: 0min 55s
+	Train Loss: 0.04332432
+	 Val Cup: 0.57554305
+	 Val Disk: 0.69426561
+Loss after 03927 examples: 0.038
+Loss after 03931 examples: 0.041
+Loss after 03935 examples: 0.048
+Loss after 03939 examples: 0.041
+Loss after 03943 examples: 0.041
+
+ 79%|██████████████████████████████▊        | 158/200 [2:26:19<38:53, 55.55s/it]
+model tested on 400 imagesval_score: 0.512219579513915 f1_scores [0.99464483 0.61232848 0.41211068 0.60400113]
+Epoch: 158 | Iteration Time: 0min 55s
+	Train Loss: 0.04339525
+	 Val Cup: 0.41211068
+	 Val Disk: 0.60400113
+Loss after 03951 examples: 0.039
+Loss after 03955 examples: 0.042
+Loss after 03959 examples: 0.046
+Loss after 03963 examples: 0.037
+Loss after 03967 examples: 0.042
+Loss after 03971 examples: 0.037
+
+ 80%|███████████████████████████████        | 159/200 [2:27:16<38:04, 55.71s/it]
+model tested on 400 imagesval_score: 0.5745685180385949 f1_scores [0.99524337 0.61626078 0.53287625 0.64420716]
+Epoch: 159 | Iteration Time: 0min 56s
+	Train Loss: 0.04071947
+	 Val Cup: 0.53287625
+	 Val Disk: 0.64420716
+Loss after 03979 examples: 0.042
+Loss after 03983 examples: 0.041
+Loss after 03987 examples: 0.041
+Loss after 03991 examples: 0.041
+Loss after 03995 examples: 0.039
+
+ 80%|███████████████████████████████▏       | 160/200 [2:28:11<37:09, 55.73s/it]
+model tested on 400 imagesval_score: 0.6018561824568751 f1_scores [0.99563356 0.6797762  0.52393617 0.69711281]
+Epoch: 160 | Iteration Time: 0min 55s
+	Train Loss: 0.04087103
+	 Val Cup: 0.52393617
+	 Val Disk: 0.69711281
+Loss after 04003 examples: 0.038
+Loss after 04007 examples: 0.045
+Loss after 04011 examples: 0.041
+Loss after 04015 examples: 0.049
+Loss after 04019 examples: 0.042
+
+ 80%|███████████████████████████████▍       | 161/200 [2:29:07<36:08, 55.61s/it]
+model tested on 400 imagesval_score: 0.5836447511274105 f1_scores [0.99529219 0.61244251 0.55484699 0.65125336]
+Epoch: 161 | Iteration Time: 0min 55s
+	Train Loss: 0.04104181
+	 Val Cup: 0.55484699
+	 Val Disk: 0.65125336
+Loss after 04027 examples: 0.039
+Loss after 04031 examples: 0.040
+Loss after 04035 examples: 0.039
+Loss after 04039 examples: 0.046
+Loss after 04043 examples: 0.040
+
+ 81%|███████████████████████████████▌       | 162/200 [2:30:02<35:12, 55.58s/it]
+model tested on 400 imagesval_score: 0.6014587373290589 f1_scores [0.99577591 0.6407344  0.56218307 0.67910922]
+Epoch: 162 | Iteration Time: 0min 55s
+	Train Loss: 0.04024128
+	 Val Cup: 0.56218307
+	 Val Disk: 0.67910922
+Loss after 04051 examples: 0.039
+Loss after 04055 examples: 0.038
+Loss after 04059 examples: 0.040
+Loss after 04063 examples: 0.040
+Loss after 04067 examples: 0.041
+Loss after 04071 examples: 0.040
+
+ 82%|███████████████████████████████▊       | 163/200 [2:30:58<34:19, 55.66s/it]
+model tested on 400 imagesval_score: 0.6523912774577819 f1_scores [0.9961673  0.6708777  0.63390485 0.71787203]
+Epoch: 163 | Iteration Time: 0min 55s
+	Train Loss: 0.03873893
+	 Val Cup: 0.63390485
+	 Val Disk: 0.71787203
+Loss after 04079 examples: 0.043
+Loss after 04083 examples: 0.047
+Loss after 04087 examples: 0.037
+Loss after 04091 examples: 0.039
+Loss after 04095 examples: 0.040
+
+ 82%|███████████████████████████████▉       | 164/200 [2:31:54<33:25, 55.71s/it]
+model tested on 400 imagesval_score: 0.612077152699464 f1_scores [0.99570466 0.6466197  0.57753461 0.67538262]
+Epoch: 164 | Iteration Time: 0min 55s
+	Train Loss: 0.04045488
+	 Val Cup: 0.57753461
+	 Val Disk: 0.67538262
+Loss after 04103 examples: 0.036
+Loss after 04107 examples: 0.039
+Loss after 04111 examples: 0.039
+Loss after 04115 examples: 0.043
+Loss after 04119 examples: 0.038
+
+ 82%|████████████████████████████████▏      | 165/200 [2:32:49<32:28, 55.67s/it]
+model tested on 400 imagesval_score: 0.5796871909146255 f1_scores [0.9955646  0.6415826  0.51779178 0.66845748]
+Epoch: 165 | Iteration Time: 0min 55s
+	Train Loss: 0.03955902
+	 Val Cup: 0.51779178
+	 Val Disk: 0.66845748
+Loss after 04127 examples: 0.038
+Loss after 04131 examples: 0.041
+Loss after 04135 examples: 0.042
+Loss after 04139 examples: 0.041
+Loss after 04143 examples: 0.041
+
+ 83%|████████████████████████████████▎      | 166/200 [2:33:45<31:34, 55.71s/it]
+model tested on 400 imagesval_score: 0.6063923479731822 f1_scores [0.99583062 0.66165041 0.55113429 0.69347898]
+Epoch: 166 | Iteration Time: 0min 55s
+	Train Loss: 0.03933713
+	 Val Cup: 0.55113429
+	 Val Disk: 0.69347898
+Loss after 04151 examples: 0.036
+Loss after 04155 examples: 0.034
+Loss after 04159 examples: 0.039
+Loss after 04163 examples: 0.038
+Loss after 04167 examples: 0.040
+Loss after 04171 examples: 0.036
+
+ 84%|████████████████████████████████▌      | 167/200 [2:34:41<30:39, 55.75s/it]
+model tested on 400 imagesval_score: 0.52295772196985 f1_scores [0.99508581 0.61239233 0.43352311 0.60959851]
+Epoch: 167 | Iteration Time: 0min 55s
+	Train Loss: 0.03773119
+	 Val Cup: 0.43352311
+	 Val Disk: 0.60959851
+Loss after 04179 examples: 0.039
+Loss after 04183 examples: 0.042
+Loss after 04187 examples: 0.038
+Loss after 04191 examples: 0.039
+Loss after 04195 examples: 0.035
+
+ 84%|████████████████████████████████▊      | 168/200 [2:35:37<29:41, 55.68s/it]
+model tested on 400 imagesval_score: 0.6380871019341358 f1_scores [0.9964639  0.70541481 0.57075939 0.72799408]
+Epoch: 168 | Iteration Time: 0min 55s
+	Train Loss: 0.03790916
+	 Val Cup: 0.57075939
+	 Val Disk: 0.72799408
+Loss after 04203 examples: 0.038
+Loss after 04207 examples: 0.039
+Loss after 04211 examples: 0.036
+Loss after 04215 examples: 0.042
+Loss after 04219 examples: 0.037
+
+ 84%|████████████████████████████████▉      | 169/200 [2:36:32<28:44, 55.62s/it]
+model tested on 400 imagesval_score: 0.6391558773542368 f1_scores [0.99602522 0.67712671 0.60118505 0.70970893]
+Epoch: 169 | Iteration Time: 0min 55s
+	Train Loss: 0.03788757
+	 Val Cup: 0.60118505
+	 Val Disk: 0.70970893
+Loss after 04227 examples: 0.038
+Loss after 04231 examples: 0.034
+Loss after 04235 examples: 0.040
+Loss after 04239 examples: 0.037
+Loss after 04243 examples: 0.035
+
+ 85%|█████████████████████████████████▏     | 170/200 [2:37:28<27:48, 55.63s/it]
+model tested on 400 imagesval_score: 0.6596365139608601 f1_scores [0.99638175 0.70760408 0.61166894 0.73417747]
+Epoch: 170 | Iteration Time: 0min 55s
+	Train Loss: 0.03648174
+	 Val Cup: 0.61166894
+	 Val Disk: 0.73417747
+Loss after 04251 examples: 0.036
+Loss after 04255 examples: 0.039
+Loss after 04259 examples: 0.042
+Loss after 04263 examples: 0.040
+Loss after 04267 examples: 0.034
+Loss after 04271 examples: 0.035
+
+ 86%|█████████████████████████████████▎     | 171/200 [2:38:23<26:53, 55.65s/it]
+model tested on 400 imagesval_score: 0.5375111478167436 f1_scores [0.99510376 0.61341357 0.46160872 0.61634205]
+Epoch: 171 | Iteration Time: 0min 55s
+	Train Loss: 0.03645647
+	 Val Cup: 0.46160872
+	 Val Disk: 0.61634205
+Loss after 04279 examples: 0.040
+Loss after 04283 examples: 0.034
+Loss after 04287 examples: 0.033
+Loss after 04291 examples: 0.038
+Loss after 04295 examples: 0.038
+
+ 86%|█████████████████████████████████▌     | 172/200 [2:39:19<25:59, 55.71s/it]
+model tested on 400 imagesval_score: 0.5569778953914721 f1_scores [0.99511498 0.62598661 0.48796918 0.63307573]
+Epoch: 172 | Iteration Time: 0min 55s
+	Train Loss: 0.03632290
+	 Val Cup: 0.48796918
+	 Val Disk: 0.63307573
+Loss after 04303 examples: 0.036
+Loss after 04307 examples: 0.033
+Loss after 04311 examples: 0.044
+Loss after 04315 examples: 0.033
+Loss after 04319 examples: 0.036
+
+ 86%|█████████████████████████████████▋     | 173/200 [2:40:15<25:02, 55.66s/it]
+model tested on 400 imagesval_score: 0.5704552648264007 f1_scores [0.99538053 0.62860139 0.51230914 0.64043331]
+Epoch: 173 | Iteration Time: 0min 55s
+	Train Loss: 0.03642678
+	 Val Cup: 0.51230914
+	 Val Disk: 0.64043331
+Loss after 04327 examples: 0.034
+Loss after 04331 examples: 0.033
+Loss after 04335 examples: 0.032
+Loss after 04339 examples: 0.037
+Loss after 04343 examples: 0.035
+
+ 87%|█████████████████████████████████▉     | 174/200 [2:41:11<24:09, 55.75s/it]
+model tested on 400 imagesval_score: 0.5296639655521436 f1_scores [0.99423941 0.59913951 0.46018842 0.59674501]
+Epoch: 174 | Iteration Time: 0min 55s
+	Train Loss: 0.03587019
+	 Val Cup: 0.46018842
+	 Val Disk: 0.59674501
+Loss after 04351 examples: 0.040
+Loss after 04355 examples: 0.030
+Loss after 04359 examples: 0.035
+Loss after 04363 examples: 0.035
+Loss after 04367 examples: 0.033
+Loss after 04371 examples: 0.039
+
+ 88%|██████████████████████████████████▏    | 175/200 [2:42:07<23:15, 55.81s/it]
+model tested on 400 imagesval_score: 0.5582079528099203 f1_scores [0.99503485 0.60509722 0.51131869 0.6201768 ]
+Epoch: 175 | Iteration Time: 0min 55s
+	Train Loss: 0.03549496
+	 Val Cup: 0.51131869
+	 Val Disk: 0.62017680
+Loss after 04379 examples: 0.032
+Loss after 04383 examples: 0.032
+Loss after 04387 examples: 0.041
+Loss after 04391 examples: 0.035
+Loss after 04395 examples: 0.035
+
+ 88%|██████████████████████████████████▎    | 176/200 [2:43:02<22:16, 55.68s/it]
+model tested on 400 imagesval_score: 0.6144818652286506 f1_scores [0.99568229 0.63512161 0.59384212 0.67535615]
+Epoch: 176 | Iteration Time: 0min 55s
+	Train Loss: 0.03586986
+	 Val Cup: 0.59384212
+	 Val Disk: 0.67535615
+Loss after 04403 examples: 0.038
+Loss after 04407 examples: 0.031
+Loss after 04411 examples: 0.037
+Loss after 04415 examples: 0.032
+Loss after 04419 examples: 0.040
+
+ 88%|██████████████████████████████████▌    | 177/200 [2:43:58<21:18, 55.61s/it]
+model tested on 400 imagesval_score: 0.6409629451593547 f1_scores [0.99620605 0.69818029 0.5837456  0.71730752]
+Epoch: 177 | Iteration Time: 0min 55s
+	Train Loss: 0.03483730
+	 Val Cup: 0.58374560
+	 Val Disk: 0.71730752
+Loss after 04427 examples: 0.037
+Loss after 04431 examples: 0.034
+Loss after 04435 examples: 0.033
+Loss after 04439 examples: 0.032
+Loss after 04443 examples: 0.031
+
+ 89%|██████████████████████████████████▋    | 178/200 [2:44:53<20:24, 55.64s/it]
+model tested on 400 imagesval_score: 0.5657453057312073 f1_scores [0.99519481 0.5878369  0.54365371 0.61719326]
+Epoch: 178 | Iteration Time: 0min 55s
+	Train Loss: 0.03403127
+	 Val Cup: 0.54365371
+	 Val Disk: 0.61719326
+Loss after 04451 examples: 0.032
+Loss after 04455 examples: 0.032
+Loss after 04459 examples: 0.036
+Loss after 04463 examples: 0.034
+Loss after 04467 examples: 0.036
+Loss after 04471 examples: 0.036
+
+ 90%|██████████████████████████████████▉    | 179/200 [2:45:49<19:27, 55.59s/it]
+model tested on 400 imagesval_score: 0.5564725180717744 f1_scores [0.99529624 0.59568369 0.51726135 0.61240034]
+Epoch: 179 | Iteration Time: 0min 55s
+	Train Loss: 0.03383524
+	 Val Cup: 0.51726135
+	 Val Disk: 0.61240034
+Loss after 04479 examples: 0.034
+Loss after 04483 examples: 0.031
+Loss after 04487 examples: 0.038
+Loss after 04491 examples: 0.033
+Loss after 04495 examples: 0.036
+
+ 90%|███████████████████████████████████    | 180/200 [2:46:45<18:33, 55.69s/it]
+model tested on 400 imagesval_score: 0.5620695902110995 f1_scores [0.99482973 0.60363732 0.52050186 0.62346509]
+Epoch: 180 | Iteration Time: 0min 55s
+	Train Loss: 0.03545108
+	 Val Cup: 0.52050186
+	 Val Disk: 0.62346509
+Loss after 04503 examples: 0.034
+Loss after 04507 examples: 0.034
+Loss after 04511 examples: 0.034
+Loss after 04515 examples: 0.036
+Loss after 04519 examples: 0.033
+
+ 90%|███████████████████████████████████▎   | 181/200 [2:47:40<17:37, 55.63s/it]
+model tested on 400 imagesval_score: 0.5915416979579129 f1_scores [0.99564986 0.65893816 0.52414524 0.67415912]
+Epoch: 181 | Iteration Time: 0min 55s
+	Train Loss: 0.03384600
+	 Val Cup: 0.52414524
+	 Val Disk: 0.67415912
+Loss after 04527 examples: 0.035
+Loss after 04531 examples: 0.036
+Loss after 04535 examples: 0.032
+Loss after 04539 examples: 0.036
+Loss after 04543 examples: 0.038
+
+ 91%|███████████████████████████████████▍   | 182/200 [2:48:36<16:42, 55.67s/it]
+model tested on 400 imagesval_score: 0.5192900954584394 f1_scores [0.99460164 0.57630603 0.46227416 0.58987763]
+Epoch: 182 | Iteration Time: 0min 55s
+	Train Loss: 0.03413155
+	 Val Cup: 0.46227416
+	 Val Disk: 0.58987763
+Loss after 04551 examples: 0.038
+Loss after 04555 examples: 0.030
+Loss after 04559 examples: 0.032
+Loss after 04563 examples: 0.035
+Loss after 04567 examples: 0.029
+Loss after 04571 examples: 0.030
+
+ 92%|███████████████████████████████████▋   | 183/200 [2:49:31<15:45, 55.62s/it]
+model tested on 400 imagesval_score: 0.583245016078683 f1_scores [0.99535128 0.6403887  0.52610133 0.65610741]
+Epoch: 183 | Iteration Time: 0min 55s
+	Train Loss: 0.03370722
+	 Val Cup: 0.52610133
+	 Val Disk: 0.65610741
+Loss after 04579 examples: 0.031
+Loss after 04583 examples: 0.030
+Loss after 04587 examples: 0.030
+Loss after 04591 examples: 0.030
+Loss after 04595 examples: 0.030
+
+ 92%|███████████████████████████████████▉   | 184/200 [2:50:27<14:48, 55.52s/it]
+model tested on 400 imagesval_score: 0.5746894135930516 f1_scores [0.9956025  0.64074224 0.50863658 0.65365015]
+Epoch: 184 | Iteration Time: 0min 55s
+	Train Loss: 0.03243402
+	 Val Cup: 0.50863658
+	 Val Disk: 0.65365015
+Loss after 04603 examples: 0.033
+Loss after 04607 examples: 0.036
+Loss after 04611 examples: 0.036
+Loss after 04615 examples: 0.038
+Loss after 04619 examples: 0.036
+
+ 92%|████████████████████████████████████   | 185/200 [2:51:22<13:53, 55.56s/it]
+model tested on 400 imagesval_score: 0.4364782618168638 f1_scores [0.99425117 0.52165161 0.35130492 0.51852629]
+Epoch: 185 | Iteration Time: 0min 55s
+	Train Loss: 0.03371237
+	 Val Cup: 0.35130492
+	 Val Disk: 0.51852629
+Loss after 04627 examples: 0.029
+Loss after 04631 examples: 0.030
+Loss after 04635 examples: 0.033
+Loss after 04639 examples: 0.032
+Loss after 04643 examples: 0.031
+
+ 93%|████████████████████████████████████▎  | 186/200 [2:52:18<12:56, 55.50s/it]
+model tested on 400 imagesval_score: 0.6084233816150864 f1_scores [0.99578114 0.66979563 0.54705114 0.6894093 ]
+Epoch: 186 | Iteration Time: 0min 55s
+	Train Loss: 0.03279519
+	 Val Cup: 0.54705114
+	 Val Disk: 0.68940930
+Loss after 04651 examples: 0.029
+Loss after 04655 examples: 0.030
+Loss after 04659 examples: 0.032
+Loss after 04663 examples: 0.034
+Loss after 04667 examples: 0.030
+Loss after 04671 examples: 0.036
+
+ 94%|████████████████████████████████████▍  | 187/200 [2:53:13<12:01, 55.50s/it]
+model tested on 400 imagesval_score: 0.5598055933790714 f1_scores [0.99547832 0.63042903 0.48918215 0.64513123]
+Epoch: 187 | Iteration Time: 0min 55s
+	Train Loss: 0.03135621
+	 Val Cup: 0.48918215
+	 Val Disk: 0.64513123
+Loss after 04679 examples: 0.032
+Loss after 04683 examples: 0.035
+Loss after 04687 examples: 0.030
+Loss after 04691 examples: 0.032
+Loss after 04695 examples: 0.035
+
+ 94%|████████████████████████████████████▋  | 188/200 [2:54:09<11:05, 55.50s/it]
+model tested on 400 imagesval_score: 0.5678098864567722 f1_scores [0.99540763 0.60484791 0.53077186 0.63142221]
+Epoch: 188 | Iteration Time: 0min 55s
+	Train Loss: 0.03167151
+	 Val Cup: 0.53077186
+	 Val Disk: 0.63142221
+Loss after 04703 examples: 0.029
+Loss after 04707 examples: 0.042
+Loss after 04711 examples: 0.031
+Loss after 04715 examples: 0.039
+Loss after 04719 examples: 0.033
+Loss after 04723 examples: 0.033
+model tested on 400 imagesval_score: 0.5723304039032787 f1_scores [0.99494755 0.63705678 0.50760403 0.64732238]
+Epoch: 189 | Iteration Time: 0min 55s
+	Train Loss: 0.03390530
+	 Val Cup: 0.50760403
+
+ 94%|████████████████████████████████████▊  | 189/200 [2:55:04<10:10, 55.50s/it]
+Loss after 04727 examples: 0.031
+Loss after 04731 examples: 0.030
+Loss after 04735 examples: 0.033
+Loss after 04739 examples: 0.037
+Loss after 04743 examples: 0.037
+Loss after 04747 examples: 0.033
+model tested on 400 imagesval_score: 0.5779104478466501 f1_scores [0.99532539 0.61745433 0.53836656 0.64435283]
+Epoch: 190 | Iteration Time: 0min 56s
+	Train Loss: 0.03223109
+	 Val Cup: 0.53836656
+
+ 95%|█████████████████████████████████████  | 190/200 [2:56:00<09:16, 55.69s/it]
+Loss after 04751 examples: 0.030
+Loss after 04755 examples: 0.030
+Loss after 04759 examples: 0.029
+Loss after 04763 examples: 0.026
+Loss after 04767 examples: 0.037
+Loss after 04771 examples: 0.031
+
+ 96%|█████████████████████████████████████▏ | 191/200 [2:56:56<08:19, 55.55s/it]
+model tested on 400 imagesval_score: 0.5142510496504442 f1_scores [0.99449705 0.58109263 0.44740947 0.58484033]
+Epoch: 191 | Iteration Time: 0min 55s
+	Train Loss: 0.03132608
+	 Val Cup: 0.44740947
+	 Val Disk: 0.58484033
+Loss after 04779 examples: 0.028
+Loss after 04783 examples: 0.031
+Loss after 04787 examples: 0.029
+Loss after 04791 examples: 0.030
+Loss after 04795 examples: 0.034
+
+ 96%|█████████████████████████████████████▍ | 192/200 [2:57:51<07:24, 55.60s/it]
+model tested on 400 imagesval_score: 0.5426592845681568 f1_scores [0.99490833 0.57542487 0.5098937  0.60228567]
+Epoch: 192 | Iteration Time: 0min 55s
+	Train Loss: 0.03147937
+	 Val Cup: 0.50989370
+	 Val Disk: 0.60228567
+Loss after 04803 examples: 0.042
+Loss after 04807 examples: 0.037
+Loss after 04811 examples: 0.030
+Loss after 04815 examples: 0.033
+Loss after 04819 examples: 0.033
+
+ 96%|█████████████████████████████████████▋ | 193/200 [2:58:46<06:28, 55.44s/it]
+model tested on 400 imagesval_score: 0.5820558150642685 f1_scores [0.99526069 0.62724353 0.5368681  0.65244626]
+Epoch: 193 | Iteration Time: 0min 55s
+	Train Loss: 0.03258266
+	 Val Cup: 0.53686810
+	 Val Disk: 0.65244626
+Loss after 04827 examples: 0.030
+Loss after 04831 examples: 0.027
+Loss after 04835 examples: 0.033
+Loss after 04839 examples: 0.031
+Loss after 04843 examples: 0.037
+
+ 97%|█████████████████████████████████████▊ | 194/200 [2:59:42<05:32, 55.41s/it]
+model tested on 400 imagesval_score: 0.6529917307233881 f1_scores [0.9959456  0.65723777 0.6487457  0.70959211]
+Epoch: 194 | Iteration Time: 0min 55s
+	Train Loss: 0.03119948
+	 Val Cup: 0.64874570
+	 Val Disk: 0.70959211
+Loss after 04851 examples: 0.030
+Loss after 04855 examples: 0.031
+Loss after 04859 examples: 0.034
+Loss after 04863 examples: 0.034
+Loss after 04867 examples: 0.031
+Loss after 04871 examples: 0.032
+
+ 98%|██████████████████████████████████████ | 195/200 [3:00:37<04:37, 55.44s/it]
+model tested on 400 imagesval_score: 0.5370693510575228 f1_scores [0.99473669 0.5797555  0.4943832  0.594597  ]
+Epoch: 195 | Iteration Time: 0min 55s
+	Train Loss: 0.03131483
+	 Val Cup: 0.49438320
+	 Val Disk: 0.59459700
+Loss after 04879 examples: 0.031
+Loss after 04883 examples: 0.031
+Loss after 04887 examples: 0.029
+Loss after 04891 examples: 0.029
+Loss after 04895 examples: 0.032
+
+ 98%|██████████████████████████████████████▏| 196/200 [3:01:33<03:42, 55.50s/it]
+model tested on 400 imagesval_score: 0.6407404815434277 f1_scores [0.99589117 0.67539676 0.60608421 0.70316855]
+Epoch: 196 | Iteration Time: 0min 55s
+	Train Loss: 0.03081900
+	 Val Cup: 0.60608421
+	 Val Disk: 0.70316855
+Loss after 04903 examples: 0.029
+Loss after 04907 examples: 0.033
+Loss after 04911 examples: 0.026
+Loss after 04915 examples: 0.032
+Loss after 04919 examples: 0.031
+
+ 98%|██████████████████████████████████████▍| 197/200 [3:02:28<02:46, 55.53s/it]
+model tested on 400 imagesval_score: 0.5693324772964307 f1_scores [0.99540049 0.62949629 0.50916867 0.64158237]
+Epoch: 197 | Iteration Time: 0min 55s
+	Train Loss: 0.03060113
+	 Val Cup: 0.50916867
+	 Val Disk: 0.64158237
+Loss after 04927 examples: 0.028
+Loss after 04931 examples: 0.028
+Loss after 04935 examples: 0.027
+Loss after 04939 examples: 0.029
+Loss after 04943 examples: 0.026
+
+ 99%|██████████████████████████████████████▌| 198/200 [3:03:24<01:51, 55.56s/it]
+model tested on 400 imagesval_score: 0.5618348910727932 f1_scores [0.99520117 0.58258972 0.54108007 0.61542362]
+Epoch: 198 | Iteration Time: 0min 55s
+	Train Loss: 0.02932186
+	 Val Cup: 0.54108007
+	 Val Disk: 0.61542362
+Loss after 04951 examples: 0.029
+Loss after 04955 examples: 0.032
+Loss after 04959 examples: 0.031
+Loss after 04963 examples: 0.031
+Loss after 04967 examples: 0.028
+Loss after 04971 examples: 0.030
+
+100%|██████████████████████████████████████▊| 199/200 [3:04:20<00:55, 55.56s/it]
+model tested on 400 imagesval_score: 0.5856313857408382 f1_scores [0.99539436 0.63475378 0.53650899 0.65418236]
+Epoch: 199 | Iteration Time: 0min 55s
+	Train Loss: 0.03041652
+	 Val Cup: 0.53650899
+	 Val Disk: 0.65418236
+Loss after 04979 examples: 0.029
+Loss after 04983 examples: 0.025
+Loss after 04987 examples: 0.031
+Loss after 04991 examples: 0.030
+Loss after 04995 examples: 0.030
+
+100%|███████████████████████████████████████| 200/200 [3:05:16<00:00, 55.58s/it]
+model tested on 400 imagesval_score: 0.5701911333694626 f1_scores [0.99504683 0.60792362 0.53245865 0.63152853]
+Epoch: 200 | Iteration Time: 0min 55s
+	Train Loss: 0.02864768
+	 Val Cup: 0.53245865
+	 Val Disk: 0.63152853

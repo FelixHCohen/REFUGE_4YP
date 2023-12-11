@@ -1,0 +1,242 @@
+Training dataset size: 400
+Training dataset size: 400
+  0%|                                                  | 0/1000 [00:00<?, ?it/s]
+Loss after 00004 batches: 0.999
+Loss after 00008 batches: 0.972
+Loss after 00012 batches: 0.956
+Loss after 00016 batches: 0.945
+Loss after 00020 batches: 0.933
+Loss after 00024 batches: 0.921
+Loss after 00028 batches: 0.916
+Valid score for point 5 improved from 0.00000000 to 0.01367588. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE/test/promptunet_batch_lr_0.0003_bs_14_fs_12_[6_12_24_48]/Checkpoint/seed/766/lr_0.0003_bs_14_lowloss.pth
+Epoch: 01 | Iteration Time: 1min 55s
+	Train Loss: 0.95054716
+model tested on 400 images
+val_scores: 0.01367588, 0.01367588, 0.01367588, 0.01367588, 0.01367588
+disc f1 scores 0.09499634, 0.09499634, 0.09499634, 0.09499634, 0.09499634
+cup scores: 0.02732153, 0.02732153, 0.02732153, 0.02732153, 0.02732153
+
+  0%|                                      | 1/1000 [01:55<31:56:18, 115.09s/it]
+Loss after 00036 batches: 0.902
+Loss after 00040 batches: 0.896
+Loss after 00044 batches: 0.888
+Loss after 00048 batches: 0.882
+Loss after 00052 batches: 0.880
+Loss after 00056 batches: 0.873
+Valid score for point 5 improved from 0.01367588 to 0.04141826. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE/test/promptunet_batch_lr_0.0003_bs_14_fs_12_[6_12_24_48]/Checkpoint/seed/766/lr_0.0003_bs_14_lowloss.pth
+Epoch: 02 | Iteration Time: 1min 57s
+	Train Loss: 0.88857138
+model tested on 400 images
+val_scores: 0.04141826, 0.04141826, 0.04141826, 0.04141826, 0.04141826
+disc f1 scores 0.24850496, 0.24850496, 0.24850496, 0.24850496, 0.24850496
+cup scores: 0.08246305, 0.08246305, 0.08246305, 0.08246305, 0.08246305
+Loss after 00060 batches: 0.868
+
+  0%|                                      | 2/1000 [03:52<32:21:32, 116.73s/it]
+Loss after 00068 batches: 0.863
+Loss after 00072 batches: 0.856
+Loss after 00076 batches: 0.854
+Loss after 00080 batches: 0.849
+Loss after 00084 batches: 0.844
+Loss after 00088 batches: 0.842
+Valid score for point 5 improved from 0.04141826 to 0.10769037. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE/test/promptunet_batch_lr_0.0003_bs_14_fs_12_[6_12_24_48]/Checkpoint/seed/766/lr_0.0003_bs_14_lowloss.pth
+Epoch: 03 | Iteration Time: 1min 58s
+	Train Loss: 0.85535735
+model tested on 400 images
+val_scores: 0.10769037, 0.10769037, 0.10769037, 0.10769037, 0.10769037
+disc f1 scores 0.43012500, 0.43012500, 0.43012500, 0.43012500, 0.43012500
+cup scores: 0.20335407, 0.20335407, 0.20335407, 0.20335407, 0.20335407
+
+  0%|                                      | 3/1000 [05:51<32:29:59, 117.35s/it]
+Loss after 00096 batches: 0.834
+Loss after 00100 batches: 0.831
+Loss after 00104 batches: 0.827
+Loss after 00108 batches: 0.824
+Loss after 00112 batches: 0.821
+Loss after 00116 batches: 0.817
+
+  0%|▏                                     | 4/1000 [07:48<32:28:52, 117.40s/it]
+Epoch: 04 | Iteration Time: 1min 57s
+	Train Loss: 0.82790881
+model tested on 400 images
+val_scores: 0.35258137, 0.35258137, 0.35258137, 0.35258137, 0.35258137
+disc f1 scores 0.58107394, 0.58107394, 0.58107394, 0.58107394, 0.58107394
+cup scores: 0.26449530, 0.26449530, 0.26449530, 0.26449530, 0.26449530
+Loss after 00120 batches: 0.812
+Loss after 00124 batches: 0.809
+Loss after 00128 batches: 0.805
+Loss after 00132 batches: 0.800
+Loss after 00136 batches: 0.797
+Loss after 00140 batches: 0.795
+Loss after 00144 batches: 0.782
+
+  0%|▏                                     | 5/1000 [09:43<32:10:23, 116.41s/it]
+Epoch: 05 | Iteration Time: 1min 54s
+	Train Loss: 0.80018312
+model tested on 400 images
+val_scores: 0.45838138, 0.45838138, 0.45838138, 0.45838138, 0.45838138
+disc f1 scores 0.62008867, 0.62008867, 0.62008867, 0.62008867, 0.62008867
+cup scores: 0.31547782, 0.31547782, 0.31547782, 0.31547782, 0.31547782
+Loss after 00148 batches: 0.781
+Loss after 00152 batches: 0.777
+Loss after 00156 batches: 0.772
+Loss after 00160 batches: 0.768
+Loss after 00164 batches: 0.769
+Loss after 00168 batches: 0.761
+Loss after 00172 batches: 0.755
+Valid score for point 5 improved from 0.45838138 to 0.49041339. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE/test/promptunet_batch_lr_0.0003_bs_14_fs_12_[6_12_24_48]/Checkpoint/seed/766/lr_0.0003_bs_14_lowloss.pth
+Epoch: 06 | Iteration Time: 2min 3s
+	Train Loss: 0.76731688
+model tested on 400 images
+val_scores: 0.49041339, 0.49041339, 0.49041339, 0.49041339, 0.49041339
+disc f1 scores 0.68117013, 0.68117013, 0.68117013, 0.68117013, 0.68117013
+cup scores: 0.35896565, 0.35896565, 0.35896565, 0.35896565, 0.35896565
+
+  1%|▏                                     | 6/1000 [11:46<32:45:59, 118.67s/it]
+Loss after 00180 batches: 0.749
+Loss after 00184 batches: 0.749
+Loss after 00188 batches: 0.745
+Loss after 00192 batches: 0.742
+Loss after 00196 batches: 0.734
+Loss after 00200 batches: 0.732
+Loss after 00204 batches: 0.728
+Valid score for point 5 improved from 0.49041339 to 0.51945165. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE/test/promptunet_batch_lr_0.0003_bs_14_fs_12_[6_12_24_48]/Checkpoint/seed/766/lr_0.0003_bs_14_lowloss.pth
+Epoch: 07 | Iteration Time: 2min 10s
+	Train Loss: 0.74079639
+model tested on 400 images
+val_scores: 0.51945165, 0.51945165, 0.51945165, 0.51945165, 0.51945165
+disc f1 scores 0.69472954, 0.69472954, 0.69472954, 0.69472954, 0.69472954
+cup scores: 0.38480974, 0.38480974, 0.38480974, 0.38480974, 0.38480974
+
+  1%|▎                                     | 7/1000 [13:56<33:45:35, 122.39s/it]
+Loss after 00212 batches: 0.725
+Loss after 00216 batches: 0.723
+Loss after 00220 batches: 0.715
+Loss after 00224 batches: 0.717
+Loss after 00228 batches: 0.714
+Loss after 00232 batches: 0.713
+Valid score for point 5 improved from 0.51945165 to 0.60404866. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE/test/promptunet_batch_lr_0.0003_bs_14_fs_12_[6_12_24_48]/Checkpoint/seed/766/lr_0.0003_bs_14_lowloss.pth
+Epoch: 08 | Iteration Time: 2min 27s
+	Train Loss: 0.71982181
+model tested on 400 images
+val_scores: 0.60404866, 0.60404866, 0.60404866, 0.60404866, 0.60404866
+disc f1 scores 0.77097498, 0.77097498, 0.77097498, 0.77097498, 0.77097498
+cup scores: 0.49320957, 0.49320957, 0.49320957, 0.49320957, 0.49320957
+
+  1%|▎                                     | 8/1000 [16:24<35:56:58, 130.46s/it]
+Loss after 00240 batches: 0.706
+Loss after 00244 batches: 0.705
+Loss after 00248 batches: 0.701
+Loss after 00252 batches: 0.696
+Loss after 00256 batches: 0.698
+Loss after 00260 batches: 0.696
+Epoch: 09 | Iteration Time: 2min 29s
+	Train Loss: 0.70105815
+model tested on 400 images
+val_scores: 0.60281875, 0.60281875, 0.60281875, 0.60281875, 0.60281875
+disc f1 scores 0.76613048, 0.76613048, 0.76613048, 0.76613048, 0.76613048
+
+  1%|▎                                     | 9/1000 [18:53<37:33:17, 136.43s/it]
+Loss after 00264 batches: 0.693
+Loss after 00268 batches: 0.687
+Loss after 00272 batches: 0.686
+Loss after 00276 batches: 0.684
+Loss after 00280 batches: 0.680
+Loss after 00284 batches: 0.679
+Loss after 00288 batches: 0.680
+Epoch: 10 | Iteration Time: 2min 56s
+	Train Loss: 0.68391627
+model tested on 400 images
+val_scores: 0.60102178, 0.60102178, 0.60102178, 0.60102178, 0.60102178
+disc f1 scores 0.73685123, 0.73685123, 0.73685123, 0.73685123, 0.73685123
+
+  1%|▎                                    | 10/1000 [21:49<40:54:13, 148.74s/it]
+Loss after 00292 batches: 0.674
+Loss after 00296 batches: 0.675
+Loss after 00300 batches: 0.668
+Loss after 00304 batches: 0.667
+Loss after 00308 batches: 0.668
+Loss after 00312 batches: 0.666
+Loss after 00316 batches: 0.659
+
+  1%|▍                                    | 11/1000 [25:02<44:33:17, 162.18s/it]
+Epoch: 11 | Iteration Time: 3min 12s
+	Train Loss: 0.66758937
+model tested on 400 images
+val_scores: 0.59243492, 0.59243492, 0.59243492, 0.59243492, 0.59243492
+disc f1 scores 0.73978999, 0.73978999, 0.73978999, 0.73978999, 0.73978999
+cup scores: 0.55801397, 0.55801397, 0.55801397, 0.55801397, 0.55801397
+Loss after 00324 batches: 0.657
+Loss after 00328 batches: 0.661
+Loss after 00332 batches: 0.650
+Loss after 00336 batches: 0.655
+Loss after 00340 batches: 0.651
+Loss after 00344 batches: 0.651
+Loss after 00348 batches: 0.646
+Valid score for point 5 improved from 0.60404866 to 0.73089393. Saving checkpoint: /home/kebl6872/Desktop/new_data/REFUGE/test/promptunet_batch_lr_0.0003_bs_14_fs_12_[6_12_24_48]/Checkpoint/seed/766/lr_0.0003_bs_14_lowloss.pth
+Epoch: 12 | Iteration Time: 3min 40s
+	Train Loss: 0.65241569
+model tested on 400 images
+val_scores: 0.73089393, 0.73089393, 0.73089393, 0.73089393, 0.73089393
+disc f1 scores 0.83080342, 0.83080342, 0.83080342, 0.83080342, 0.83080342
+cup scores: 0.71977686, 0.71977686, 0.71977686, 0.71977686, 0.71977686
+
+  1%|▍                                    | 12/1000 [28:42<49:21:42, 179.86s/it]
+Loss after 00356 batches: 0.641
+Loss after 00360 batches: 0.641
+Loss after 00364 batches: 0.643
+Loss after 00368 batches: 0.637
+Loss after 00372 batches: 0.630
+Loss after 00376 batches: 0.634
+Epoch: 13 | Iteration Time: 4min 49s
+	Train Loss: 0.63788772
+model tested on 400 images
+val_scores: 0.69550235, 0.69550235, 0.69550235, 0.69550235, 0.69550235
+disc f1 scores 0.82322896, 0.82322896, 0.82322896, 0.82322896, 0.82322896
+
+  1%|▍                                    | 13/1000 [33:32<58:25:12, 213.08s/it]
+Loss after 00380 batches: 0.631
+Loss after 00384 batches: 0.630
+Loss after 00388 batches: 0.632
+Loss after 00392 batches: 0.624
+Loss after 00396 batches: 0.620
+Loss after 00400 batches: 0.623
+Loss after 00404 batches: 0.626
+Epoch: 14 | Iteration Time: 5min 4s
+	Train Loss: 0.62443709
+model tested on 400 images
+val_scores: 0.72894208, 0.72894208, 0.72894208, 0.72894208, 0.72894208
+disc f1 scores 0.83752675, 0.83752675, 0.83752675, 0.83752675, 0.83752675
+
+  1%|▌                                    | 14/1000 [38:37<65:57:53, 240.84s/it]
+Loss after 00408 batches: 0.620
+Loss after 00412 batches: 0.626
+Loss after 00416 batches: 0.613
+Loss after 00420 batches: 0.618
+Loss after 00424 batches: 0.610
+Loss after 00428 batches: 0.608
+Loss after 00432 batches: 0.605
+Loss after 00436 batches: 0.600
+Epoch: 15 | Iteration Time: 5min 28s
+	Train Loss: 0.61168629
+model tested on 400 images
+val_scores: 0.65285408, 0.65285408, 0.65285408, 0.65285408, 0.65285408
+disc f1 scores 0.78404114, 0.78404114, 0.78404114, 0.78404114, 0.78404114
+
+  2%|▌                                    | 15/1000 [44:05<73:05:31, 267.14s/it]
+Loss after 00440 batches: 0.604
+Loss after 00444 batches: 0.609
+Loss after 00448 batches: 0.607
+Loss after 00452 batches: 0.609
+Loss after 00456 batches: 0.608
+Loss after 00460 batches: 0.610
+
+  2%|▌                                   | 16/1000 [54:14<101:09:21, 370.08s/it]
+Epoch: 16 | Iteration Time: 10min 9s
+	Train Loss: 0.60839343
+model tested on 400 images
+val_scores: 0.65285408, 0.65285408, 0.65285408, 0.65285408, 0.65285408
+disc f1 scores 0.78404114, 0.78404114, 0.78404114, 0.78404114, 0.78404114
+cup scores: 0.63373272, 0.63373272, 0.63373272, 0.63373272, 0.63373272
+Loss after 00468 batches: 0.609
+Loss after 00472 batches: 0.612

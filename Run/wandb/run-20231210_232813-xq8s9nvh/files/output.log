@@ -1,0 +1,14 @@
+Training dataset size: 400
+Training dataset size: 400
+Traceback (most recent call last):
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 142, in prompt_model_pipeline
+    model,train_loader,test_loader,criterion,eval_criterion = prompt_make(config)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 134, in prompt_make
+    model = PromptUNet(3,config.classes,config.base_c,config.kernels,config.norm_name)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNet/PromptUNet.py", line 79, in __init__
+    self.promptSelfAttention = PromptEncoder(d_model,img_size,num_prompt_heads,num_prompt_blocks,dropout)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNet/PromptEncoder.py", line 64, in __init__
+    self.promptEmbedder = PromptEmbedder(d_model,input_image_size)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNet/PromptEmbedding.py", line 50, in __init__
+    self.pe_layer = PositionEmbeddingRandom(embed_dim // 2) # for every b_i vector, a cos(b_i^Tx) and sin(b_i^Tx) output is created therefore half embed_dim
+TypeError: unsupported operand type(s) for //: 'str' and 'int'

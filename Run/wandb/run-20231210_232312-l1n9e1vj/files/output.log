@@ -1,0 +1,18 @@
+Training dataset size: 400
+Training dataset size: 400
+  0%|                                                  | 0/1000 [00:00<?, ?it/s]
+Loss after 00003 examples: 0.983
+Loss after 00007 examples: 0.953
+Loss after 00011 examples: 0.934
+Loss after 00015 examples: 0.916
+Loss after 00019 examples: 0.905
+Loss after 00023 examples: 0.891
+  0%|                                                  | 0/1000 [00:57<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/kebl6872/REFUGE_4YP/Run/train_neat.py", line 222, in model_pipeline
+    train(model,train_loader,test_loader,criterion,eval_criterion,config)
+  File "/home/kebl6872/REFUGE_4YP/Run/train_neat.py", line 120, in train
+    cup_loss,disk_loss = test(model,test_loader,eval_criterion,config,best_valid_score,batch_ct)
+  File "/home/kebl6872/REFUGE_4YP/Run/train_neat.py", line 86, in test
+    data_str = f"Valid score improved from {best_valid_score[0]:2.8f} to {val_score:2.8f}. Saving checkpoint: {checkpoint_path_lowloss}"
+NameError: name 'checkpoint_path_lowloss' is not defined

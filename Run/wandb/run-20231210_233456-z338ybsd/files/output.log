@@ -1,0 +1,13 @@
+Training dataset size: 400
+Training dataset size: 400
+  0%|                                                  | 0/1000 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 145, in prompt_model_pipeline
+    prompt_train(model,train_loader,test_loader,criterion,eval_criterion,config)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 95, in prompt_train
+    points,point_labels = generate_points_batch(labels,np.zeros((config.batch_size,1,512,512),np.uint8))
+  File "/home/kebl6872/REFUGE_4YP/Run/utils.py", line 232, in generate_points_batch
+    p_i,p_j,p_label = generate_points(y_true[i,:,:,:],y_pred[i,:,:,:])[0]
+  File "/home/kebl6872/REFUGE_4YP/Run/utils.py", line 184, in generate_points
+    y_pred = y_pred.cpu().numpy().astype(int)
+AttributeError: 'numpy.ndarray' object has no attribute 'cpu'

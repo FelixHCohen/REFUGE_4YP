@@ -1,0 +1,29 @@
+2023-12-11 14:33:02,524 INFO    MainThread:1195903 [wandb_setup.py:_flush():76] Current SDK version is 0.15.12
+2023-12-11 14:33:02,524 INFO    MainThread:1195903 [wandb_setup.py:_flush():76] Configure stats pid to 1195903
+2023-12-11 14:33:02,524 INFO    MainThread:1195903 [wandb_setup.py:_flush():76] Loading settings from /home/kebl6872/.config/wandb/settings
+2023-12-11 14:33:02,524 INFO    MainThread:1195903 [wandb_setup.py:_flush():76] Loading settings from /home/kebl6872/REFUGE_4YP/Run/wandb/settings
+2023-12-11 14:33:02,524 INFO    MainThread:1195903 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-12-11 14:33:02,524 INFO    MainThread:1195903 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'Run/PromptUNetTrain.py', 'program_abspath': '/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py', 'program': '/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py'}
+2023-12-11 14:33:02,524 INFO    MainThread:1195903 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-12-11 14:33:02,524 INFO    MainThread:1195903 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-12-11 14:33:02,524 INFO    MainThread:1195903 [wandb_init.py:_log_setup():528] Logging user logs to /home/kebl6872/REFUGE_4YP/Run/wandb/run-20231211_143302-i9yt1nlk/logs/debug.log
+2023-12-11 14:33:02,524 INFO    MainThread:1195903 [wandb_init.py:_log_setup():529] Logging internal logs to /home/kebl6872/REFUGE_4YP/Run/wandb/run-20231211_143302-i9yt1nlk/logs/debug-internal.log
+2023-12-11 14:33:02,524 INFO    MainThread:1195903 [wandb_init.py:init():568] calling init triggers
+2023-12-11 14:33:02,524 INFO    MainThread:1195903 [wandb_init.py:init():575] wandb.init called with sweep_config: {}
+config: {'epochs': 1000, 'classes': 3, 'base_c': 12, 'kernels': [6, 12, 24, 48], 'norm_name': 'batch', 'batch_size': 14, 'learning_rate': 0.0003, 'dataset': 'REFUGE', 'architecture': 'unet', 'seed': 735, 'transform': True, 'device': device(type='cuda', index=0), 'low_loss_path': '/home/kebl6872/Desktop/new_data/REFUGE/test/promptunet_batch_lr_0.0003_bs_14_fs_12_[6_12_24_48]/Checkpoint/seed/735/lr_0.0003_bs_14_lowloss.pth', 'final_path': '/home/kebl6872/Desktop/new_data/REFUGE/test/promptunet_batch_lr_0.0003_bs_14_fs_12_[6_12_24_48]/Checkpoint/seed/735/lr_0.0003_bs_14_final.pth'}
+2023-12-11 14:33:02,524 INFO    MainThread:1195903 [wandb_init.py:init():618] starting backend
+2023-12-11 14:33:02,524 INFO    MainThread:1195903 [wandb_init.py:init():622] setting up manager
+2023-12-11 14:33:02,525 INFO    MainThread:1195903 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-12-11 14:33:02,525 INFO    MainThread:1195903 [wandb_init.py:init():628] backend started and connected
+2023-12-11 14:33:02,526 INFO    MainThread:1195903 [wandb_init.py:init():720] updated telemetry
+2023-12-11 14:33:02,528 INFO    MainThread:1195903 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2023-12-11 14:33:02,916 INFO    MainThread:1195903 [wandb_run.py:_on_init():2220] communicating current version
+2023-12-11 14:33:02,975 INFO    MainThread:1195903 [wandb_run.py:_on_init():2229] got version response upgrade_message: "wandb version 0.16.1 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-12-11 14:33:02,976 INFO    MainThread:1195903 [wandb_init.py:init():804] starting run threads in backend
+2023-12-11 14:33:03,717 INFO    MainThread:1195903 [wandb_run.py:_console_start():2199] atexit reg
+2023-12-11 14:33:03,717 INFO    MainThread:1195903 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-12-11 14:33:03,717 INFO    MainThread:1195903 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-12-11 14:33:03,718 INFO    MainThread:1195903 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-12-11 14:33:03,718 INFO    MainThread:1195903 [wandb_init.py:init():845] run started, returning control to user process
+2023-12-11 14:33:04,759 INFO    MainThread:1195903 [wandb_watch.py:watch():51] Watching

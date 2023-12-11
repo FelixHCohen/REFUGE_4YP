@@ -1,0 +1,14 @@
+Training dataset size: 400
+Training dataset size: 400
+  0%|                                                  | 0/1000 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 153, in prompt_model_pipeline
+    prompt_train(model,train_loader,test_loader,criterion,eval_criterion,config)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 105, in prompt_train
+    loss = prompt_train_batch(images,labels,points,point_labels,model,optimizer,criterion)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 13, in prompt_train_batch
+    plot_output(outputs,images,labels,loss,point_tuples)
+  File "/home/kebl6872/REFUGE_4YP/Run/test_on_diff_data.py", line 66, in plot_output
+    output = output[0,:,:,:].cpu().numpy().transpose(1,2,0)
+RuntimeError: Can't call numpy() on Tensor that requires grad. Use tensor.detach().numpy() instead.
+point_tuples: [(274.0, 438.0, 2.0)]

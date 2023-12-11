@@ -1,0 +1,9 @@
+Training dataset size: 400
+Training dataset size: 400
+  0%|                                                  | 0/1000 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 146, in prompt_model_pipeline
+    prompt_train(model,train_loader,test_loader,criterion,eval_criterion,config)
+  File "/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py", line 96, in prompt_train
+    points,point_labels = generate_points_batch(labels,np.zeros((config.batch_size,1,512,512).to(device),np.uint8))
+AttributeError: 'tuple' object has no attribute 'to'

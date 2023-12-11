@@ -1,0 +1,131 @@
+train dataset size: 71
+test dataset size: 30
+  0%|                                                   | 0/500 [00:00<?, ?it/s]
+model tested on 30 imagesval_score: 0.25648330109849005 f1_scores [0.95689001 0.48527193 0.02769467 0.43364086]
+Valid score improved from 0.00000000 to 0.25648330. Saving checkpoint: /home/kebl6872/Desktop/new_data/GS1/test/unet_batch_lr_0.0003_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/274/lr_0.0003_bs_16_lowloss.pth
+Epoch: 01 | Iteration Time: 0min 9s
+	Train Loss: 1.85704839
+	 Val Cup: 0.02769467
+
+  0%|                                         | 1/500 [00:09<1:15:54,  9.13s/it]
+model tested on 30 imagesval_score: 0.29140441062954664 f1_scores [0.98076911 0.57284497 0.00996385 0.63919611]
+
+  0%|▏                                        | 2/500 [00:17<1:13:58,  8.91s/it]
+Epoch: 02 | Iteration Time: 0min 8s
+	Train Loss: 1.75029719
+	 Val Cup: 0.00996385
+	 Val Disk: 0.63919611
+model tested on 30 imagesval_score: 0.302879654560724 f1_scores [0.98639    0.59585101 0.0099083  0.7203481 ]
+Valid score improved from 0.29140441 to 0.30287965. Saving checkpoint: /home/kebl6872/Desktop/new_data/GS1/test/unet_batch_lr_0.0003_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/274/lr_0.0003_bs_16_lowloss.pth
+Epoch: 03 | Iteration Time: 0min 8s
+	Train Loss: 1.68932760
+	 Val Cup: 0.00990830
+
+  1%|▏                                        | 3/500 [00:26<1:13:18,  8.85s/it]
+model tested on 30 imagesval_score: 0.30747331940682165 f1_scores [0.98824975 0.58031012 0.03463652 0.74771766]
+
+  1%|▎                                        | 4/500 [00:35<1:13:19,  8.87s/it]
+Epoch: 04 | Iteration Time: 0min 8s
+	Train Loss: 1.64195001
+	 Val Cup: 0.03463652
+	 Val Disk: 0.74771766
+model tested on 30 imagesval_score: 0.3083955859804977 f1_scores [0.98993263 0.58326968 0.03352149 0.77702603]
+Valid score improved from 0.30747332 to 0.30839559. Saving checkpoint: /home/kebl6872/Desktop/new_data/GS1/test/unet_batch_lr_0.0003_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/274/lr_0.0003_bs_16_lowloss.pth
+Epoch: 05 | Iteration Time: 0min 8s
+	Train Loss: 1.60105932
+	 Val Cup: 0.03352149
+
+
+  1%|▍                                        | 6/500 [00:53<1:12:51,  8.85s/it]
+model tested on 30 imagesval_score: 0.2863375803373858 f1_scores [0.99199578 0.55916052 0.01351464 0.81107664]
+Epoch: 06 | Iteration Time: 0min 8s
+	Train Loss: 1.56503201
+	 Val Cup: 0.01351464
+	 Val Disk: 0.81107664
+model tested on 30 imagesval_score: 0.3056908263669112 f1_scores [9.94205731e-01 6.10800595e-01 5.81057524e-04 8.57695224e-01]
+Epoch: 07 | Iteration Time: 0min 8s
+	Train Loss: 1.54349673
+	 Val Cup: 0.00058106
+
+  1%|▌                                        | 7/500 [01:02<1:12:37,  8.84s/it]
+model tested on 30 imagesval_score: 0.2921320754144763 f1_scores [9.93531406e-01 5.84171843e-01 9.23076922e-05 8.43924814e-01]
+Epoch: 08 | Iteration Time: 0min 8s
+	Train Loss: 1.52817321
+	 Val Cup: 0.00009231
+
+
+  2%|▋                                        | 9/500 [01:19<1:12:01,  8.80s/it]
+model tested on 30 imagesval_score: 0.30341925965912797 f1_scores [0.99501102 0.60683852 0.         0.8746507 ]
+Epoch: 09 | Iteration Time: 0min 8s
+	Train Loss: 1.51057136
+	 Val Cup: 0.00000000
+	 Val Disk: 0.87465070
+Loss after 00049 examples: 1.483
+model tested on 30 imagesval_score: 0.3038497987874493 f1_scores [0.99531677 0.6076996  0.         0.88156704]
+Epoch: 10 | Iteration Time: 0min 9s
+	Train Loss: 1.49498868
+	 Val Cup: 0.00000000
+
+
+  2%|▉                                       | 11/500 [01:37<1:12:07,  8.85s/it]
+model tested on 30 imagesval_score: 0.29748952107128884 f1_scores [0.99449675 0.59497904 0.         0.86472528]
+Epoch: 11 | Iteration Time: 0min 8s
+	Train Loss: 1.48001182
+	 Val Cup: 0.00000000
+	 Val Disk: 0.86472528
+model tested on 30 imagesval_score: 0.2993393064729409 f1_scores [0.99479367 0.59867861 0.         0.87145841]
+Epoch: 12 | Iteration Time: 0min 8s
+	Train Loss: 1.46714103
+	 Val Cup: 0.00000000
+
+  2%|▉                                       | 12/500 [01:46<1:11:50,  8.83s/it]
+model tested on 30 imagesval_score: 0.30393442279419797 f1_scores [0.99628699 0.60786885 0.         0.90302784]
+Epoch: 13 | Iteration Time: 0min 8s
+	Train Loss: 1.45351207
+	 Val Cup: 0.00000000
+
+  3%|█                                       | 13/500 [01:54<1:11:12,  8.77s/it]
+model tested on 30 imagesval_score: 0.2890118059552743 f1_scores [0.99590451 0.57224454 0.00577907 0.88684259]
+Epoch: 14 | Iteration Time: 0min 8s
+	Train Loss: 1.44664562
+	 Val Cup: 0.00577907
+
+  3%|█                                       | 14/500 [02:03<1:11:35,  8.84s/it]
+model tested on 30 imagesval_score: 0.29290328647290725 f1_scores [0.99424604 0.58580657 0.         0.86056932]
+Epoch: 15 | Iteration Time: 0min 8s
+	Train Loss: 1.43646026
+	 Val Cup: 0.00000000
+
+
+  3%|█▎                                      | 16/500 [02:21<1:11:11,  8.83s/it]
+model tested on 30 imagesval_score: 0.30457682633842326 f1_scores [0.99632026 0.60915365 0.         0.90367214]
+Epoch: 16 | Iteration Time: 0min 8s
+	Train Loss: 1.42801094
+	 Val Cup: 0.00000000
+	 Val Disk: 0.90367214
+model tested on 30 imagesval_score: 0.31425889478055125 f1_scores [0.99731429 0.62851779 0.         0.92737988]
+Valid score improved from 0.30839559 to 0.31425889. Saving checkpoint: /home/kebl6872/Desktop/new_data/GS1/test/unet_batch_lr_0.0003_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/274/lr_0.0003_bs_16_lowloss.pth
+Epoch: 17 | Iteration Time: 0min 9s
+	Train Loss: 1.41568267
+	 Val Cup: 0.00000000
+
+
+  4%|█▍                                      | 18/500 [02:39<1:10:49,  8.82s/it]
+model tested on 30 imagesval_score: 0.30729307212082946 f1_scores [0.99672553 0.61458614 0.         0.91314103]
+Epoch: 18 | Iteration Time: 0min 8s
+	Train Loss: 1.40647030
+	 Val Cup: 0.00000000
+	 Val Disk: 0.91314103
+model tested on 30 imagesval_score: 0.30272623356627093 f1_scores [0.99591426 0.60545247 0.         0.89541907]
+Epoch: 19 | Iteration Time: 0min 8s
+	Train Loss: 1.39812148
+	 Val Cup: 0.00000000
+
+  4%|█▌                                      | 19/500 [02:47<1:10:28,  8.79s/it]
+Loss after 00099 examples: 1.382
+model tested on 30 imagesval_score: 0.3151874238520091 f1_scores [0.99727822 0.63037485 0.         0.92707601]
+Valid score improved from 0.31425889 to 0.31518742. Saving checkpoint: /home/kebl6872/Desktop/new_data/GS1/test/unet_batch_lr_0.0003_bs_16_fs_12_[6_12_24_48]/Checkpoint/seed/274/lr_0.0003_bs_16_lowloss.pth
+Epoch: 20 | Iteration Time: 0min 9s
+	Train Loss: 1.38680863
+	 Val Cup: 0.00000000
+

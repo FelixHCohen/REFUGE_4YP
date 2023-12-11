@@ -1,0 +1,181 @@
+2023-12-11 00:36:40,522 INFO    StreamThr :1181280 [internal.py:wandb_internal():86] W&B internal server running at pid: 1181280, started at: 2023-12-11 00:36:40.522207
+2023-12-11 00:36:40,524 DEBUG   HandlerThread:1181280 [handler.py:handle_request():146] handle_request: status
+2023-12-11 00:36:40,525 INFO    WriterThread:1181280 [datastore.py:open_for_write():85] open: /home/kebl6872/REFUGE_4YP/Run/wandb/run-20231211_003640-wpqyzgpz/run-wpqyzgpz.wandb
+2023-12-11 00:36:40,525 DEBUG   SenderThread:1181280 [sender.py:send():380] send: header
+2023-12-11 00:36:40,525 DEBUG   SenderThread:1181280 [sender.py:send():380] send: run
+2023-12-11 00:36:40,894 INFO    SenderThread:1181280 [dir_watcher.py:__init__():211] watching files in: /home/kebl6872/REFUGE_4YP/Run/wandb/run-20231211_003640-wpqyzgpz/files
+2023-12-11 00:36:40,894 INFO    SenderThread:1181280 [sender.py:_start_run_threads():1122] run started: wpqyzgpz with start time 1702255000.522255
+2023-12-11 00:36:40,904 DEBUG   HandlerThread:1181280 [handler.py:handle_request():146] handle_request: check_version
+2023-12-11 00:36:40,905 DEBUG   SenderThread:1181280 [sender.py:send_request():407] send_request: check_version
+2023-12-11 00:36:40,960 DEBUG   HandlerThread:1181280 [handler.py:handle_request():146] handle_request: run_start
+2023-12-11 00:36:40,972 DEBUG   HandlerThread:1181280 [system_info.py:__init__():32] System info init
+2023-12-11 00:36:40,972 DEBUG   HandlerThread:1181280 [system_info.py:__init__():47] System info init done
+2023-12-11 00:36:40,972 INFO    HandlerThread:1181280 [system_monitor.py:start():194] Starting system monitor
+2023-12-11 00:36:40,973 INFO    SystemMonitor:1181280 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-12-11 00:36:40,973 INFO    HandlerThread:1181280 [system_monitor.py:probe():214] Collecting system info
+2023-12-11 00:36:40,974 INFO    SystemMonitor:1181280 [interfaces.py:start():190] Started cpu monitoring
+2023-12-11 00:36:40,975 INFO    SystemMonitor:1181280 [interfaces.py:start():190] Started disk monitoring
+2023-12-11 00:36:40,977 INFO    SystemMonitor:1181280 [interfaces.py:start():190] Started gpu monitoring
+2023-12-11 00:36:40,978 INFO    SystemMonitor:1181280 [interfaces.py:start():190] Started memory monitoring
+2023-12-11 00:36:40,979 INFO    SystemMonitor:1181280 [interfaces.py:start():190] Started network monitoring
+2023-12-11 00:36:40,991 DEBUG   HandlerThread:1181280 [system_info.py:probe():196] Probing system
+2023-12-11 00:36:40,991 DEBUG   HandlerThread:1181280 [system_info.py:_probe_git():181] Probing git
+2023-12-11 00:36:40,999 DEBUG   HandlerThread:1181280 [system_info.py:_probe_git():189] Probing git done
+2023-12-11 00:36:40,999 DEBUG   HandlerThread:1181280 [system_info.py:probe():244] Probing system done
+2023-12-11 00:36:40,999 DEBUG   HandlerThread:1181280 [system_monitor.py:probe():223] {'os': 'Linux-6.2.0-36-generic-x86_64-with-glibc2.35', 'python': '3.10.13', 'heartbeatAt': '2023-12-11T00:36:40.991139', 'startedAt': '2023-12-11T00:36:40.520057', 'docker': None, 'cuda': None, 'args': ('3e-4', '16', '0', 'unet', 'batch', '5'), 'state': 'running', 'program': '/home/kebl6872/REFUGE_4YP/Run/PromptUNetTrain.py', 'codePathLocal': 'PromptUNetTrain.py', 'codePath': 'Run/PromptUNetTrain.py', 'git': {'remote': 'https://github.com/FelixHCohen/REFUGE_4YP.git', 'commit': 'aae117d655f1ccbe0b45cdccb1057867a89e5671'}, 'email': 'felixcohen2912@outlook.com', 'root': '/home/kebl6872/REFUGE_4YP', 'host': 'engs-30652', 'username': 'kebl6872', 'executable': '/home/kebl6872/miniconda3/envs/pytorch_env/bin/python3', 'cpu_count': 14, 'cpu_count_logical': 20, 'cpu_freq': {'current': 1872.944, 'min': 800.0, 'max': 4280.0}, 'cpu_freq_per_core': [{'current': 1286.671, 'min': 800.0, 'max': 4800.0}, {'current': 2500.0, 'min': 800.0, 'max': 4800.0}, {'current': 1191.33, 'min': 800.0, 'max': 4800.0}, {'current': 2500.0, 'min': 800.0, 'max': 4800.0}, {'current': 800.572, 'min': 800.0, 'max': 4800.0}, {'current': 2500.0, 'min': 800.0, 'max': 4800.0}, {'current': 800.0, 'min': 800.0, 'max': 4800.0}, {'current': 1802.619, 'min': 800.0, 'max': 4800.0}, {'current': 800.0, 'min': 800.0, 'max': 4800.0}, {'current': 2500.0, 'min': 800.0, 'max': 4800.0}, {'current': 801.026, 'min': 800.0, 'max': 4800.0}, {'current': 877.15, 'min': 800.0, 'max': 4800.0}, {'current': 1199.978, 'min': 800.0, 'max': 3500.0}, {'current': 2500.0, 'min': 800.0, 'max': 3500.0}, {'current': 1302.804, 'min': 800.0, 'max': 3500.0}, {'current': 2500.0, 'min': 800.0, 'max': 3500.0}, {'current': 2500.0, 'min': 800.0, 'max': 3500.0}, {'current': 857.851, 'min': 800.0, 'max': 3500.0}, {'current': 2500.0, 'min': 800.0, 'max': 3500.0}, {'current': 2500.0, 'min': 800.0, 'max': 3500.0}], 'disk': {'/': {'total': 232.21813583374023, 'used': 149.5323829650879}}, 'gpu': 'NVIDIA GeForce GTX 1080 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1080 Ti', 'memory_total': 11811160064}], 'memory': {'total': 31.031280517578125}}
+2023-12-11 00:36:40,999 INFO    HandlerThread:1181280 [system_monitor.py:probe():224] Finished collecting system info
+2023-12-11 00:36:40,999 INFO    HandlerThread:1181280 [system_monitor.py:probe():227] Publishing system info
+2023-12-11 00:36:40,999 DEBUG   HandlerThread:1181280 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-12-11 00:36:41,000 DEBUG   HandlerThread:1181280 [system_info.py:_save_pip():68] Saving pip packages done
+2023-12-11 00:36:41,000 DEBUG   HandlerThread:1181280 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-12-11 00:36:41,715 DEBUG   HandlerThread:1181280 [system_info.py:_save_conda():87] Saving conda packages done
+2023-12-11 00:36:41,715 INFO    HandlerThread:1181280 [system_monitor.py:probe():229] Finished publishing system info
+2023-12-11 00:36:41,717 DEBUG   SenderThread:1181280 [sender.py:send():380] send: files
+2023-12-11 00:36:41,717 INFO    SenderThread:1181280 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-12-11 00:36:41,720 DEBUG   HandlerThread:1181280 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-11 00:36:41,720 DEBUG   SenderThread:1181280 [sender.py:send_request():407] send_request: stop_status
+2023-12-11 00:36:41,721 DEBUG   HandlerThread:1181280 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-11 00:36:41,895 INFO    Thread-12 :1181280 [dir_watcher.py:_on_file_created():271] file/dir created: /home/kebl6872/REFUGE_4YP/Run/wandb/run-20231211_003640-wpqyzgpz/files/conda-environment.yaml
+2023-12-11 00:36:41,896 INFO    Thread-12 :1181280 [dir_watcher.py:_on_file_created():271] file/dir created: /home/kebl6872/REFUGE_4YP/Run/wandb/run-20231211_003640-wpqyzgpz/files/wandb-metadata.json
+2023-12-11 00:36:41,896 INFO    Thread-12 :1181280 [dir_watcher.py:_on_file_created():271] file/dir created: /home/kebl6872/REFUGE_4YP/Run/wandb/run-20231211_003640-wpqyzgpz/files/requirements.txt
+2023-12-11 00:36:41,934 DEBUG   SenderThread:1181280 [sender.py:send():380] send: telemetry
+2023-12-11 00:36:41,937 DEBUG   SenderThread:1181280 [sender.py:send():380] send: telemetry
+2023-12-11 00:36:41,937 DEBUG   SenderThread:1181280 [sender.py:send():380] send: exit
+2023-12-11 00:36:41,937 INFO    SenderThread:1181280 [sender.py:send_exit():585] handling exit code: 1
+2023-12-11 00:36:41,937 INFO    SenderThread:1181280 [sender.py:send_exit():587] handling runtime: 0
+2023-12-11 00:36:41,938 INFO    SenderThread:1181280 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-12-11 00:36:41,938 INFO    SenderThread:1181280 [sender.py:send_exit():593] send defer
+2023-12-11 00:36:41,938 DEBUG   HandlerThread:1181280 [handler.py:handle_request():146] handle_request: defer
+2023-12-11 00:36:41,938 INFO    HandlerThread:1181280 [handler.py:handle_request_defer():172] handle defer: 0
+2023-12-11 00:36:41,939 DEBUG   SenderThread:1181280 [sender.py:send_request():407] send_request: defer
+2023-12-11 00:36:41,939 INFO    SenderThread:1181280 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-12-11 00:36:41,939 INFO    SenderThread:1181280 [sender.py:transition_state():613] send defer: 1
+2023-12-11 00:36:41,939 DEBUG   HandlerThread:1181280 [handler.py:handle_request():146] handle_request: defer
+2023-12-11 00:36:41,940 INFO    HandlerThread:1181280 [handler.py:handle_request_defer():172] handle defer: 1
+2023-12-11 00:36:41,940 DEBUG   SenderThread:1181280 [sender.py:send_request():407] send_request: defer
+2023-12-11 00:36:41,940 INFO    SenderThread:1181280 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-12-11 00:36:41,940 INFO    SenderThread:1181280 [sender.py:transition_state():613] send defer: 2
+2023-12-11 00:36:41,940 DEBUG   HandlerThread:1181280 [handler.py:handle_request():146] handle_request: defer
+2023-12-11 00:36:41,941 INFO    HandlerThread:1181280 [handler.py:handle_request_defer():172] handle defer: 2
+2023-12-11 00:36:41,941 INFO    HandlerThread:1181280 [system_monitor.py:finish():203] Stopping system monitor
+2023-12-11 00:36:41,941 DEBUG   SystemMonitor:1181280 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-12-11 00:36:41,941 DEBUG   SystemMonitor:1181280 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-12-11 00:36:41,941 DEBUG   SystemMonitor:1181280 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-12-11 00:36:41,942 INFO    HandlerThread:1181280 [interfaces.py:finish():202] Joined cpu monitor
+2023-12-11 00:36:41,943 INFO    HandlerThread:1181280 [interfaces.py:finish():202] Joined disk monitor
+2023-12-11 00:36:41,981 INFO    HandlerThread:1181280 [interfaces.py:finish():202] Joined gpu monitor
+2023-12-11 00:36:41,982 INFO    HandlerThread:1181280 [interfaces.py:finish():202] Joined memory monitor
+2023-12-11 00:36:41,982 INFO    HandlerThread:1181280 [interfaces.py:finish():202] Joined network monitor
+2023-12-11 00:36:41,982 DEBUG   SenderThread:1181280 [sender.py:send_request():407] send_request: defer
+2023-12-11 00:36:41,982 INFO    SenderThread:1181280 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-12-11 00:36:41,982 INFO    SenderThread:1181280 [sender.py:transition_state():613] send defer: 3
+2023-12-11 00:36:41,982 DEBUG   SenderThread:1181280 [sender.py:send():380] send: stats
+2023-12-11 00:36:41,982 DEBUG   HandlerThread:1181280 [handler.py:handle_request():146] handle_request: defer
+2023-12-11 00:36:41,982 INFO    HandlerThread:1181280 [handler.py:handle_request_defer():172] handle defer: 3
+2023-12-11 00:36:41,982 DEBUG   SenderThread:1181280 [sender.py:send_request():407] send_request: defer
+2023-12-11 00:36:41,982 INFO    SenderThread:1181280 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-12-11 00:36:41,982 INFO    SenderThread:1181280 [sender.py:transition_state():613] send defer: 4
+2023-12-11 00:36:41,982 DEBUG   HandlerThread:1181280 [handler.py:handle_request():146] handle_request: defer
+2023-12-11 00:36:41,983 INFO    HandlerThread:1181280 [handler.py:handle_request_defer():172] handle defer: 4
+2023-12-11 00:36:41,983 DEBUG   SenderThread:1181280 [sender.py:send_request():407] send_request: defer
+2023-12-11 00:36:41,983 INFO    SenderThread:1181280 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-12-11 00:36:41,983 INFO    SenderThread:1181280 [sender.py:transition_state():613] send defer: 5
+2023-12-11 00:36:41,983 DEBUG   HandlerThread:1181280 [handler.py:handle_request():146] handle_request: defer
+2023-12-11 00:36:41,983 INFO    HandlerThread:1181280 [handler.py:handle_request_defer():172] handle defer: 5
+2023-12-11 00:36:41,983 DEBUG   SenderThread:1181280 [sender.py:send():380] send: summary
+2023-12-11 00:36:41,983 INFO    SenderThread:1181280 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-12-11 00:36:41,983 DEBUG   SenderThread:1181280 [sender.py:send_request():407] send_request: defer
+2023-12-11 00:36:41,983 INFO    SenderThread:1181280 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-12-11 00:36:41,983 INFO    SenderThread:1181280 [sender.py:transition_state():613] send defer: 6
+2023-12-11 00:36:41,984 DEBUG   HandlerThread:1181280 [handler.py:handle_request():146] handle_request: defer
+2023-12-11 00:36:41,984 INFO    HandlerThread:1181280 [handler.py:handle_request_defer():172] handle defer: 6
+2023-12-11 00:36:41,984 DEBUG   SenderThread:1181280 [sender.py:send_request():407] send_request: defer
+2023-12-11 00:36:41,984 INFO    SenderThread:1181280 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-12-11 00:36:41,985 DEBUG   HandlerThread:1181280 [handler.py:handle_request():146] handle_request: status_report
+2023-12-11 00:36:42,130 INFO    SenderThread:1181280 [sender.py:transition_state():613] send defer: 7
+2023-12-11 00:36:42,130 DEBUG   HandlerThread:1181280 [handler.py:handle_request():146] handle_request: defer
+2023-12-11 00:36:42,130 INFO    HandlerThread:1181280 [handler.py:handle_request_defer():172] handle defer: 7
+2023-12-11 00:36:42,131 DEBUG   SenderThread:1181280 [sender.py:send_request():407] send_request: defer
+2023-12-11 00:36:42,131 INFO    SenderThread:1181280 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-12-11 00:36:42,182 INFO    wandb-upload_0:1181280 [upload_job.py:push():131] Uploaded file /tmp/tmpo4ddf5tawandb/q4vavko9-wandb-metadata.json
+2023-12-11 00:36:42,724 DEBUG   HandlerThread:1181280 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-11 00:36:42,894 INFO    Thread-12 :1181280 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kebl6872/REFUGE_4YP/Run/wandb/run-20231211_003640-wpqyzgpz/files/config.yaml
+2023-12-11 00:36:42,895 INFO    Thread-12 :1181280 [dir_watcher.py:_on_file_created():271] file/dir created: /home/kebl6872/REFUGE_4YP/Run/wandb/run-20231211_003640-wpqyzgpz/files/wandb-summary.json
+2023-12-11 00:36:42,895 INFO    Thread-12 :1181280 [dir_watcher.py:_on_file_created():271] file/dir created: /home/kebl6872/REFUGE_4YP/Run/wandb/run-20231211_003640-wpqyzgpz/files/output.log
+2023-12-11 00:36:44,896 INFO    Thread-12 :1181280 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kebl6872/REFUGE_4YP/Run/wandb/run-20231211_003640-wpqyzgpz/files/output.log
+2023-12-11 00:36:45,941 INFO    SenderThread:1181280 [sender.py:transition_state():613] send defer: 8
+2023-12-11 00:36:45,942 DEBUG   SenderThread:1181280 [sender.py:send_request():407] send_request: poll_exit
+2023-12-11 00:36:45,942 DEBUG   HandlerThread:1181280 [handler.py:handle_request():146] handle_request: defer
+2023-12-11 00:36:45,942 INFO    HandlerThread:1181280 [handler.py:handle_request_defer():172] handle defer: 8
+2023-12-11 00:36:45,943 DEBUG   SenderThread:1181280 [sender.py:send_request():407] send_request: defer
+2023-12-11 00:36:45,943 INFO    SenderThread:1181280 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-12-11 00:36:45,943 INFO    SenderThread:1181280 [job_builder.py:build():281] Attempting to build job artifact
+2023-12-11 00:36:45,944 INFO    SenderThread:1181280 [job_builder.py:_get_source_type():393] is repo sourced job
+2023-12-11 00:36:45,946 INFO    SenderThread:1181280 [job_builder.py:build():369] adding wandb-job metadata file
+2023-12-11 00:36:45,952 INFO    SenderThread:1181280 [sender.py:transition_state():613] send defer: 9
+2023-12-11 00:36:45,953 DEBUG   HandlerThread:1181280 [handler.py:handle_request():146] handle_request: defer
+2023-12-11 00:36:45,953 INFO    HandlerThread:1181280 [handler.py:handle_request_defer():172] handle defer: 9
+2023-12-11 00:36:45,954 DEBUG   SenderThread:1181280 [sender.py:send():380] send: artifact
+2023-12-11 00:36:46,609 INFO    SenderThread:1181280 [sender.py:send_artifact():1456] sent artifact job-https___github.com_FelixHCohen_REFUGE_4YP.git_Run_PromptUNetTrain.py - {'id': 'QXJ0aWZhY3Q6NjYzNDAwNzA0', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEyMjQ5MDEwOA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NjYzNDAwNzA0', 'versionIndex': 0}}}
+2023-12-11 00:36:46,609 DEBUG   SenderThread:1181280 [sender.py:send_request():407] send_request: defer
+2023-12-11 00:36:46,609 INFO    SenderThread:1181280 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-12-11 00:36:46,609 INFO    SenderThread:1181280 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-12-11 00:36:46,897 INFO    Thread-12 :1181280 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kebl6872/REFUGE_4YP/Run/wandb/run-20231211_003640-wpqyzgpz/files/output.log
+2023-12-11 00:36:46,898 INFO    SenderThread:1181280 [dir_watcher.py:finish():388] scan: /home/kebl6872/REFUGE_4YP/Run/wandb/run-20231211_003640-wpqyzgpz/files
+2023-12-11 00:36:46,898 INFO    SenderThread:1181280 [dir_watcher.py:finish():402] scan save: /home/kebl6872/REFUGE_4YP/Run/wandb/run-20231211_003640-wpqyzgpz/files/config.yaml config.yaml
+2023-12-11 00:36:46,898 INFO    SenderThread:1181280 [dir_watcher.py:finish():402] scan save: /home/kebl6872/REFUGE_4YP/Run/wandb/run-20231211_003640-wpqyzgpz/files/wandb-metadata.json wandb-metadata.json
+2023-12-11 00:36:46,899 INFO    SenderThread:1181280 [dir_watcher.py:finish():402] scan save: /home/kebl6872/REFUGE_4YP/Run/wandb/run-20231211_003640-wpqyzgpz/files/requirements.txt requirements.txt
+2023-12-11 00:36:46,899 INFO    SenderThread:1181280 [dir_watcher.py:finish():402] scan save: /home/kebl6872/REFUGE_4YP/Run/wandb/run-20231211_003640-wpqyzgpz/files/output.log output.log
+2023-12-11 00:36:46,899 INFO    SenderThread:1181280 [dir_watcher.py:finish():402] scan save: /home/kebl6872/REFUGE_4YP/Run/wandb/run-20231211_003640-wpqyzgpz/files/conda-environment.yaml conda-environment.yaml
+2023-12-11 00:36:46,899 INFO    SenderThread:1181280 [dir_watcher.py:finish():402] scan save: /home/kebl6872/REFUGE_4YP/Run/wandb/run-20231211_003640-wpqyzgpz/files/wandb-summary.json wandb-summary.json
+2023-12-11 00:36:46,900 INFO    SenderThread:1181280 [sender.py:transition_state():613] send defer: 10
+2023-12-11 00:36:46,900 DEBUG   HandlerThread:1181280 [handler.py:handle_request():146] handle_request: defer
+2023-12-11 00:36:46,900 INFO    HandlerThread:1181280 [handler.py:handle_request_defer():172] handle defer: 10
+2023-12-11 00:36:46,908 DEBUG   SenderThread:1181280 [sender.py:send_request():407] send_request: defer
+2023-12-11 00:36:46,918 INFO    SenderThread:1181280 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-12-11 00:36:46,918 INFO    SenderThread:1181280 [file_pusher.py:finish():175] shutting down file pusher
+2023-12-11 00:36:47,222 INFO    wandb-upload_1:1181280 [upload_job.py:push():131] Uploaded file /home/kebl6872/REFUGE_4YP/Run/wandb/run-20231211_003640-wpqyzgpz/files/config.yaml
+2023-12-11 00:36:47,340 INFO    wandb-upload_2:1181280 [upload_job.py:push():131] Uploaded file /home/kebl6872/REFUGE_4YP/Run/wandb/run-20231211_003640-wpqyzgpz/files/requirements.txt
+2023-12-11 00:36:47,352 INFO    wandb-upload_3:1181280 [upload_job.py:push():131] Uploaded file /home/kebl6872/REFUGE_4YP/Run/wandb/run-20231211_003640-wpqyzgpz/files/output.log
+2023-12-11 00:36:47,362 INFO    wandb-upload_4:1181280 [upload_job.py:push():131] Uploaded file /home/kebl6872/REFUGE_4YP/Run/wandb/run-20231211_003640-wpqyzgpz/files/wandb-summary.json
+2023-12-11 00:36:47,364 INFO    wandb-upload_0:1181280 [upload_job.py:push():131] Uploaded file /home/kebl6872/REFUGE_4YP/Run/wandb/run-20231211_003640-wpqyzgpz/files/conda-environment.yaml
+2023-12-11 00:36:47,565 INFO    Thread-11 (_thread_body):1181280 [sender.py:transition_state():613] send defer: 11
+2023-12-11 00:36:47,565 DEBUG   HandlerThread:1181280 [handler.py:handle_request():146] handle_request: defer
+2023-12-11 00:36:47,565 INFO    HandlerThread:1181280 [handler.py:handle_request_defer():172] handle defer: 11
+2023-12-11 00:36:47,565 DEBUG   SenderThread:1181280 [sender.py:send_request():407] send_request: defer
+2023-12-11 00:36:47,565 INFO    SenderThread:1181280 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-12-11 00:36:47,565 INFO    SenderThread:1181280 [file_pusher.py:join():181] waiting for file pusher
+2023-12-11 00:36:47,565 INFO    SenderThread:1181280 [sender.py:transition_state():613] send defer: 12
+2023-12-11 00:36:47,565 DEBUG   HandlerThread:1181280 [handler.py:handle_request():146] handle_request: defer
+2023-12-11 00:36:47,565 INFO    HandlerThread:1181280 [handler.py:handle_request_defer():172] handle defer: 12
+2023-12-11 00:36:47,566 DEBUG   SenderThread:1181280 [sender.py:send_request():407] send_request: defer
+2023-12-11 00:36:47,566 INFO    SenderThread:1181280 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-12-11 00:36:47,566 INFO    SenderThread:1181280 [file_stream.py:finish():595] file stream finish called
+2023-12-11 00:36:47,704 INFO    SenderThread:1181280 [file_stream.py:finish():599] file stream finish is done
+2023-12-11 00:36:47,704 INFO    SenderThread:1181280 [sender.py:transition_state():613] send defer: 13
+2023-12-11 00:36:47,704 DEBUG   HandlerThread:1181280 [handler.py:handle_request():146] handle_request: defer
+2023-12-11 00:36:47,704 INFO    HandlerThread:1181280 [handler.py:handle_request_defer():172] handle defer: 13
+2023-12-11 00:36:47,704 DEBUG   SenderThread:1181280 [sender.py:send_request():407] send_request: defer
+2023-12-11 00:36:47,704 INFO    SenderThread:1181280 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-12-11 00:36:47,704 INFO    SenderThread:1181280 [sender.py:transition_state():613] send defer: 14
+2023-12-11 00:36:47,704 DEBUG   HandlerThread:1181280 [handler.py:handle_request():146] handle_request: defer
+2023-12-11 00:36:47,705 INFO    HandlerThread:1181280 [handler.py:handle_request_defer():172] handle defer: 14
+2023-12-11 00:36:47,705 DEBUG   SenderThread:1181280 [sender.py:send():380] send: final
+2023-12-11 00:36:47,705 DEBUG   SenderThread:1181280 [sender.py:send():380] send: footer
+2023-12-11 00:36:47,705 DEBUG   SenderThread:1181280 [sender.py:send_request():407] send_request: defer
+2023-12-11 00:36:47,705 INFO    SenderThread:1181280 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-12-11 00:36:47,706 DEBUG   HandlerThread:1181280 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-11 00:36:47,706 DEBUG   HandlerThread:1181280 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-11 00:36:47,706 DEBUG   SenderThread:1181280 [sender.py:send_request():407] send_request: poll_exit
+2023-12-11 00:36:47,706 DEBUG   HandlerThread:1181280 [handler.py:handle_request():146] handle_request: server_info
+2023-12-11 00:36:47,706 DEBUG   HandlerThread:1181280 [handler.py:handle_request():146] handle_request: get_summary
+2023-12-11 00:36:47,707 DEBUG   HandlerThread:1181280 [handler.py:handle_request():146] handle_request: sampled_history
+2023-12-11 00:36:47,707 DEBUG   SenderThread:1181280 [sender.py:send_request():407] send_request: server_info
+2023-12-11 00:36:47,707 DEBUG   HandlerThread:1181280 [handler.py:handle_request():146] handle_request: job_info
+2023-12-11 00:36:47,824 DEBUG   SenderThread:1181280 [sender.py:send_request():407] send_request: job_info
+2023-12-11 00:36:47,824 DEBUG   HandlerThread:1181280 [handler.py:handle_request():146] handle_request: shutdown
+2023-12-11 00:36:47,824 INFO    HandlerThread:1181280 [handler.py:finish():866] shutting down handler
+2023-12-11 00:36:48,708 INFO    WriterThread:1181280 [datastore.py:close():294] close: /home/kebl6872/REFUGE_4YP/Run/wandb/run-20231211_003640-wpqyzgpz/run-wpqyzgpz.wandb
+2023-12-11 00:36:48,824 INFO    SenderThread:1181280 [sender.py:finish():1534] shutting down sender
+2023-12-11 00:36:48,824 INFO    SenderThread:1181280 [file_pusher.py:finish():175] shutting down file pusher
+2023-12-11 00:36:48,825 INFO    SenderThread:1181280 [file_pusher.py:join():181] waiting for file pusher

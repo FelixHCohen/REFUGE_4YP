@@ -12,7 +12,7 @@ from torch.utils.data import DataLoader
 from matplotlib import pyplot as plt
 from data_aug.data import train_test_split,GS1_dataset
 from UNET.UNet_model import UNet
-from monai.losses import DiceCELoss
+from monai.losses import DiceCELoss, DiceFocalLoss
 from utils import *
 import argparse
 from random import randint
@@ -45,7 +45,7 @@ def train_batch(images,labels,model,optimizer,criterion):
     return loss
 def train_log(loss,example_ct,epoch):
     wandb.log({"epoch": epoch,"training loss":loss},step=example_ct)
-    print(f"Loss after {str(example_ct).zfill(5)} examples: {loss:.3f}")
+    print(f"Loss after {str(example_ct + 1).zfill(5)} batches: {loss:.3f}")
 
 def save_model(path,name):
     artifact = wandb.Artifact(name=name, type="model")
@@ -112,27 +112,27 @@ def train(model, loader,test_loader, criterion, eval_criterion, config):
             example_ct += len(images)
             batch_ct +=1
 
-            if ((batch_ct+1)%50)==0:
-                train_log(loss,example_ct,epoch)
+            if ((batch_ct+1)%4)==0:
+                train_log(loss,batch_ct,epoch)
 
 
-        if epoch % 5 == 0:
-            cup_loss,disk_loss = test(model,test_loader,eval_criterion,config,best_valid_score,example_ct)
-            avg_epoch_loss/=len(loader)
-            end_time = time.time()
-            iteration_mins,iteration_secs = train_time(start_time,end_time)
-            data_str = f'Epoch: {epoch + 1:02} | Iteration Time: {iteration_mins}min {iteration_secs}s\n'
-            data_str += f'\tTrain Loss: {avg_epoch_loss:.8f}\n'
-            data_str += f'\t Val Cup: {cup_loss:.8f}\n'
-            data_str += f'\t Val Disk: {disk_loss:.8f}\n'
-            print(data_str)
+
+        cup_loss,disk_loss = test(model,test_loader,eval_criterion,config,best_valid_score,batch_ct)
+        avg_epoch_loss/=len(loader)
+        end_time = time.time()
+        iteration_mins,iteration_secs = train_time(start_time,end_time)
+        data_str = f'Epoch: {epoch + 1:02} | Iteration Time: {iteration_mins}min {iteration_secs}s\n'
+        data_str += f'\tTrain Loss: {avg_epoch_loss:.8f}\n'
+        data_str += f'\t Val Cup: {cup_loss:.8f}\n'
+        data_str += f'\t Val Disk: {disk_loss:.8f}\n'
+        print(data_str)
     torch.save(model.state_dict(),config.final_path)
     save_model(config.final_path,"final_model")
 
 
 
 
-def get_data(train,gs1=False,rim=False,refuge_test=False,transform=False):
+def get_data(train,gs1=False,rim=False,refuge_test=False,transform=False,return_path=False,gamma=False):
     if gs1:
         return get_gs1_or_rim_data(train,transform)
 
@@ -144,26 +144,31 @@ def get_data(train,gs1=False,rim=False,refuge_test=False,transform=False):
         x = sorted(glob(f"/home/kebl6872/Desktop/new_data/REFUGE2/test/image/*"))
         y = sorted(glob(f"/home/kebl6872/Desktop/new_data/REFUGE2/test/mask/*"))
         print(f'testing dataset of size: {len(x)}')
-    elif train:
+    else:
+        if train:
+            dataset_type = 'train'
+        if train == False and gamma==False:
+            dataset_type= 'val'
+        if train == False and gamma ==True:
+            dataset_type='test'
 
-        x = sorted(glob(f"/home/kebl6872/Desktop/new_data/REFUGE2/train/image/*"))
-        y = sorted(glob(f"/home/kebl6872/Desktop/new_data/REFUGE2/train/mask/*"))
+        if gamma == True:
+            dataset = 'Gamma'
+        else:
+            dataset = 'REFUGE2'
+        x = sorted(glob(f"/home/kebl6872/Desktop/new_data/{dataset}/{dataset_type}/image/*"))
+        y = sorted(glob(f"/home/kebl6872/Desktop/new_data/{dataset}/{dataset_type}/mask/*"))
         data_str = f"Training dataset size: {len(x)}"
         print(data_str)
-    else:
-
-        x = sorted(glob(f"/home/kebl6872/Desktop/new_data/REFUGE2/val/image/*"))
-        y = sorted(glob(f"/home/kebl6872/Desktop/new_data/REFUGE2/val/mask/*"))
-        data_str = f"Validation dataset size: {len(x)}"
-        print(data_str)
 
 
-    dataset = train_test_split(x,y,transform=transform)
+
+    dataset = train_test_split(x,y,transform=transform,return_path=return_path)
 
 
     return dataset
 
-def get_gs1_or_rim_data(train,transform,rim=False):
+def get_gs1_or_rim_data(train,transform,rim=False,):
     if train:
         dataset_type = 'train'
     else:
@@ -180,7 +185,7 @@ def get_gs1_or_rim_data(train,transform,rim=False):
     data_str = f"{dataset_type} dataset size: {len(gs1_x)}"
     print(data_str)
 
-    dataset = GS1_dataset(gs1_x,gs1_c,gs1_d,transform)
+    dataset = GS1_dataset(gs1_x,gs1_c,gs1_d,transform=transform,disc_only=False)
 
     return dataset
 def make_loader(dataset,batch_size):
@@ -192,18 +197,23 @@ def make(config):
     else:
         gs1 = False
 
-    train,test = get_data(train=True,transform=True,gs1=gs1),get_data(train=False,gs1=gs1)
+    if config.dataset == "GAMMA":
+        gamma=True
+    else:
+        gamma=False
+    train,test = get_data(train=True,transform=config.transform,gs1=gs1,gamma=gamma),get_data(train=False,gs1=gs1,gamma=gamma)
     eval_criterion = f1_valid_score
     train_loader = DataLoader(dataset=train,batch_size=config.batch_size,shuffle=True,)
     test_loader = DataLoader(dataset=test,batch_size=1,shuffle=False)
-    criterion =  DiceCELoss(include_background=False, softmax=True, to_onehot_y=True, lambda_dice=0.5, lambda_ce=0.5)
+    criterion =  DiceFocalLoss(include_background=False, softmax=True, to_onehot_y=True, lambda_dice=1.8,lambda_focal=1.0,gamma=5)
+    criterion = DiceCELoss(include_background=False, softmax=True, to_onehot_y=True, lambda_dice=0.5,lambda_ce=0.5)
 
     model = UNet(3,config.classes,config.base_c,config.kernels,config.norm_name)
 
 
     return model,train_loader,test_loader,criterion,eval_criterion
 def model_pipeline(hyperparameters):
-    with wandb.init(project="REFUGE_UNet_experiment_3",config=hyperparameters):
+    with wandb.init(project="GS1_GAMMA_UNet_experiment",config=hyperparameters):
         config = wandb.config
 
         model,train_loader,test_loader,criterion,eval_criterion = make(config)
@@ -216,25 +226,27 @@ def model_pipeline(hyperparameters):
 if __name__ == "__main__":
     wandb.login(key='d40240e5325e84662b34d8e473db0f5508c7d40e')
 
+    for a in ['GS1','GAMMA']:
+        for _ in range(no_runs):
+            config = dict(epochs=1000, classes=3, base_c = 12, kernels=[6,12,24,48], norm_name=norm_name,
+                          batch_size=batch_size, learning_rate=lr, dataset=a,
+                          architecture=model_name,seed=401,transform=True)
+            config["seed"] = randint(601,800)
+            seeding(config["seed"])
 
-    for _ in range(no_runs):
-        config = dict(epochs=100, classes=3, base_c = 12, kernels=[6,12,24,48], norm_name=norm_name,
-                      batch_size=batch_size, learning_rate=lr, dataset="REFUGE",
-                      architecture=model_name,seed=401)
-        # config["seed"] = randint(401,600)
-        seeding(config["seed"])
+
+            data_save_path = f'/home/kebl6872/Desktop/new_data/{config["dataset"]}/test/{model_name}_{norm_name}_lr_{lr}_bs_{batch_size}_fs_{config["base_c"]}_[{"_".join(str(k) for k in config["kernels"])}]/'
+            create_dir(data_save_path + f'Checkpoint/seed/{config["seed"]}')
+            checkpoint_path_lowloss = data_save_path + f'Checkpoint/seed/{config["seed"]}/lr_{lr}_bs_{batch_size}_lowloss.pth'
+            checkpoint_path_final = data_save_path + f'Checkpoint/seed/{config["seed"]}/lr_{lr}_bs_{batch_size}_final.pth'
+            create_file(checkpoint_path_lowloss)
+            create_file(checkpoint_path_final)
+            config['low_loss_path']=checkpoint_path_lowloss
+            config['final_path'] = checkpoint_path_final
+
+            model = model_pipeline(config)
 
 
-        data_save_path = f'/home/kebl6872/Desktop/new_data/{config["dataset"]}/test/1600_{model_name}_{norm_name}_lr_{lr}_bs_{batch_size}_fs_{config["base_c"]}_[{"_".join(str(k) for k in config["kernels"])}]/'
-        create_dir(data_save_path + f'Checkpoint/seed/{config["seed"]}')
-        checkpoint_path_lowloss = data_save_path + f'Checkpoint/seed/{config["seed"]}/lr_{lr}_bs_{batch_size}_lowloss.pth'
-        checkpoint_path_final = data_save_path + f'Checkpoint/seed/{config["seed"]}/lr_{lr}_bs_{batch_size}_final.pth'
-        create_file(checkpoint_path_lowloss)
-        create_file(checkpoint_path_final)
-        config['low_loss_path']=checkpoint_path_lowloss
-        config['final_path'] = checkpoint_path_final
-
-        model = model_pipeline(config)
 
 
 # nohup python3 train.py.... optioons.... &>> out_file.txt &

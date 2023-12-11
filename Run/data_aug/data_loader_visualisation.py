@@ -6,17 +6,21 @@ from glob import glob
 import torchvision.transforms as transforms
 import matplotlib.pyplot as plt
 import os
+import sys
+
 
 '''quick script to visualise dataloader outputs'''
 def tensor_to_numpy(tensor,mask=False):
     tensor = tensor[0,:,:,:].permute(1, 2, 0)
     tensor = tensor.numpy()
     '''this makes the images more visible to huma eye currently commented out'''
-    if mask:
-
-        tensor = np.interp(tensor, (0, 2), (0, 1))
+    if not mask:
+        tensor = ((tensor*127.5)-127.5).astype(np.uint8)
     else:
-        tensor = ((tensor/0.5 + 0.5)*255).astype(np.uint8)
+         mask =np.where(mask==1,128,mask)
+         mask= np.where(mask==2,255,mask)
+         mask = mask.astype(np.uint8)
+         mask = np.repeat(mask,3,3)
     return tensor
 
 x = sorted(glob(f"/home/kebl6872/Desktop/new_data/REFUGE2/test/image/*"))
@@ -34,15 +38,17 @@ rim_d = sorted(glob(f"/home/kebl6872/Desktop/new_data/RIMDL/test/disc_mask/*"))
 num = 4
 vis_dataset = train_test_split(x[:num],y[:num],transform=True)
 vis_loader = DataLoader(dataset=vis_dataset,batch_size=1,shuffle=False)
-gs1_dataset = GS1_dataset(gs1_x[:num],gs1_c[:num],gs1_d[:num],transform=True)
+gs1_dataset = GS1_dataset(gs1_x[:num],gs1_c[:num],gs1_d[:num],transform=True,disc_only=False)
 gs1_loader = DataLoader(dataset=gs1_dataset,batch_size=1,shuffle=True)
 rim_dataset = RIMDL_dataset(rim_x[:num],rim_c[:num],rim_d[:num],transform=True)
 rim_loader = DataLoader(rim_dataset,batch_size=1,shuffle=True)
 images = list()
 masks = list()
-for i, (image,mask) in enumerate(vis_loader):
+for i, (image,mask) in enumerate(gs1_loader):
     images.append(tensor_to_numpy(image))
     masks.append(tensor_to_numpy(mask))
+    print(np.unique(mask))
+    print(np.argwhere(mask==2))
 
 
 # Define the number of rows and columns for the subplot
@@ -62,7 +68,7 @@ for i, (image,mask) in enumerate(zip(images,masks)):
   plt.axis('off')
   # Plot the mask in the even-numbered subplot
   plt.subplot(rows, cols, 2 * i + 2)
-  plt.imshow(masks[i], cmap='gray')
+  plt.imshow(masks[i])
   plt.title(f'Mask {i + 1}')
   plt.axis('off')
 

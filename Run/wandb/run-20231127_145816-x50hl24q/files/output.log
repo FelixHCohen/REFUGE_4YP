@@ -1,0 +1,16 @@
+train dataset size: 71
+test dataset size: 30
+  0%|                                                   | 0/500 [00:00<?, ?it/s]
+model tested on 30 imagesval_score: 0.03350326309919196 f1_scores [6.20516913e-01 6.68828755e-02 1.23650747e-04 1.14048269e-01]
+
+  0%|                                         | 1/500 [00:09<1:15:53,  9.12s/it]
+Epoch: 01 | Iteration Time: 0min 9s
+	Train Loss: 0.95967668
+	 Val Cup: 0.00012365
+	 Val Disk: 0.11404827
+model tested on 30 imagesval_score: 0.037237378723343525 f1_scores [0.67750994 0.07447476 0.         0.12701389]
+
+  0%|▏                                        | 2/500 [00:17<1:14:10,  8.94s/it]
+Epoch: 02 | Iteration Time: 0min 8s
+	Train Loss: 0.92766398
+	 Val Cup: 0.00000000
